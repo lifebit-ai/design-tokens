@@ -64,7 +64,7 @@
   --layout-large: 64;
   --layout-xlarge: 96;
   --layout-2-xlarge: 160;
-  --border-radius-default: 4;
+  --border-radius-default: 40000000000;
   --border-radius-subtle: 2;
   --border-width-default: 1;
   --border-width-medium: 2;
