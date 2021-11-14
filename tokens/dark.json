@@ -1,0 +1,198 @@
+{
+  "theme": {
+    "content": {
+      "main": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#b4b9bf",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "#8e969d",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#54585e",
+        "type": "color"
+      },
+      "action": {
+        "value": "#4e8fe2",
+        "type": "color"
+      },
+      "critical": {
+        "value": "#fa5e5b",
+        "type": "color"
+      },
+      "on": {
+        "action": {
+          "value": "#0c0c0c",
+          "type": "color"
+        },
+        "critical": {
+          "value": "#0c0c0c",
+          "type": "color"
+        }
+      },
+      "link": {
+        "default": {
+          "value": "#4e8fe2",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#72ace8",
+          "type": "color"
+        },
+        "active": {
+          "value": "#98c6ef",
+          "type": "color"
+        }
+      }
+    },
+    "background": {
+      "main": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "surface": {
+        "value": "#0c0c0c",
+        "type": "color"
+      },
+      "highlight": {
+        "value": "#34383b",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#54585e",
+        "type": "color"
+      },
+      "action": {
+        "default": {
+          "value": "#4e8fe2",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#72ace8",
+          "type": "color"
+        },
+        "active": {
+          "value": "#98c6ef",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "#04447f",
+          "type": "color"
+        }
+      },
+      "critical": {
+        "default": {
+          "value": "#fa5e5b",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#ff8d8b",
+          "type": "color"
+        },
+        "active": {
+          "value": "#ffc0bf",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "#7a0c08",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "#fecd48",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "#725500",
+          "type": "color"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "#61d27b",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "#004f13",
+          "type": "color"
+        }
+      },
+      "info": {
+        "default": {
+          "value": "#4e8fe2",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "#04447f",
+          "type": "color"
+        }
+      },
+      "overlay": {
+        "value": "#00000080",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#6f777c",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#ffffff1a",
+        "type": "color"
+      },
+      "seperator": {
+        "value": "#34383b",
+        "type": "color"
+      },
+      "input": {
+        "default": {
+          "value": "#b4b9bf",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#d4d7dc",
+          "type": "color"
+        }
+      },
+      "action": {
+        "default": {
+          "value": "#4e8fe2",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#72ace8",
+          "type": "color"
+        },
+        "active": {
+          "value": "#98c6ef",
+          "type": "color"
+        }
+      },
+      "critical": {
+        "default": {
+          "value": "#fa5e5b",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#ff8d8b",
+          "type": "color"
+        },
+        "active": {
+          "value": "#ffc0bf",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "value": "#98c6ef",
+        "type": "color"
+      }
+    }
+  }
+}
