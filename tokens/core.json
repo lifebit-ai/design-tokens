@@ -278,7 +278,7 @@
   "border": {
     "radius": {
       "default": {
-        "value": 40000000000,
+        "value": 4,
         "type": "borderRadius"
       },
       "subtle": {
