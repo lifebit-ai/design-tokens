@@ -1,10 +1,12 @@
 {
+  "content": {
+    "main": {
+      "value": "#0c0c0c",
+      "type": "color"
+    }
+  },
   "theme": {
     "content": {
-      "main": {
-        "value": "#0c0c0c",
-        "type": "color"
-      },
       "secondary": {
         "value": "#6f777c",
         "type": "color"
