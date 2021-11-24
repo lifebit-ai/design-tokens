@@ -17,24 +17,6 @@
       "type": "color"
     },
     "action": {
-      "value": "#2c72db",
-      "type": "color"
-    },
-    "critical": {
-      "value": "#c32420",
-      "type": "color"
-    },
-    "on": {
-      "action": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "critical": {
-        "value": "#ffffff",
-        "type": "color"
-      }
-    },
-    "link": {
       "default": {
         "value": "#2c72db",
         "type": "color"
@@ -45,6 +27,30 @@
       },
       "active": {
         "value": "#04447f",
+        "type": "color"
+      }
+    },
+    "critical": {
+      "default": {
+        "value": "#c32420",
+        "type": "color"
+      },
+      "hover": {
+        "value": "#a01511",
+        "type": "color"
+      },
+      "active": {
+        "value": "#7a0c08",
+        "type": "color"
+      }
+    },
+    "on": {
+      "action": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "critical": {
+        "value": "#ffffff",
         "type": "color"
       }
     }
