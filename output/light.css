@@ -6,9 +6,9 @@
   --content-action-default: #2c72db;
   --content-action-hover: #0954ad;
   --content-action-active: #04447f;
-  --content-critical-default: #c32420;
-  --content-critical-hover: #a01511;
-  --content-critical-active: #7a0c08;
+  --content-danger-default: #c32420;
+  --content-danger-hover: #a01511;
+  --content-danger-active: #7a0c08;
   --content-on-action: #ffffff;
   --content-on-critical: #ffffff;
   --background-main: #f3f5f6;
@@ -19,10 +19,10 @@
   --background-action-hover: #0954ad;
   --background-action-active: #04447f;
   --background-action-subtle: #eaf5fc;
-  --background-critical-default: #c32420;
-  --background-critical-hover: #a01511;
-  --background-critical-active: #7a0c08;
-  --background-critical-subtle: #fcf0f0;
+  --background-danger-default: #c32420;
+  --background-danger-hover: #a01511;
+  --background-danger-active: #7a0c08;
+  --background-danger-subtle: #fcf0f0;
   --background-warning-default: #dca100;
   --background-warning-subtle: #fcf6e3;
   --background-success-default: #008820;
@@ -38,8 +38,8 @@
   --border-action-default: #2c72db;
   --border-action-hover: #0954ad;
   --border-action-active: #04447f;
-  --border-critical-default: #c32420;
-  --border-critical-hover: #a01511;
-  --border-critical-active: #7a0c08;
+  --border-danger-default: #c32420;
+  --border-danger-hover: #a01511;
+  --border-danger-active: #7a0c08;
   --border-focus: #4e8fe2;
       }

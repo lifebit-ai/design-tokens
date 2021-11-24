@@ -6,9 +6,9 @@
   --content-action-default: #4e8fe2;
   --content-action-hover: #72ace8;
   --content-action-active: #98c6ef;
-  --content-critical-default: #fa5e5b;
-  --content-critical-hover: #ff8d8b;
-  --content-critical-active: #ffc0bf;
+  --content-danger-default: #fa5e5b;
+  --content-danger-hover: #ff8d8b;
+  --content-danger-active: #ffc0bf;
   --content-on-action: #0c0c0c;
   --content-on-critical: #0c0c0c;
   --background-main: #000000;
@@ -19,10 +19,10 @@
   --background-action-hover: #72ace8;
   --background-action-active: #98c6ef;
   --background-action-subtle: #04447f;
-  --background-critical-default: #fa5e5b;
-  --background-critical-hover: #ff8d8b;
-  --background-critical-active: #ffc0bf;
-  --background-critical-subtle: #7a0c08;
+  --background-danger-default: #fa5e5b;
+  --background-danger-hover: #ff8d8b;
+  --background-danger-active: #ffc0bf;
+  --background-danger-subtle: #7a0c08;
   --background-warning-default: #fecd48;
   --background-warning-subtle: #725500;
   --background-success-default: #61d27b;
@@ -38,8 +38,8 @@
   --border-action-default: #4e8fe2;
   --border-action-hover: #72ace8;
   --border-action-active: #98c6ef;
-  --border-critical-default: #fa5e5b;
-  --border-critical-hover: #ff8d8b;
-  --border-critical-active: #ffc0bf;
+  --border-danger-default: #fa5e5b;
+  --border-danger-hover: #ff8d8b;
+  --border-danger-active: #ffc0bf;
   --border-focus: #98c6ef;
       }
