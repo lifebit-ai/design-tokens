@@ -284,6 +284,10 @@
       "subtle": {
         "value": 2,
         "type": "borderRadius"
+      },
+      "full": {
+        "value": 56,
+        "type": "borderRadius"
       }
     },
     "width": {
@@ -738,6 +742,18 @@
     "5": {
       "value": 0.5,
       "type": "opacity"
+    }
+  },
+  "button": {
+    "large": {
+      "height": {
+        "value": 40,
+        "type": "sizing"
+      },
+      "min-width": {
+        "value": 96,
+        "type": "sizing"
+      }
     }
   }
 }

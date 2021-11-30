@@ -66,6 +66,7 @@
   --layout-2-xlarge: 160;
   --border-radius-default: 4;
   --border-radius-subtle: 2;
+  --border-radius-full: 56;
   --border-width-default: 1;
   --border-width-medium: 2;
   --border-width-large: 4;
@@ -186,4 +187,6 @@
   --icon-medium: 24;
   --opacity-1: 0.1;
   --opacity-5: 0.5;
+  --button-large-height: 40;
+  --button-large-min-width: 96;
       }
