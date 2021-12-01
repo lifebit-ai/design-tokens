@@ -50,7 +50,7 @@
           "value": "#ffffff",
           "type": "color"
         },
-        "critical": {
+        "danger": {
           "value": "#ffffff",
           "type": "color"
         }
