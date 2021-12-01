@@ -191,4 +191,6 @@
   --button-large-min-width: 96;
   --button-medium-height: 32;
   --shadow-xsmall: [object Object];
+  --shadow-small: [object Object],[object Object];
+  --shadow-medium: [object Object],[object Object];
       }
