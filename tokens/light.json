@@ -1,9 +1,13 @@
 {
+  "colour": {
+    "content": {
+      "main": {
+        "value": "#0c0c0c",
+        "type": "color"
+      }
+    }
+  },
   "content": {
-    "main": {
-      "value": "#0c0c0c",
-      "type": "color"
-    },
     "secondary": {
       "value": "#6f777c",
       "type": "color"
