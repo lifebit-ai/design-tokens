@@ -726,7 +726,7 @@
   },
   "icon": {
     "small": {
-      "value": 16,
+      "value": 18,
       "type": "sizing"
     },
     "medium": {
