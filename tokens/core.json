@@ -747,7 +747,7 @@
   "button": {
     "large": {
       "height": {
-        "value": 40,
+        "value": 36,
         "type": "sizing"
       },
       "min-width": {
