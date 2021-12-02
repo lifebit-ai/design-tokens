@@ -760,6 +760,12 @@
         "value": 32,
         "type": "sizing"
       }
+    },
+    "flat": {
+      "height": {
+        "value": 24,
+        "type": "sizing"
+      }
     }
   },
   "shadow": {
