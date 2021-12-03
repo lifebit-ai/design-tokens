@@ -165,6 +165,10 @@
         "hover": {
           "value": "#d4d7dc",
           "type": "color"
+        },
+        "active": {
+          "value": "#4e8fe2",
+          "type": "color"
         }
       },
       "action": {

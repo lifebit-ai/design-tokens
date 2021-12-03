@@ -57,7 +57,8 @@
       "seperator": "#f3f5f6",
       "input": {
         "default": "#8e969d",
-        "hover": "#6f777c"
+        "hover": "#6f777c",
+        "active": "#2c72db"
       },
       "action": {
         "default": "#2c72db",
@@ -69,8 +70,7 @@
         "hover": "#a01511",
         "active": "#7a0c08"
       },
-      "focus-outer": "#4e8fe2",
-      "focus-inner": "#2c72db"
+      "focus-outer": "#4e8fe2"
     }
   }
 }

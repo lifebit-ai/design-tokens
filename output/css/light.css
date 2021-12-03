@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Dec 2021 17:34:29 GMT
+ * Generated on Fri, 03 Dec 2021 17:37:18 GMT
  */
 
 :root {
@@ -40,6 +40,7 @@
   --colour-border-seperator: #f3f5f6;
   --colour-border-input-default: #8e969d;
   --colour-border-input-hover: #6f777c;
+  --colour-border-input-active: #2c72db;
   --colour-border-action-default: #2c72db;
   --colour-border-action-hover: #0954ad;
   --colour-border-action-active: #04447f;
@@ -47,5 +48,4 @@
   --colour-border-danger-hover: #a01511;
   --colour-border-danger-active: #7a0c08;
   --colour-border-focus-outer: #4e8fe2;
-  --colour-border-focus-inner: #2c72db;
 }

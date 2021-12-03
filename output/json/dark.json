@@ -57,7 +57,8 @@
       "seperator": "#34383b",
       "input": {
         "default": "#b4b9bf",
-        "hover": "#d4d7dc"
+        "hover": "#d4d7dc",
+        "active": "#4e8fe2"
       },
       "action": {
         "default": "#4e8fe2",
