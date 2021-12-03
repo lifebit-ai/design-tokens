@@ -199,7 +199,7 @@
           "type": "color"
         }
       },
-      "focus-outer": {
+      "focus": {
         "value": "#4e8fe2",
         "type": "color"
       }
