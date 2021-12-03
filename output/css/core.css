@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Dec 2021 13:08:24 GMT
+ * Generated on Fri, 03 Dec 2021 13:23:01 GMT
  */
 
 :root {
@@ -196,7 +196,4 @@
   --button-large-min-width: 96;
   --button-primary-height: 32;
   --button-flat-height: 24;
-  --shadow-xsmall: [object Object];
-  --shadow-small: [object Object];
-  --shadow-medium: [object Object];
 }

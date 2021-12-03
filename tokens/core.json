@@ -767,32 +767,5 @@
         "type": "sizing"
       }
     }
-  },
-  "shadow": {
-    "xsmall": {
-      "value": {
-        "x": 0,
-        "y": 2,
-        "blur": 2,
-        "spread": 0,
-        "color": "#00000014",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
-    "small": {
-      "value": {
-        "0": "[object Object]",
-        "1": "[object Object]"
-      },
-      "type": "boxShadow"
-    },
-    "medium": {
-      "value": {
-        "0": "[object Object]",
-        "1": "[object Object]"
-      },
-      "type": "boxShadow"
-    }
   }
 }
