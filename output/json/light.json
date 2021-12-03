@@ -69,7 +69,8 @@
         "hover": "#a01511",
         "active": "#7a0c08"
       },
-      "focus": "#4e8fe2"
+      "focus-outer": "#4e8fe2",
+      "focus-inner": "#2c72db"
     }
   }
 }

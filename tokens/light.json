@@ -195,8 +195,12 @@
           "type": "color"
         }
       },
-      "focus": {
+      "focus-outer": {
         "value": "#4e8fe2",
+        "type": "color"
+      },
+      "focus-inner": {
+        "value": "#2c72db",
         "type": "color"
       }
     }
