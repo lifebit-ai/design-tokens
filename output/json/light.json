@@ -1,0 +1,75 @@
+{
+  "colour": {
+    "content": {
+      "main": "#0c0c0c",
+      "secondary": "#6f777c",
+      "placeholder": "#8e969d",
+      "disabled": "#b4b9bf",
+      "action": {
+        "default": "#2c72db",
+        "hover": "#0954ad",
+        "active": "#04447f"
+      },
+      "danger": {
+        "default": "#c32420",
+        "hover": "#a01511",
+        "active": "#7a0c08"
+      },
+      "on": {
+        "action": "#ffffff",
+        "danger": "#ffffff"
+      }
+    },
+    "background": {
+      "main": "#f3f5f6",
+      "surface": "#ffffff",
+      "highlight": "#e4e7eb",
+      "disabled": "#b4b9bf",
+      "action": {
+        "default": "#2c72db",
+        "hover": "#0954ad",
+        "active": "#04447f",
+        "subtle": "#eaf5fc"
+      },
+      "danger": {
+        "default": "#c32420",
+        "hover": "#a01511",
+        "active": "#7a0c08",
+        "subtle": "#fcf0f0"
+      },
+      "warning": {
+        "default": "#dca100",
+        "subtle": "#fcf6e3"
+      },
+      "success": {
+        "default": "#008820",
+        "subtle": "#ebf5ed"
+      },
+      "info": {
+        "default": "#2c72db",
+        "subtle": "#eaf5fc"
+      },
+      "overlay": "#00000080"
+    },
+    "border": {
+      "default": "#b4b9bf",
+      "subtle": "#0000001a",
+      "seperator": "#f3f5f6",
+      "input": {
+        "default": "#8e969d",
+        "hover": "#6f777c"
+      },
+      "action": {
+        "default": "#2c72db",
+        "hover": "#0954ad",
+        "active": "#04447f"
+      },
+      "danger": {
+        "default": "#c32420",
+        "hover": "#a01511",
+        "active": "#7a0c08"
+      },
+      "focus": "#4e8fe2"
+    }
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "colour": {
+    "neutral": {
+      "10": "#f3f5f6",
+      "20": "#e4e7eb",
+      "30": "#d4d7dc",
+      "40": "#b4b9bf",
+      "50": "#8e969d",
+      "60": "#6f777c",
+      "70": "#54585e",
+      "80": "#34383b",
+      "90": "#0c0c0c",
+      "white": "#ffffff",
+      "black": "#000000"
+    },
+    "blue": {
+      "10": "#eaf5fc",
+      "20": "#c0dff6",
+      "30": "#98c6ef",
+      "40": "#72ace8",
+      "50": "#4e8fe2",
+      "60": "#2c72db",
+      "70": "#0954ad",
+      "80": "#04447f",
+      "90": "#012f52"
+    },
+    "green": {
+      "10": "#ebf5ed",
+      "20": "#a1e3b0",
+      "30": "#61d27b",
+      "40": "#31c052",
+      "50": "#0fa432",
+      "60": "#008820",
+      "70": "#006b1a",
+      "80": "#004f13",
+      "90": "#00330d"
+    },
+    "red": {
+      "10": "#fcf0f0",
+      "20": "#ffc0bf",
+      "30": "#ff8d8b",
+      "40": "#fa5e5b",
+      "50": "#e23c38",
+      "60": "#c32420",
+      "70": "#a01511",
+      "80": "#7a0c08",
+      "90": "#540704"
+    },
+    "yellow": {
+      "10": "#fcf6e3",
+      "20": "#fde195",
+      "30": "#fecd48",
+      "40": "#ffba00",
+      "50": "#dca100",
+      "60": "#b88800",
+      "70": "#956f00",
+      "80": "#725500",
+      "90": "#4f3b00"
+    }
+  },
+  "space": {
+    "4-xsmall": 2,
+    "3-xsmall": 4,
+    "2-xsmall": 8,
+    "xsmall": 12,
+    "small": 16,
+    "medium": 24,
+    "large": 32,
+    "xlarge": 40,
+    "2-xlarge": 48,
+    "3-xlarge": 56,
+    "4-xlarge": 64
+  },
+  "layout": {
+    "2-xsmall": 16,
+    "xsmall": 24,
+    "small": 32,
+    "medium": 48,
+    "large": 64,
+    "xlarge": 96,
+    "2-xlarge": 160
+  },
+  "border": {
+    "radius": {
+      "default": 4,
+      "subtle": 2,
+      "full": 56
+    },
+    "width": {
+      "default": 1,
+      "medium": 2,
+      "large": 4
+    }
+  },
+  "font": {
+    "family": {
+      "main": "Open Sans",
+      "code": "Courier"
+    },
+    "size": {
+      "2-xsmall": 14,
+      "xsmall": 16,
+      "small": 18,
+      "medium": 20,
+      "large": 24,
+      "xlarge": 32,
+      "2-xlarge": 40
+    },
+    "weight": {
+      "bold": "Bold",
+      "semibold": "SemiBold",
+      "regular": "Regular"
+    },
+    "lineheight": {
+      "heading": "120%",
+      "label": "135%",
+      "paragraph": {
+        "default": "150%",
+        "small": "175%"
+      }
+    },
+    "letterspacing": {
+      "neg-2": -1,
+      "neg-1": -0.5,
+      "default": 0,
+      "pos-1": 0.5
+    },
+    "paragraphspacing": {
+      "large": 18,
+      "medium": 16,
+      "small": 14
+    },
+    "paragraph": {
+      "large": {
+        "fontFamily": "Open Sans",
+        "fontWeight": "Regular",
+        "lineHeight": "150%",
+        "fontSize": 20,
+        "letterSpacing": 0,
+        "paragraphSpacing": 18
+      },
+      "default": {
+        "fontFamily": "Open Sans",
+        "fontWeight": "Regular",
+        "lineHeight": "150%",
+        "fontSize": 16,
+        "letterSpacing": 0,
+        "paragraphSpacing": 16
+      },
+      "small": {
+        "fontFamily": "Open Sans",
+        "fontWeight": "Regular",
+        "lineHeight": "175%",
+        "fontSize": 14,
+        "letterSpacing": 0,
+        "paragraphSpacing": 14
+      }
+    },
+    "heading": {
+      "display": {
+        "fontFamily": "Open Sans",
+        "fontWeight": "Bold",
+        "lineHeight": "120%",
+        "fontSize": 40,
+        "letterSpacing": -1,
+        "paragraphSpacing": 0
+      },
+      "xlarge": {
+        "fontFamily": "Open Sans",
+        "fontWeight": "SemiBold",
+        "lineHeight": "120%",
+        "fontSize": 32,
+        "letterSpacing": -1,
+        "paragraphSpacing": 0
+      },
+      "large": {
+        "fontFamily": "Open Sans",
+        "fontWeight": "SemiBold",
+        "lineHeight": "120%",
+        "fontSize": 24,
+        "letterSpacing": -1,
+        "paragraphSpacing": 0
+      },
+      "medium": {
+        "fontFamily": "Open Sans",
+        "fontWeight": "SemiBold",
+        "lineHeight": "120%",
+        "fontSize": 20,
+        "letterSpacing": -0.5,
+        "paragraphSpacing": 0
+      },
+      "small": {
+        "fontFamily": "Open Sans",
+        "fontWeight": "SemiBold",
+        "lineHeight": "120%",
+        "fontSize": 18,
+        "letterSpacing": -0.5,
+        "paragraphSpacing": 0
+      },
+      "xsmall": {
+        "fontFamily": "Open Sans",
+        "fontWeight": "SemiBold",
+        "lineHeight": "120%",
+        "fontSize": 14,
+        "letterSpacing": 0.5,
+        "paragraphSpacing": 0
+      }
+    },
+    "label": {
+      "large": {
+        "bold": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "Bold",
+          "lineHeight": "135%",
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0
+        },
+        "semibold": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "SemiBold",
+          "lineHeight": "135%",
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0
+        },
+        "regular": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "Regular",
+          "lineHeight": "135%",
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0
+        }
+      },
+      "default": {
+        "bold": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "Bold",
+          "lineHeight": "135%",
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0
+        },
+        "semibold": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "SemiBold",
+          "lineHeight": "135%",
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0
+        },
+        "regular": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "Regular",
+          "lineHeight": "135%",
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0
+        }
+      }
+    }
+  },
+  "icon": {
+    "small": 16,
+    "medium": 24
+  },
+  "opacity": {
+    "1": 0.1,
+    "5": 0.5
+  },
+  "button": {
+    "large": {
+      "height": 36,
+      "min-width": 96
+    },
+    "primary": {
+      "height": 32
+    },
+    "flat": {
+      "height": 24
+    }
+  },
+  "shadow": {
+    "xsmall": {
+      "x": 0,
+      "y": 2,
+      "blur": 2,
+      "spread": 0,
+      "color": "#00000014",
+      "type": "dropShadow"
+    },
+    "small": {
+      "0": "[object Object]",
+      "1": "[object Object]"
+    },
+    "medium": {
+      "0": "[object Object]",
+      "1": "[object Object]"
+    }
+  }
+}

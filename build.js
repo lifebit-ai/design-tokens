@@ -2,25 +2,25 @@ const StyleDictionaryPackage = require('style-dictionary');
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
-StyleDictionaryPackage.registerFormat({
-    name: 'css/variables',
-    formatter: function (dictionary, config) {
-      return `${this.selector} {
-        ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
-      }`
-    }
-  });  
+// StyleDictionaryPackage.registerFormat({
+//     name: 'css/variables',
+//     formatter: function (dictionary, config) {
+//       return `${this.selector} {
+//         ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
+//       }`
+//     }
+//   });  
 
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
-    matcher: function(prop) {
+    matcher: function(token) {
         // You can be more specific here if you only want 'em' units for font sizes    
-        return ["fontSizes", "spacing", "borderRadius", "borderWidth", "sizing"].includes(prop.attributes.category);
+        return ["fontSizes", "spacing", "borderRadius", "borderWidth", "sizing", "letterSpacing"].includes(token.attributes.category);
     },
-    transformer: function(prop) {
+    transformer: function(token) {
         // You can also modify the value here if you want to convert pixels to ems
-        return parseFloat(prop.original.value) + 'px';
+        return parseFloat(token.original.value) + 'px';
     }
     });
 
@@ -34,10 +34,21 @@ function getStyleDictionaryConfig(theme) {
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
         "buildPath": `output/`,
         "files": [{
-            "destination": `${theme}.css`,
+            "destination": `css/${theme}.css`,
             "format": "css/variables",
             "selector": `.${theme}-theme`
-          }]
+          },
+        ]
+      },
+      "json": {
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
+        "buildPath": `output/`,
+        "files": [{
+            "destination": `json/${theme}.json`,
+            "format": "json/nested",
+            "selector": `.${theme}-theme`
+          },
+        ]
       }
     }
   };
@@ -54,7 +65,8 @@ console.log('Build started...');
 
     const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
 
-    StyleDictionary.buildPlatform('web');
+    // StyleDictionary.buildPlatform('web');
+    StyleDictionary.buildAllPlatforms();
 
     console.log('\nEnd processing');
 })

@@ -1,0 +1,75 @@
+{
+  "colour": {
+    "content": {
+      "main": "#ffffff",
+      "secondary": "#b4b9bf",
+      "placeholder": "#8e969d",
+      "disabled": "#54585e",
+      "action": {
+        "default": "#4e8fe2",
+        "hover": "#72ace8",
+        "active": "#98c6ef"
+      },
+      "danger": {
+        "default": "#fa5e5b",
+        "hover": "#ff8d8b",
+        "active": "#ffc0bf"
+      },
+      "on": {
+        "action": "#0c0c0c",
+        "critical": "#0c0c0c"
+      }
+    },
+    "background": {
+      "main": "#000000",
+      "surface": "#0c0c0c",
+      "highlight": "#34383b",
+      "disabled": "#54585e",
+      "action": {
+        "default": "#4e8fe2",
+        "hover": "#72ace8",
+        "active": "#98c6ef",
+        "subtle": "#04447f"
+      },
+      "danger": {
+        "default": "#fa5e5b",
+        "hover": "#ff8d8b",
+        "active": "#ffc0bf",
+        "subtle": "#7a0c08"
+      },
+      "warning": {
+        "default": "#fecd48",
+        "subtle": "#725500"
+      },
+      "success": {
+        "default": "#61d27b",
+        "subtle": "#004f13"
+      },
+      "info": {
+        "default": "#4e8fe2",
+        "subtle": "#04447f"
+      },
+      "overlay": "#00000080"
+    },
+    "border": {
+      "default": "#6f777c",
+      "subtle": "#ffffff1a",
+      "seperator": "#34383b",
+      "input": {
+        "default": "#b4b9bf",
+        "hover": "#d4d7dc"
+      },
+      "action": {
+        "default": "#4e8fe2",
+        "hover": "#72ace8",
+        "active": "#98c6ef"
+      },
+      "danger": {
+        "default": "#fa5e5b",
+        "hover": "#ff8d8b",
+        "active": "#ffc0bf"
+      },
+      "focus": "#98c6ef"
+    }
+  }
+}
