@@ -59,37 +59,37 @@
     }
   },
   "space": {
-    "4-xsmall": 2,
-    "3-xsmall": 4,
-    "2-xsmall": 8,
-    "xsmall": 12,
-    "small": 16,
-    "medium": 24,
-    "large": 32,
-    "xlarge": 40,
-    "2-xlarge": 48,
-    "3-xlarge": 56,
-    "4-xlarge": 64
+    "4-xsmall": "2px",
+    "3-xsmall": "4px",
+    "2-xsmall": "8px",
+    "xsmall": "12px",
+    "small": "16px",
+    "medium": "24px",
+    "large": "32px",
+    "xlarge": "40px",
+    "2-xlarge": "48px",
+    "3-xlarge": "56px",
+    "4-xlarge": "64px"
   },
   "layout": {
-    "2-xsmall": 16,
-    "xsmall": 24,
-    "small": 32,
-    "medium": 48,
-    "large": 64,
-    "xlarge": 96,
-    "2-xlarge": 160
+    "2-xsmall": "16px",
+    "xsmall": "24px",
+    "small": "32px",
+    "medium": "48px",
+    "large": "64px",
+    "xlarge": "96px",
+    "2-xlarge": "160px"
   },
   "border": {
     "radius": {
-      "default": 4,
-      "subtle": 2,
-      "full": 56
+      "default": "4px",
+      "subtle": "2px",
+      "full": "56px"
     },
     "width": {
-      "default": 1,
-      "medium": 2,
-      "large": 4
+      "default": "1px",
+      "medium": "2px",
+      "large": "4px"
     }
   },
   "font": {
@@ -98,13 +98,13 @@
       "code": "Courier"
     },
     "size": {
-      "2-xsmall": 14,
-      "xsmall": 16,
-      "small": 18,
-      "medium": 20,
-      "large": 24,
-      "xlarge": 32,
-      "2-xlarge": 40
+      "2-xsmall": "14px",
+      "xsmall": "16px",
+      "small": "18px",
+      "medium": "20px",
+      "large": "24px",
+      "xlarge": "32px",
+      "2-xlarge": "40px"
     },
     "weight": {
       "bold": "Bold",
@@ -120,10 +120,10 @@
       }
     },
     "letterspacing": {
-      "neg-2": -1,
-      "neg-1": -0.5,
-      "default": 0,
-      "pos-1": 0.5
+      "neg-2": "-1px",
+      "neg-1": "-0.5px",
+      "default": "0px",
+      "pos-1": "0.5px"
     },
     "paragraphspacing": {
       "large": 18,
@@ -262,8 +262,8 @@
     }
   },
   "icon": {
-    "small": 16,
-    "medium": 24
+    "small": "16px",
+    "medium": "24px"
   },
   "opacity": {
     "1": 0.1,
@@ -271,14 +271,14 @@
   },
   "button": {
     "large": {
-      "height": 36,
-      "min-width": 96
+      "height": "36px",
+      "min-width": "96px"
     },
     "primary": {
-      "height": 32
+      "height": "32px"
     },
     "flat": {
-      "height": 24
+      "height": "24px"
     }
   }
 }

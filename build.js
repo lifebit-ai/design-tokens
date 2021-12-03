@@ -14,10 +14,7 @@ const StyleDictionaryPackage = require('style-dictionary');
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
-    matcher: function(token) {
-        // You can be more specific here if you only want 'em' units for font sizes    
-        return ["fontSizes", "spacing", "borderRadius", "borderWidth", "sizing", "letterSpacing"].includes(token.attributes.category);
-    },
+    matcher: (token) => ['spacing', 'fontSizes', 'borderRadius', 'borderWidth', 'sizing', 'letterSpacing'].includes(token.type),
     transformer: function(token) {
         // You can also modify the value here if you want to convert pixels to ems
         return parseFloat(token.original.value) + 'px';
