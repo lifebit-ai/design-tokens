@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 22 Dec 2021 12:09:26 GMT
+ * Generated on Wed, 22 Dec 2021 14:56:07 GMT
  */
 
 :root {
@@ -71,7 +71,7 @@
   --layout-2-xlarge: 160px;
   --border-radius-default: 4px;
   --border-radius-subtle: 2px;
-  --border-radius-full: 56px;
+  --border-radius-round: 56px;
   --border-width-default: 1px;
   --border-width-medium: 2px;
   --border-width-large: 4px;
@@ -101,6 +101,7 @@
   --icon-small: 16px;
   --icon-medium: 24px;
   --opacity-1: 0.1;
+  --opacity-3: 0.3;
   --opacity-5: 0.5;
   --button-large-height: 36px;
   --button-large-min-width: 96px;
