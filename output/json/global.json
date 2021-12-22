@@ -140,30 +140,6 @@
     "3": 0.3,
     "5": 0.5
   },
-  "button": {
-    "size": {
-      "large": {
-        "height": 36,
-        "min-width": 96,
-        "padding-x": 12,
-        "padding-y": 0,
-        "border-radius": 56
-      },
-      "medium": {
-        "height": 32,
-        "padding-x": 12,
-        "padding-y": 0,
-        "border-width": 1,
-        "border-radius": 4
-      },
-      "small": {
-        "height": 24,
-        "padding-x": 8,
-        "padding-y": 0,
-        "border-radius": 4
-      }
-    }
-  },
   "shadow": {
     "xsmall": {
       "x": 0,
@@ -172,6 +148,29 @@
       "spread": 0,
       "color": "#00000014",
       "type": "dropShadow"
+    }
+  },
+  "button": {
+    "size": {
+      "large": {
+        "height": "36px",
+        "min-width": "96px",
+        "padding-x": "12px",
+        "border-radius": "56px",
+        "border-width": "1px"
+      },
+      "medium": {
+        "height": "32px",
+        "padding-x": "12px",
+        "border-radius": "4px",
+        "border-width": "1px"
+      },
+      "small": {
+        "height": "24px",
+        "padding-x": "8px",
+        "border-radius": "4px",
+        "border-width": "1px"
+      }
     }
   }
 }

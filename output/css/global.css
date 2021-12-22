@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 22 Dec 2021 17:58:52 GMT
+ * Generated on Wed, 22 Dec 2021 18:14:59 GMT
  */
 
 :root {
@@ -103,19 +103,18 @@
   --opacity-1: 0.1;
   --opacity-3: 0.3;
   --opacity-5: 0.5;
-  --button-size-large-height: 36;
-  --button-size-large-min-width: 96;
-  --button-size-large-padding-x: 12;
-  --button-size-large-padding-y: 0;
-  --button-size-large-border-radius: 56;
-  --button-size-medium-height: 32;
-  --button-size-medium-padding-x: 12;
-  --button-size-medium-padding-y: 0;
-  --button-size-medium-border-width: 1;
-  --button-size-medium-border-radius: 4;
-  --button-size-small-height: 24;
-  --button-size-small-padding-x: 8;
-  --button-size-small-padding-y: 0;
-  --button-size-small-border-radius: 4;
   --shadow-xsmall: [object Object];
+  --button-size-large-height: 36px;
+  --button-size-large-min-width: 96px;
+  --button-size-large-padding-x: 12px;
+  --button-size-large-border-radius: 56px;
+  --button-size-large-border-width: 1px;
+  --button-size-medium-height: 32px;
+  --button-size-medium-padding-x: 12px;
+  --button-size-medium-border-radius: 4px;
+  --button-size-medium-border-width: 1px;
+  --button-size-small-height: 24px;
+  --button-size-small-padding-x: 8px;
+  --button-size-small-border-radius: 4px;
+  --button-size-small-border-width: 1px;
 }
