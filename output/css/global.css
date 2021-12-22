@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 22 Dec 2021 15:27:33 GMT
+ * Generated on Wed, 22 Dec 2021 16:47:58 GMT
  */
 
 :root {
@@ -117,4 +117,5 @@
   --button-size-small-padding-x: 8;
   --button-size-small-padding-y: 0;
   --button-size-small-border-radius: 4;
+  --shadow-xsmall: [object Object];
 }
