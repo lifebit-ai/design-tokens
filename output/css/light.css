@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 22 Dec 2021 15:24:23 GMT
+ * Generated on Wed, 22 Dec 2021 15:27:33 GMT
  */
 
 :root {
@@ -35,7 +35,7 @@
   --input-colour-border-hover: #6f777c;
   --input-colour-border-active: #2c72db;
   --input-colour-background-default: #ffffff;
-  --input-colour-text-default: #0c0c0c;
+  --input-colour-content-default: #0c0c0c;
   --button-colour-background-primary-default: #2c72db;
   --button-colour-background-primary-hover: #0954ad;
   --button-colour-background-primary-active: #04447f;

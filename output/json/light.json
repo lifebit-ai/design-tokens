@@ -56,7 +56,7 @@
       "background": {
         "default": "#ffffff"
       },
-      "text": {
+      "content": {
         "default": "#0c0c0c"
       }
     }
