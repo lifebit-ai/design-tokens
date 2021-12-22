@@ -65,10 +65,18 @@
     "colour": {
       "background": {
         "primary": {
-          "default": "#2c72db",
-          "hover": "#0954ad",
-          "active": "#04447f",
-          "disabled": "#b4b9bf"
+          "action": {
+            "default": "#2c72db",
+            "hover": "#0954ad",
+            "active": "#04447f",
+            "disabled": "#b4b9bf"
+          },
+          "danger": {
+            "default": "#c32420",
+            "hover": "#a01511",
+            "active": "#7a0c08",
+            "disabled": "#b4b9bf"
+          }
         },
         "outline": {
           "default": "#ffffff",
@@ -77,12 +85,6 @@
         "flat": {
           "default": "none",
           "hover": "#e4e7eb"
-        },
-        "danger": {
-          "default": "#c32420",
-          "hover": "#a01511",
-          "active": "#7a0c08",
-          "disabled": "#b4b9bf"
         }
       },
       "content": {
@@ -90,19 +92,32 @@
           "default": "#ffffff"
         },
         "outline": {
-          "default": "#2c72db",
-          "hover": "#0954ad",
-          "active": "#04447f",
-          "disabled": "#b4b9bf"
+          "action": {
+            "default": "#2c72db",
+            "hover": "#0954ad",
+            "active": "#04447f",
+            "disabled": "#b4b9bf"
+          },
+          "danger": {
+            "default": "#c32420",
+            "hover": "#a01511",
+            "active": "#7a0c08",
+            "disabled": "#b4b9bf"
+          }
         },
         "flat": {
-          "default": "#2c72db",
-          "hover": "#0954ad",
-          "active": "#04447f",
-          "disabled": "#b4b9bf"
-        },
-        "danger": {
-          "default": "#ffffff"
+          "action": {
+            "default": "#2c72db",
+            "hover": "#0954ad",
+            "active": "#04447f",
+            "disabled": "#b4b9bf"
+          },
+          "danger": {
+            "default": "#c32420",
+            "hover": "#a01511",
+            "active": "#7a0c08",
+            "disabled": "#b4b9bf"
+          }
         }
       },
       "border": {
@@ -113,10 +128,7 @@
           "default": "#b4b9bf"
         },
         "flat": {
-          "default": "#b4b9bf"
-        },
-        "danger": {
-          "default": "#0000001a"
+          "default": "none"
         }
       }
     }

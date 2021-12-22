@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 22 Dec 2021 16:47:58 GMT
+ * Generated on Wed, 22 Dec 2021 17:58:52 GMT
  */
 
 :root {
@@ -36,30 +36,36 @@
   --input-colour-border-active: #4e8fe2;
   --input-colour-background-default: #0c0c0c;
   --input-colour-text-default: #ffffff;
-  --button-colour-background-primary-default: #4e8fe2;
-  --button-colour-background-primary-hover: #72ace8;
-  --button-colour-background-primary-active: #98c6ef;
-  --button-colour-background-primary-disabled: #54585e;
+  --button-colour-background-primary-action-default: #4e8fe2;
+  --button-colour-background-primary-action-hover: #72ace8;
+  --button-colour-background-primary-action-active: #98c6ef;
+  --button-colour-background-primary-action-disabled: #54585e;
+  --button-colour-background-primary-danger-default: #fa5e5b;
+  --button-colour-background-primary-danger-hover: #ff8d8b;
+  --button-colour-background-primary-danger-active: #ffc0bf;
+  --button-colour-background-primary-danger-disabled: #54585e;
   --button-colour-background-outline-default: #0c0c0c;
   --button-colour-background-outline-hover: #34383b;
   --button-colour-background-flat-default: none;
   --button-colour-background-flat-hover: #34383b;
-  --button-colour-background-danger-default: #fa5e5b;
-  --button-colour-background-danger-hover: #ff8d8b;
-  --button-colour-background-danger-active: #ffc0bf;
-  --button-colour-background-danger-disabled: #54585e;
   --button-colour-content-primary-default: #0c0c0c;
-  --button-colour-content-outline-default: #4e8fe2;
-  --button-colour-content-outline-hover: #72ace8;
-  --button-colour-content-outline-active: #98c6ef;
-  --button-colour-content-outline-disabled: #54585e;
-  --button-colour-content-flat-default: #4e8fe2;
-  --button-colour-content-flat-hover: #72ace8;
-  --button-colour-content-flat-active: #98c6ef;
-  --button-colour-content-flat-disabled: #54585e;
-  --button-colour-content-danger-default: #0c0c0c;
+  --button-colour-content-outline-action-default: #4e8fe2;
+  --button-colour-content-outline-action-hover: #72ace8;
+  --button-colour-content-outline-action-active: #98c6ef;
+  --button-colour-content-outline-action-disabled: #54585e;
+  --button-colour-content-outline-danger-default: #fa5e5b;
+  --button-colour-content-outline-danger-hover: #ff8d8b;
+  --button-colour-content-outline-danger-active: #ffc0bf;
+  --button-colour-content-outline-danger-disabled: #54585e;
+  --button-colour-content-flat-action-default: #4e8fe2;
+  --button-colour-content-flat-action-hover: #72ace8;
+  --button-colour-content-flat-action-active: #98c6ef;
+  --button-colour-content-flat-action-disabled: #54585e;
+  --button-colour-content-flat-danger-default: #fa5e5b;
+  --button-colour-content-flat-danger-hover: #ff8d8b;
+  --button-colour-content-flat-danger-active: #ffc0bf;
+  --button-colour-content-flat-danger-disabled: #54585e;
   --button-colour-border-primary-default: #ffffff1a;
   --button-colour-border-outline-default: #6f777c;
-  --button-colour-border-flat-default: #6f777c;
-  --button-colour-border-danger-default: #ffffff1a;
+  --button-colour-border-flat-default: none;
 }
