@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 22 Dec 2021 14:56:07 GMT
+ * Generated on Wed, 22 Dec 2021 15:24:23 GMT
  */
 
 :root {
@@ -22,6 +22,7 @@
   --colour-background-surface: #ffffff;
   --colour-background-highlight: #e4e7eb;
   --colour-background-overlay: #0000004d;
+  --colour-background-disabled: #b4b9bf;
   --colour-action-default: #2c72db;
   --colour-action-hover: #0954ad;
   --colour-action-active: #04447f;
@@ -38,6 +39,7 @@
   --button-colour-background-primary-default: #2c72db;
   --button-colour-background-primary-hover: #0954ad;
   --button-colour-background-primary-active: #04447f;
+  --button-colour-background-primary-disabled: #b4b9bf;
   --button-colour-background-outline-default: #ffffff;
   --button-colour-background-outline-hover: #e4e7eb;
   --button-colour-background-flat-default: none;
@@ -45,13 +47,16 @@
   --button-colour-background-danger-default: #c32420;
   --button-colour-background-danger-hover: #a01511;
   --button-colour-background-danger-active: #7a0c08;
+  --button-colour-background-danger-disabled: #b4b9bf;
   --button-colour-content-primary-default: #ffffff;
   --button-colour-content-outline-default: #2c72db;
   --button-colour-content-outline-hover: #0954ad;
   --button-colour-content-outline-active: #04447f;
+  --button-colour-content-outline-disabled: #b4b9bf;
   --button-colour-content-flat-default: #2c72db;
   --button-colour-content-flat-hover: #0954ad;
   --button-colour-content-flat-active: #04447f;
+  --button-colour-content-flat-disabled: #b4b9bf;
   --button-colour-content-danger-default: #ffffff;
   --button-colour-border-primary-default: #0000001a;
   --button-colour-border-outline-default: #b4b9bf;

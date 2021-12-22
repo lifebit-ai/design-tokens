@@ -30,7 +30,8 @@
       "main": "#000000",
       "surface": "#0c0c0c",
       "highlight": "#34383b",
-      "overlay": "#0000004d"
+      "overlay": "#0000004d",
+      "disabled": "#54585e"
     },
     "action": {
       "default": "#4e8fe2",
@@ -66,7 +67,8 @@
         "primary": {
           "default": "#4e8fe2",
           "hover": "#72ace8",
-          "active": "#98c6ef"
+          "active": "#98c6ef",
+          "disabled": "#54585e"
         },
         "outline": {
           "default": "#0c0c0c",
@@ -79,7 +81,8 @@
         "danger": {
           "default": "#fa5e5b",
           "hover": "#ff8d8b",
-          "active": "#ffc0bf"
+          "active": "#ffc0bf",
+          "disabled": "#54585e"
         }
       },
       "content": {
@@ -89,12 +92,14 @@
         "outline": {
           "default": "#4e8fe2",
           "hover": "#72ace8",
-          "active": "#98c6ef"
+          "active": "#98c6ef",
+          "disabled": "#54585e"
         },
         "flat": {
           "default": "#4e8fe2",
           "hover": "#72ace8",
-          "active": "#98c6ef"
+          "active": "#98c6ef",
+          "disabled": "#54585e"
         },
         "danger": {
           "default": "#0c0c0c"

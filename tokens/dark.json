@@ -84,6 +84,10 @@
       "overlay": {
         "value": "#0000004d",
         "type": "color"
+      },
+      "disabled": {
+        "value": "#54585e",
+        "type": "color"
       }
     },
     "action": {
@@ -168,6 +172,10 @@
           "active": {
             "value": "#98c6ef",
             "type": "color"
+          },
+          "disabled": {
+            "value": "#54585e",
+            "type": "color"
           }
         },
         "outline": {
@@ -202,6 +210,10 @@
           "active": {
             "value": "#ffc0bf",
             "type": "color"
+          },
+          "disabled": {
+            "value": "#54585e",
+            "type": "color"
           }
         }
       },
@@ -224,6 +236,10 @@
           "active": {
             "value": "#98c6ef",
             "type": "color"
+          },
+          "disabled": {
+            "value": "#54585e",
+            "type": "color"
           }
         },
         "flat": {
@@ -237,6 +253,10 @@
           },
           "active": {
             "value": "#98c6ef",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "#54585e",
             "type": "color"
           }
         },
