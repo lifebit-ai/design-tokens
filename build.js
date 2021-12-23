@@ -2,15 +2,6 @@ const StyleDictionaryPackage = require('style-dictionary');
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
-// StyleDictionaryPackage.registerFormat({
-//     name: 'css/variables',
-//     formatter: function (dictionary, config) {
-//       return `${this.selector} {
-//         ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
-//       }`
-//     }
-//   });  
-
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
@@ -27,16 +18,6 @@ function getStyleDictionaryConfig(theme) {
       `tokens/${theme}.json`,
     ],
     "platforms": {
-      "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `output/`,
-        "files": [{
-            "destination": `css/${theme}.css`,
-            "format": "css/variables",
-            "selector": `.${theme}-theme`
-          },
-        ]
-      },
       "json": {
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
         "buildPath": `output/`,
