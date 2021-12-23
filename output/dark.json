@@ -60,8 +60,9 @@
     "content": {
       "main": "#ffffff",
       "secondary": "#b4b9bf",
-      "placeholder": "#8e969d",
-      "disabled": "#54585e"
+      "subtle": "#8e969d",
+      "disabled": "#54585e",
+      "contrast": "#0c0c0c"
     },
     "feedback": {
       "danger": {

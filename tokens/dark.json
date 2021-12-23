@@ -9,12 +9,16 @@
         "value": "#b4b9bf",
         "type": "color"
       },
-      "placeholder": {
+      "subtle": {
         "value": "#8e969d",
         "type": "color"
       },
       "disabled": {
         "value": "#54585e",
+        "type": "color"
+      },
+      "contrast": {
+        "value": "#0c0c0c",
         "type": "color"
       }
     },
