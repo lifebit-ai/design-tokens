@@ -165,10 +165,10 @@
       }
     },
     "letterspacing": {
-      "neg-2": "-1px",
-      "neg-1": "-0.5px",
+      "neg-02": "-1px",
+      "neg-01": "-0.5px",
       "default": "0px",
-      "pos-1": "0.5px"
+      "pos-01": "0.5px"
     },
     "paragraphspacing": {
       "large": "18px",

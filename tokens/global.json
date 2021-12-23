@@ -382,11 +382,11 @@
       }
     },
     "letterspacing": {
-      "neg-2": {
+      "neg-02": {
         "value": -1,
         "type": "letterSpacing"
       },
-      "neg-1": {
+      "neg-01": {
         "value": -0.5,
         "type": "letterSpacing"
       },
@@ -394,7 +394,7 @@
         "value": 0,
         "type": "letterSpacing"
       },
-      "pos-1": {
+      "pos-01": {
         "value": 0.5,
         "type": "letterSpacing"
       }
