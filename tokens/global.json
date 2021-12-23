@@ -449,6 +449,18 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
+    },
+    "01": {
+      "value": "0px 2px 2px 0px #00000014",
+      "type": "other"
+    },
+    "02": {
+      "value": "0px 0.3px 0.8px #0000001f,   0px 2px 6px #0000003d",
+      "type": "other"
+    },
+    "03": {
+      "value": "0px 0.5px 1.9px #0000001f,   0px 4px 15px #0000003d",
+      "type": "other"
     }
   },
   "button": {
