@@ -348,37 +348,43 @@
       }
     },
     "weight": {
-      "bold": {
-        "value": "Bold",
-        "type": "fontWeights"
-      },
-      "semibold": {
-        "value": "SemiBold",
+      "light": {
+        "value": 300,
         "type": "fontWeights"
       },
       "regular": {
-        "value": "Regular",
+        "value": 400,
+        "type": "fontWeights"
+      },
+      "semibold": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": 700,
+        "type": "fontWeights"
+      },
+      "extrabold": {
+        "value": 800,
         "type": "fontWeights"
       }
     },
     "lineheight": {
-      "heading": {
+      "01": {
         "value": "120%",
         "type": "lineHeights"
       },
-      "label": {
+      "02": {
         "value": "135%",
         "type": "lineHeights"
       },
-      "paragraph": {
-        "default": {
-          "value": "150%",
-          "type": "lineHeights"
-        },
-        "small": {
-          "value": "175%",
-          "type": "lineHeights"
-        }
+      "03": {
+        "value": "150%",
+        "type": "lineHeights"
+      },
+      "04": {
+        "value": "175%",
+        "type": "lineHeights"
       }
     },
     "letterspacing": {
@@ -439,17 +445,6 @@
     }
   },
   "shadow": {
-    "xsmall": {
-      "value": {
-        "x": 0,
-        "y": 2,
-        "blur": 2,
-        "spread": 0,
-        "color": "#00000014",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
     "01": {
       "value": "0px 2px 2px 0px #00000014",
       "type": "other"
@@ -522,6 +517,60 @@
           "value": 1,
           "type": "sizing"
         }
+      }
+    }
+  },
+  "display": {
+    "fontFamily": {
+      "value": "Open Sans"
+    },
+    "fontWeight": {
+      "value": 400
+    },
+    "lineHeight": {
+      "value": "120%"
+    },
+    "fontSize": {
+      "value": 40
+    },
+    "letterSpacing": {
+      "value": -1
+    },
+    "paragraphSpacing": {
+      "value": 0
+    },
+    "textDecoration": {
+      "value": "none"
+    },
+    "textCase": {
+      "value": "none"
+    }
+  },
+  "heading": {
+    "xlarge": {
+      "fontFamily": {
+        "value": "Open Sans"
+      },
+      "fontWeight": {
+        "value": 400
+      },
+      "lineHeight": {
+        "value": "120%"
+      },
+      "fontSize": {
+        "value": 40
+      },
+      "letterSpacing": {
+        "value": -1
+      },
+      "paragraphSpacing": {
+        "value": 0
+      },
+      "textDecoration": {
+        "value": "none"
+      },
+      "textCase": {
+        "value": "none"
       }
     }
   }

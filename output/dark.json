@@ -153,17 +153,17 @@
       "2-xlarge": "40px"
     },
     "weight": {
-      "bold": "Bold",
-      "semibold": "SemiBold",
-      "regular": "Regular"
+      "light": 300,
+      "regular": 400,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800
     },
     "lineheight": {
-      "heading": "120%",
-      "label": "135%",
-      "paragraph": {
-        "default": "150%",
-        "small": "175%"
-      }
+      "01": "120%",
+      "02": "135%",
+      "03": "150%",
+      "04": "175%"
     },
     "letterspacing": {
       "neg-02": "-1px",
@@ -187,14 +187,6 @@
     "5": 0.5
   },
   "shadow": {
-    "xsmall": {
-      "x": 0,
-      "y": 2,
-      "blur": 2,
-      "spread": 0,
-      "color": "#00000014",
-      "type": "dropShadow"
-    },
     "01": "0px 2px 2px 0px #00000014",
     "02": "0px 0.3px 0.8px #0000001f,   0px 2px 6px #0000003d",
     "03": "0px 0.5px 1.9px #0000001f,   0px 4px 16px #0000003d"
@@ -290,6 +282,28 @@
           "default": "none"
         }
       }
+    }
+  },
+  "display": {
+    "fontFamily": "Open Sans",
+    "fontWeight": 400,
+    "lineHeight": "120%",
+    "fontSize": 40,
+    "letterSpacing": -1,
+    "paragraphSpacing": 0,
+    "textDecoration": "none",
+    "textCase": "none"
+  },
+  "heading": {
+    "xlarge": {
+      "fontFamily": "Open Sans",
+      "fontWeight": 400,
+      "lineHeight": "120%",
+      "fontSize": 40,
+      "letterSpacing": -1,
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
     }
   },
   "input": {
