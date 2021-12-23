@@ -12,17 +12,39 @@ StyleDictionaryPackage.registerTransform({
     }
     });
 
-function getStyleDictionaryConfig(theme) {
+function buildLightTheme(theme) {
   return {
     "source": [
-      `tokens/${theme}.json`,
+      `tokens/global.json`,
+      `tokens/light.json`,
     ],
     "platforms": {
       "json": {
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
         "buildPath": `output/`,
         "files": [{
-            "destination": `json/${theme}.json`,
+            "destination": `light.json`,
+            "format": "json/nested",
+            "selector": `.${theme}-theme`
+          },
+        ]
+      }
+    }
+  };
+}
+
+function buildDarkTheme(theme) {
+  return {
+    "source": [
+      `tokens/global.json`,
+      `tokens/dark.json`,
+    ],
+    "platforms": {
+      "json": {
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
+        "buildPath": `output/`,
+        "files": [{
+            "destination": `dark.json`,
             "format": "json/nested",
             "selector": `.${theme}-theme`
           },
@@ -41,10 +63,12 @@ console.log('Build started...');
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);
 
-    const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
+    const StyleDictionaryLight = StyleDictionaryPackage.extend(buildLightTheme(theme));
+    const StyleDictionaryDark = StyleDictionaryPackage.extend(buildDarkTheme(theme));
 
     // StyleDictionary.buildPlatform('web');
-    StyleDictionary.buildAllPlatforms();
+    StyleDictionaryLight.buildAllPlatforms();
+    StyleDictionaryDark.buildAllPlatforms();
 
     console.log('\nEnd processing');
 })
