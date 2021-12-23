@@ -92,6 +92,10 @@
       "disabled": {
         "value": "#b4b9bf",
         "type": "color"
+      },
+      "contrast": {
+        "value": "#0c0c0c",
+        "type": "color"
       }
     },
     "action": {
