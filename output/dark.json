@@ -378,7 +378,7 @@
   "button": {
     "size": {
       "large": {
-        "height": "36px",
+        "height": "35px",
         "min-width": "96px",
         "padding-x": "12px",
         "border-radius": "8px",
@@ -415,11 +415,15 @@
         },
         "outline": {
           "default": "#0c0c0c",
-          "hover": "#34383b"
+          "hover": "#34383b",
+          "active": "#0c0c0c",
+          "disabled": "#0c0c0c"
         },
         "flat": {
           "default": "none",
-          "hover": "#34383b"
+          "hover": "#34383b",
+          "active": "none",
+          "disabled": "none"
         }
       },
       "content": {

@@ -378,7 +378,7 @@
   "button": {
     "size": {
       "large": {
-        "height": "36px",
+        "height": "35px",
         "min-width": "96px",
         "padding-x": "12px",
         "border-radius": "8px",
