@@ -214,6 +214,14 @@
           "hover": {
             "value": "#e4e7eb",
             "type": "color"
+          },
+          "active": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "#ffffff",
+            "type": "color"
           }
         },
         "flat": {
@@ -223,6 +231,14 @@
           },
           "hover": {
             "value": "#e4e7eb",
+            "type": "color"
+          },
+          "active": {
+            "value": "none",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "none",
             "type": "color"
           }
         }

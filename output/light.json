@@ -415,11 +415,15 @@
         },
         "outline": {
           "default": "#ffffff",
-          "hover": "#e4e7eb"
+          "hover": "#e4e7eb",
+          "active": "#ffffff",
+          "disabled": "#ffffff"
         },
         "flat": {
           "default": "none",
-          "hover": "#e4e7eb"
+          "hover": "#e4e7eb",
+          "active": "none",
+          "disabled": "none"
         }
       },
       "content": {
