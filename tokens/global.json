@@ -918,62 +918,86 @@
   },
   "button": {
     "size": {
-      "large": {
-        "height": {
+      "height": {
+        "large": {
           "value": 36,
           "type": "sizing"
         },
-        "min-width": {
-          "value": 96,
-          "type": "sizing"
-        },
-        "padding-x": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "border-radius": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "border-width": {
-          "value": 1,
-          "type": "sizing"
-        }
-      },
-      "medium": {
-        "height": {
+        "medium": {
           "value": 32,
           "type": "sizing"
         },
-        "padding-x": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "border-radius": {
-          "value": 2,
-          "type": "sizing"
-        },
-        "border-width": {
-          "value": 1,
+        "small": {
+          "value": 24,
           "type": "sizing"
         }
       },
-      "small": {
-        "height": {
-          "value": 24,
-          "type": "sizing"
+      "width": {
+        "min": {
+          "large": {
+            "value": 96,
+            "type": "sizing"
+          }
+        }
+      },
+      "padding": {
+        "right": {
+          "large": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "medium": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "small": {
+            "value": 8,
+            "type": "sizing"
+          }
         },
-        "padding-x": {
-          "value": 8,
-          "type": "sizing"
+        "left": {
+          "large": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "medium": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "small": {
+            "value": 8,
+            "type": "sizing"
+          }
+        }
+      },
+      "border": {
+        "radius": {
+          "large": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "medium": {
+            "value": 2,
+            "type": "sizing"
+          },
+          "small": {
+            "value": 2,
+            "type": "sizing"
+          }
         },
-        "border-radius": {
-          "value": 2,
-          "type": "sizing"
-        },
-        "border-width": {
-          "value": 1,
-          "type": "sizing"
+        "width": {
+          "large": {
+            "value": 1,
+            "type": "sizing"
+          },
+          "medium": {
+            "value": 1,
+            "type": "sizing"
+          },
+          "small": {
+            "value": 1,
+            "type": "sizing"
+          }
         }
       }
     }
