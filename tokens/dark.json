@@ -615,18 +615,8 @@
           }
         },
         "width": {
-          "large": {
-            "value": 1,
-            "type": "sizing"
-          },
-          "medium": {
-            "value": 1,
-            "type": "sizing"
-          },
-          "small": {
-            "value": 1,
-            "type": "sizing"
-          }
+          "value": 1,
+          "type": "sizing"
         }
       }
     }

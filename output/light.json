@@ -405,11 +405,7 @@
           "medium": "2px",
           "small": "2px"
         },
-        "width": {
-          "large": "1px",
-          "medium": "1px",
-          "small": "1px"
-        }
+        "width": "1px"
       }
     },
     "colour": {
