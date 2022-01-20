@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "scripts": {},
   "dependencies": {
-    "style-dictionary": "^3.0.2",
-    "token-transformer": "^0.0.15"
+    "style-dictionary": "^3.0.2"
   }
 }
