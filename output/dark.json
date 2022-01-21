@@ -179,7 +179,7 @@
       "small": "14px"
     }
   },
-  "typestyles": {
+  "typography": {
     "heading": {
       "display": {
         "fontFamily": "Open Sans",
