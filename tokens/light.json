@@ -122,7 +122,7 @@
         "type": "color"
       },
       "subtle": {
-        "value": "#0000001a",
+        "value": "#000000",
         "type": "color"
       },
       "seperator": {
@@ -379,7 +379,7 @@
         "border": {
           "primary": {
             "default": {
-              "value": "#0000001a",
+              "value": "#000000",
               "type": "color"
             }
           },
