@@ -177,6 +177,11 @@
       "large": "18px",
       "medium": "16px",
       "small": "14px"
+    },
+    "heading": {
+      "display": {
+        "family": "Open Sans"
+      }
     }
   },
   "typestyles": {
@@ -242,20 +247,10 @@
         "textCase": "uppercase"
       },
       "size": {
-        "display": "40px",
-        "xlarge": "32px",
         "large": "24px",
         "medium": "20px",
         "small": "18px",
         "xsmall": "16px"
-      },
-      "weight": {
-        "display": 700,
-        "xlarge": 600,
-        "large": 600,
-        "medium": 600,
-        "small": 600,
-        "xsmall": 600
       }
     },
     "body": {
@@ -537,6 +532,27 @@
           "default": "#0c0c0c"
         }
       }
+    }
+  },
+  "type": {
+    "heading": {
+      "size": {
+        "display": "40px",
+        "xlarge": "32px"
+      },
+      "weight": {
+        "display": 700,
+        "xlarge": 600,
+        "large": 600,
+        "medium": 600,
+        "small": 600,
+        "xsmall": 600
+      },
+      "xlarge": "Open Sans",
+      "large": "Open Sans",
+      "medium": "Open Sans",
+      "small": "Open Sans",
+      "xsmall": "Open Sans"
     }
   }
 }
