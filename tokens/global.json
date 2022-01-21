@@ -503,6 +503,12 @@
           "textCase": "uppercase"
         },
         "type": "typography"
+      },
+      "weight": {
+        "display": {
+          "value": 700,
+          "type": "fontWeights"
+        }
       }
     },
     "body": {
@@ -772,6 +778,56 @@
             "type": "sizing"
           }
         }
+      }
+    }
+  },
+  "heading": {
+    "size": {
+      "display": {
+        "value": 40,
+        "type": "fontSizes"
+      },
+      "xlarge": {
+        "value": 32,
+        "type": "fontSizes"
+      },
+      "large": {
+        "value": 24,
+        "type": "fontSizes"
+      },
+      "medium": {
+        "value": 20,
+        "type": "fontSizes"
+      },
+      "small": {
+        "value": 18,
+        "type": "fontSizes"
+      },
+      "xsmall": {
+        "value": 16,
+        "type": "fontSizes"
+      }
+    },
+    "weight": {
+      "xlarge": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "large": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "small": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "xsmall": {
+        "value": 600,
+        "type": "fontWeights"
       }
     }
   }
