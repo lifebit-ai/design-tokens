@@ -100,7 +100,7 @@
     },
     "border": {
       "default": "#b4b9bf",
-      "subtle": "#000000",
+      "subtle": "#0000001a",
       "seperator": "#f3f5f6",
       "focus": "#4e8fe2"
     }
@@ -499,7 +499,7 @@
         },
         "border": {
           "primary": {
-            "default": "#000000"
+            "default": "#0000001a"
           },
           "outline": {
             "default": "#b4b9bf"
