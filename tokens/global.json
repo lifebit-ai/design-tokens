@@ -422,14 +422,6 @@
         "value": 14,
         "type": "paragraphSpacing"
       }
-    },
-    "heading": {
-      "display": {
-        "family": {
-          "value": "Open Sans",
-          "type": "fontFamilies"
-        }
-      }
     }
   },
   "typestyles": {
@@ -439,8 +431,8 @@
           "fontFamily": "Open Sans",
           "fontWeight": 400,
           "lineHeight": "120%",
-          "fontSize": 40,
-          "letterSpacing": -1,
+          "fontSize": "40px",
+          "letterSpacing": "-1px",
           "paragraphSpacing": 0,
           "textDecoration": "none",
           "textCase": "none"
@@ -452,8 +444,8 @@
           "fontFamily": "Open Sans",
           "fontWeight": 600,
           "lineHeight": "120%",
-          "fontSize": 32,
-          "letterSpacing": -1,
+          "fontSize": "32px",
+          "letterSpacing": "-1px",
           "paragraphSpacing": 0,
           "textDecoration": "none",
           "textCase": "none"
@@ -511,24 +503,6 @@
           "textCase": "uppercase"
         },
         "type": "typography"
-      },
-      "size": {
-        "large": {
-          "value": 24,
-          "type": "fontSizes"
-        },
-        "medium": {
-          "value": 20,
-          "type": "fontSizes"
-        },
-        "small": {
-          "value": 18,
-          "type": "fontSizes"
-        },
-        "xsmall": {
-          "value": 16,
-          "type": "fontSizes"
-        }
       }
     },
     "body": {
@@ -798,66 +772,6 @@
             "type": "sizing"
           }
         }
-      }
-    }
-  },
-  "type": {
-    "heading": {
-      "size": {
-        "display": {
-          "value": 40,
-          "type": "fontSizes"
-        },
-        "xlarge": {
-          "value": 32,
-          "type": "fontSizes"
-        }
-      },
-      "weight": {
-        "display": {
-          "value": 700,
-          "type": "fontWeights"
-        },
-        "xlarge": {
-          "value": 600,
-          "type": "fontWeights"
-        },
-        "large": {
-          "value": 600,
-          "type": "fontWeights"
-        },
-        "medium": {
-          "value": 600,
-          "type": "fontWeights"
-        },
-        "small": {
-          "value": 600,
-          "type": "fontWeights"
-        },
-        "xsmall": {
-          "value": 600,
-          "type": "fontWeights"
-        }
-      },
-      "xlarge": {
-        "value": "Open Sans",
-        "type": "fontFamilies"
-      },
-      "large": {
-        "value": "Open Sans",
-        "type": "fontFamilies"
-      },
-      "medium": {
-        "value": "Open Sans",
-        "type": "fontFamilies"
-      },
-      "small": {
-        "value": "Open Sans",
-        "type": "fontFamilies"
-      },
-      "xsmall": {
-        "value": "Open Sans",
-        "type": "fontFamilies"
       }
     }
   }
