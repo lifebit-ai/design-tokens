@@ -662,7 +662,8 @@
   "icon": {
     "small": {
       "value": 16,
-      "type": "sizing"
+      "type": "sizing",
+      "description": "Used for small icon sizes"
     },
     "medium": {
       "value": 24,
