@@ -232,7 +232,8 @@
           "active": "#04447f",
           "disabled": "#d4d7dc",
           "selected": {
-            "default": "#2c72db"
+            "default": "#2c72db",
+            "hover": "#0954ad"
           }
         }
       }
