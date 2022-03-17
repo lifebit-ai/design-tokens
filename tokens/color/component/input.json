@@ -1,0 +1,49 @@
+{
+  "component": {
+    "input": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{color.background.surface.value}"
+          },
+          "disabled": {
+            "value": "{color.background.disabled.value}"
+          },
+          "selected": {
+            "default": {
+              "value": "{color.feedback.action.default.value}"
+            },
+            "hover": {
+              "value": "{color.feedback.action.hover.value}"
+            }
+          }
+        },
+        "content": {
+          "value": "{color.content.main.value}"
+        },
+        "border": {
+          "default": {
+            "value": "{color.border.default.value}"
+          },
+          "hover": {
+            "value": "{color.border.hover.value}"
+          },
+          "active": {
+            "value": "{color.feedback.action.active.value}"
+          },
+          "disabled": {
+            "value": "{color.border.disabled.value}"
+          },
+          "selected": {
+            "default": {
+              "value": "{color.feedback.action.default.value}"
+            },
+            "hover": {
+              "value": "{color.feedback.action.hover.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

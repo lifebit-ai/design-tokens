@@ -1,0 +1,73 @@
+{
+  "component": {
+    "button": {
+      "color": {
+        "flat": {
+          "background": {
+            "action": {
+              "default": {
+                "value": "{color.background.surface.value}"
+              },
+              "hover": {
+                "value": "{color.background.highlight.value}"
+              },
+              "active": {
+                "value": "{color.background.surface.value}"
+              },
+              "disabled": {
+                "value": "{color.background.surface.value}"
+              }
+            },
+            "danger": {
+              "default": {
+                "value": "{color.background.surface.value}"
+              },
+              "hover": {
+                "value": "{color.background.highlight.value}"
+              },
+              "active": {
+                "value": "{color.background.surface.value}"
+              },
+              "disabled": {
+                "value": "{color.background.surface.value}"
+              }
+            }
+          },
+          "content": {
+            "action": {
+              "default": {
+                "value": "{color.feedback.action.default.value}"
+              },
+              "hover": {
+                "value": "{color.feedback.action.hover.value}"
+              },
+              "active": {
+                "value": "{color.feedback.action.active.value}"
+              },
+              "disabled": {
+                "value": "{color.background.disabled.value}"
+              }
+            },
+            "danger": {
+              "default": {
+                "value": "{color.feedback.danger.default.value}"
+              },
+              "hover": {
+                "value": "{color.feedback.danger.hover.value}"
+              },
+              "active": {
+                "value": "{color.feedback.danger.active.value}"
+              },
+              "disabled": {
+                "value": "{color.background.disabled.value}"
+              }
+            }
+          },
+          "border": {
+            "value": "none"
+          }
+        }
+      }
+    }
+  }
+}

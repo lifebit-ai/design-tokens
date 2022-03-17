@@ -1,0 +1,58 @@
+{
+  "color": {
+    "feedback": {
+      "action": {
+        "default": {
+          "value": "{color.base.blue.50.value}"
+        },
+        "hover": {
+          "value": "{color.base.blue.40.value}"
+        },
+        "active": {
+          "value": "{color.base.blue.30.value}"
+        },
+        "subtle": {
+          "value": "{color.base.blue.80.value}"
+        }
+      },
+      "danger": {
+        "default": {
+          "value": "{color.base.red.40.value}"
+        },
+        "hover": {
+          "value": "{color.base.red.30.value}"
+        },
+        "active": {
+          "value": "{color.base.red.20.value}"
+        },
+        "subtle": {
+          "value": "{color.base.red.80.value}"
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{color.base.yellow.30.value}"
+        },
+        "subtle": {
+          "value": "{color.base.yellow.80.value}"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.base.green.30.value}"
+        },
+        "subtle": {
+          "value": "{color.base.green.80.value}"
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{color.base.blue.50.value}"
+        },
+        "subtle": {
+          "value": "{color.base.blue.80.value}"
+        }
+      }
+    }
+  }
+}

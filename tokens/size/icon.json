@@ -1,0 +1,12 @@
+{
+  "size": {
+    "icon": {
+      "small": {
+        "value": "16"
+      },
+      "medium": {
+        "value": "24"
+      }
+    }
+  }
+}

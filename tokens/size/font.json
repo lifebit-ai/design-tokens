@@ -1,0 +1,52 @@
+{
+  "size": {
+    "font": {
+      "2-xsmall": {
+        "value": "14"
+      },
+      "xsmall": {
+        "value": "16"
+      },
+      "small": {
+        "value": "18"
+      },
+      "medium": {
+        "value": "20"
+      },
+      "large": {
+        "value": "24"
+      },
+      "xlarge": {
+        "value": "32"
+      },
+      "2-xlarge": {
+        "value": "40"
+      }
+    },
+    "letterspacing": {
+      "neg02": {
+        "value": "-1"
+      },
+      "neg01": {
+        "value": "-0.5"
+      },
+      "default": {
+        "value": "0"
+      },
+      "pos01": {
+        "value": "0.5"
+      }
+    },
+    "paragraphspacing": {
+      "small": {
+        "value": "14"
+      },
+      "medium": {
+        "value": "16"
+      },
+      "large": {
+        "value": "18"
+      }
+    }
+  }
+}

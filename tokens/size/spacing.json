@@ -1,0 +1,62 @@
+{
+  "size": {
+    "spacing": {
+      "4-xsmall": {
+        "value": "2"
+      },
+      "3-xsmall": {
+        "value": "4"
+      },
+      "2-xsmall": {
+        "value": "8"
+      },
+      "xsmall": {
+        "value": "12"
+      },
+      "small": {
+        "value": "16"
+      },
+      "medium": {
+        "value": "24"
+      },
+      "large": {
+        "value": "32"
+      },
+      "xlarge": {
+        "value": "40"
+      },
+      "2-xlarge": {
+        "value": "48"
+      },
+      "3-xlarge": {
+        "value": "56"
+      },
+      "4-xlarge": {
+        "value": "64"
+      }
+    },
+    "layout": {
+      "2-xsmall": {
+        "value": "16"
+      },
+      "xsmall": {
+        "value": "24"
+      },
+      "small": {
+        "value": "32"
+      },
+      "medium": {
+        "value": "48"
+      },
+      "large": {
+        "value": "64"
+      },
+      "xlarge": {
+        "value": "96"
+      },
+      "2-xlarge": {
+        "value": "160"
+      }
+    }
+  }
+}

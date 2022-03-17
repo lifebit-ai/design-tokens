@@ -1,77 +1,59 @@
-const StyleDictionaryPackage = require('style-dictionary');
+const StyleDictionary = require('style-dictionary');
+const webPath = 'output/'
 
-// HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
-
-StyleDictionaryPackage.registerTransform({
-    name: 'sizes/px',
-    type: 'value',
-    matcher: (token) => ['spacing', 'fontSizes', 'borderRadius', 'borderWidth', 'sizing', 'letterSpacing', 'paragraphSpacing'].includes(token.type),
-    transformer: function(token) {
-        // You can also modify the value here if you want to convert pixels to ems
-        return parseFloat(token.original.value) + 'px';
-    }
-    });
-
-function buildLightTheme(theme) {
-  return {
-    "source": [
-      `tokens/global.json`,
-      `tokens/light.json`,
-    ],
-    "platforms": {
-      "json": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `output/`,
-        "files": [{
-            "destination": `light.json`,
-            "format": "json/nested",
-            "selector": `.${theme}-theme`
-          },
-        ]
-      }
-    }
-  };
-}
-
-function buildDarkTheme(theme) {
-  return {
-    "source": [
-      `tokens/global.json`,
-      `tokens/dark.json`,
-    ],
-    "platforms": {
-      "json": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `output/`,
-        "files": [{
-            "destination": `dark.json`,
-            "format": "json/nested",
-            "selector": `.${theme}-theme`
-          },
-        ]
-      }
-    }
-  };
-}
-
-console.log('Build started...');
-
-// PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
-
-['global', 'dark', 'light'].map(function (theme) {
-
-    console.log('\n==============================================');
-    console.log(`\nProcessing: [${theme}]`);
-
-    const StyleDictionaryLight = StyleDictionaryPackage.extend(buildLightTheme(theme));
-    const StyleDictionaryDark = StyleDictionaryPackage.extend(buildDarkTheme(theme));
-
-    // StyleDictionary.buildPlatform('web');
-    StyleDictionaryLight.buildAllPlatforms();
-    StyleDictionaryDark.buildAllPlatforms();
-
-    console.log('\nEnd processing');
-})
-
-console.log('\n==============================================');
-console.log('\nBuild completed!');
+const modes = [`light`,`dark`];
+ 
+// light/default mode
+StyleDictionary.extend({
+  source: [
+    // this is saying find any files in the tokens folder
+    // that does not have .dark or .light, but ends in .json5
+    `tokens/**/!(*.${modes.join(`|*.`)}).json`
+  ],
+  platforms: {
+    css: {
+      transformGroup: `web`,
+      buildPath: webPath,
+      files: [{
+        destination: `light.json`,
+        format: `json/nested`,
+        options: {
+          // this will keep token references intact so that we don't need
+          // to generate *all* color resources for dark mode, only
+          // the specific ones that change
+          outputReferences: true
+        }
+      }]
+    },
+    //...
+  }
+}).buildAllPlatforms();
+ 
+// dark mode
+StyleDictionary.extend({
+  include: [
+    // this is the same as the source in light/default above
+    `tokens/**/!(*.${modes.join(`|*.`)}).json`
+  ],
+  source: [
+    // Kind of the opposite of above, this will find any files
+    // that have the file extension .dark.json5
+    `tokens/color/dark/*.dark.json`
+  ],
+  platforms: {
+    css: {
+      transformGroup: `web`,
+      buildPath: webPath,
+      files: [{
+        destination: `dark.json`,
+        format: `json/nested`,
+        // only outputting the tokens from files with '.dark' in the filepath
+        // filter: (token) => token.filePath.indexOf(`.dark`) > -1,
+        options: {
+          outputReferences: true
+        }
+      }]
+    },
+    //...
+  }
+}).buildAllPlatforms();
