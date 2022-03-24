@@ -12,7 +12,7 @@
           "value": "{color.base.blue.30.value}"
         },
         "subtle": {
-          "value": "{color.base.blue.80.value}"
+          "value": "{color.base.blue.90.value}"
         }
       },
       "danger": {
@@ -26,7 +26,7 @@
           "value": "{color.base.red.20.value}"
         },
         "subtle": {
-          "value": "{color.base.red.80.value}"
+          "value": "{color.base.red.90.value}"
         }
       },
       "warning": {
@@ -34,7 +34,7 @@
           "value": "{color.base.yellow.30.value}"
         },
         "subtle": {
-          "value": "{color.base.yellow.80.value}"
+          "value": "{color.base.yellow.90.value}"
         }
       },
       "success": {
@@ -42,7 +42,7 @@
           "value": "{color.base.green.30.value}"
         },
         "subtle": {
-          "value": "{color.base.green.80.value}"
+          "value": "{color.base.green.90.value}"
         }
       },
       "info": {
@@ -50,7 +50,7 @@
           "value": "{color.base.blue.50.value}"
         },
         "subtle": {
-          "value": "{color.base.blue.80.value}"
+          "value": "{color.base.blue.90.value}"
         }
       }
     }

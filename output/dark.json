@@ -101,25 +101,25 @@
         "default": "#4e8fe2",
         "hover": "#72ace8",
         "active": "#98c6ef",
-        "subtle": "#04447f"
+        "subtle": "#012f52"
       },
       "danger": {
         "default": "#fa5e5b",
         "hover": "#ff8d8b",
         "active": "#ffc0bf",
-        "subtle": "#7a0c08"
+        "subtle": "#540704"
       },
       "warning": {
         "default": "#fecd48",
-        "subtle": "#725500"
+        "subtle": "#4f3b00"
       },
       "success": {
         "default": "#61d27b",
-        "subtle": "#004f13"
+        "subtle": "#00330d"
       },
       "info": {
         "default": "#4e8fe2",
-        "subtle": "#04447f"
+        "subtle": "#012f52"
       }
     }
   },
@@ -246,6 +246,12 @@
       "main": "Open Sans",
       "code": "Courier Prime"
     },
+    "lineheight": {
+      "01": "1.2",
+      "02": "1.35",
+      "03": "1.5",
+      "04": "1.75"
+    },
     "weight": {
       "light": "300",
       "regular": "400",
@@ -260,6 +266,19 @@
     "03": "0px 0.5px 1.9px rgba(0, 0, 0, 0.12), 0px 4px 16px rgba(0, 0, 0, 0.24)"
   },
   "size": {
+    "border": {
+      "weight": {
+        "01": "1px",
+        "02": "2px",
+        "03": "4px"
+      },
+      "radius": {
+        "01": "2px",
+        "02": "4px",
+        "03": "8px",
+        "round": "160px"
+      }
+    },
     "font": {
       "2-xsmall": "14px",
       "xsmall": "16px",

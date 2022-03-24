@@ -246,6 +246,12 @@
       "main": "Open Sans",
       "code": "Courier Prime"
     },
+    "lineheight": {
+      "01": "1.2",
+      "02": "1.35",
+      "03": "1.5",
+      "04": "1.75"
+    },
     "weight": {
       "light": "300",
       "regular": "400",
@@ -260,6 +266,19 @@
     "03": "0px 0.5px 1.9px rgba(0, 0, 0, 0.12), 0px 4px 16px rgba(0, 0, 0, 0.24)"
   },
   "size": {
+    "border": {
+      "weight": {
+        "01": "1px",
+        "02": "2px",
+        "03": "4px"
+      },
+      "radius": {
+        "01": "2px",
+        "02": "4px",
+        "03": "8px",
+        "round": "160px"
+      }
+    },
     "font": {
       "2-xsmall": "14px",
       "xsmall": "16px",
