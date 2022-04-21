@@ -239,6 +239,28 @@
           }
         }
       }
+    },
+    "switch": {
+      "container": {
+        "width": {
+          "default": "40px",
+          "small": "28px"
+        },
+        "height": {
+          "default": "20px",
+          "small": "16px"
+        }
+      },
+      "thumb": {
+        "width": {
+          "default": "16px",
+          "small": "12px"
+        },
+        "height": {
+          "default": "16px",
+          "small": "12px"
+        }
+      }
     }
   },
   "font": {
