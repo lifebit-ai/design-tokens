@@ -305,8 +305,8 @@
       "2-xsmall": "14px",
       "xsmall": "16px",
       "small": "18px",
-      "medium": "20px",
-      "large": "24px",
+      "medium": "22px",
+      "large": "28px",
       "xlarge": "32px",
       "2-xlarge": "40px"
     },
@@ -325,6 +325,17 @@
       "small": "16px",
       "medium": "24px"
     },
+    "4-xsmall": "2px",
+    "3-xsmall": "4px",
+    "2-xsmall": "8px",
+    "xsmall": "12px",
+    "small": "16px",
+    "medium": "24px",
+    "large": "32px",
+    "xlarge": "40px",
+    "2-xlarge": "48px",
+    "3-xlarge": "56px",
+    "4-xlarge": "64px",
     "spacing": {
       "4-xsmall": "2px",
       "3-xsmall": "4px",
