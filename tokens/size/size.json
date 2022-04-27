@@ -1,0 +1,37 @@
+{
+  "size": {
+    "4-xsmall": {
+      "value": "2"
+    },
+    "3-xsmall": {
+      "value": "4"
+    },
+    "2-xsmall": {
+      "value": "8"
+    },
+    "xsmall": {
+      "value": "12"
+    },
+    "small": {
+      "value": "16"
+    },
+    "medium": {
+      "value": "24"
+    },
+    "large": {
+      "value": "32"
+    },
+    "xlarge": {
+      "value": "40"
+    },
+    "2-xlarge": {
+      "value": "48"
+    },
+    "3-xlarge": {
+      "value": "56"
+    },
+    "4-xlarge": {
+      "value": "64"
+    }
+  }
+}
