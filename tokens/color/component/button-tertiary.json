@@ -2,65 +2,43 @@
   "component": {
     "button": {
       "color": {
-        "flat": {
+        "tertiary": {
           "background": {
             "action": {
               "default": {
-                "value": "{color.background.surface.value}"
+                "value": "none"
               },
               "hover": {
                 "value": "{color.background.highlight.value}"
               },
               "active": {
-                "value": "{color.background.surface.value}"
-              },
-              "disabled": {
-                "value": "{color.background.surface.value}"
+                "value": "{color.background.highlight.value}"
               }
             },
             "danger": {
               "default": {
-                "value": "{color.background.surface.value}"
+                "value": "none"
               },
               "hover": {
                 "value": "{color.background.highlight.value}"
               },
               "active": {
-                "value": "{color.background.surface.value}"
-              },
-              "disabled": {
-                "value": "{color.background.surface.value}"
+                "value": "{color.background.highlight.value}"
               }
+            },
+            "disabled": {
+              "value": "none"
             }
           },
           "content": {
             "action": {
-              "default": {
-                "value": "{color.feedback.action.default.value}"
-              },
-              "hover": {
-                "value": "{color.feedback.action.hover.value}"
-              },
-              "active": {
-                "value": "{color.feedback.action.active.value}"
-              },
-              "disabled": {
-                "value": "{color.background.disabled.value}"
-              }
+              "value": "{color.feedback.action.default.value}"
             },
             "danger": {
-              "default": {
-                "value": "{color.feedback.danger.default.value}"
-              },
-              "hover": {
-                "value": "{color.feedback.danger.hover.value}"
-              },
-              "active": {
-                "value": "{color.feedback.danger.active.value}"
-              },
-              "disabled": {
-                "value": "{color.background.disabled.value}"
-              }
+              "value": "{color.feedback.danger.default.value}"
+            },
+            "disabled": {
+              "value": "{color.content.disabled}"
             }
           },
           "border": {

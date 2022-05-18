@@ -1,0 +1,58 @@
+{
+  "color": {
+    "feedback": {
+      "action": {
+        "default": {
+          "value": "#0198F5"
+        },
+        "hover": {
+          "value": "#11a4fe"
+        },
+        "active": {
+          "value": "#096dd9"
+        },
+        "subtle": {
+          "value": "#DFF3FF"
+        }
+      },
+      "danger": {
+        "default": {
+          "value": "#FF0D0D"
+        },
+        "hover": {
+          "value": "#FA5E5B"
+        },
+        "active": {
+          "value": "#D40000"
+        },
+        "subtle": {
+          "value": "{color.base.red.10.value}"
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "#F0AD4E"
+        },
+        "subtle": {
+          "value": "{color.base.yellow.10.value}"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "#31C052"
+        },
+        "subtle": {
+          "value": "{color.base.green.10.value}"
+        }
+      },
+      "info": {
+        "default": {
+          "value": "#FF0D0D"
+        },
+        "subtle": {
+          "value": "{color.base.blue.10.value}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "color": {
+    "border": {
+      "default": {
+        "value": "#7B92A7"
+      },
+      "subtle": {
+        "value": "rgba(0, 0, 0, 0.1)"
+      },
+      "divider": {
+        "value": "#DFE6F4"
+      },
+      "hover": {
+        "value": "#b9c8e7"
+      },
+      "focus": {
+        "value": "{color.base.blue.50.value}"
+      },
+      "disabled": {
+        "value": "#C2CEDE"
+      }
+    }
+  }
+}

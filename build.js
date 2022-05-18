@@ -1,7 +1,7 @@
 const StyleDictionary = require('style-dictionary');
 const webPath = 'output/'
 
-const modes = [`light`,`dark`];
+const modes = [`light`,`dark`, `old`];
  
 // light/default mode
 StyleDictionary.extend({
@@ -57,3 +57,35 @@ StyleDictionary.extend({
     //...
   }
 }).buildAllPlatforms();
+
+// old styles
+StyleDictionary.extend({
+  include: [
+    // this is the same as the source in light/default above
+    `tokens/**/!(*.${modes.join(`|*.`)}).json`
+  ],
+  source: [
+    // Kind of the opposite of above, this will find any files
+    // that have the file extension .dark.json5
+    `tokens/color/old/*.old.json`
+  ],
+  platforms: {
+    css: {
+      transformGroup: `web`,
+      buildPath: webPath,
+      files: [{
+        destination: `old.json`,
+        format: `json/nested`,
+        // only outputting the tokens from files with '.dark' in the filepath
+        // filter: (token) => token.filePath.indexOf(`.dark`) > -1,
+        options: {
+          outputReferences: true
+        }
+      }]
+    },
+    //...
+  }
+}).buildAllPlatforms();
+
+
+// node build

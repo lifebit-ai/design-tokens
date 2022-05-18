@@ -13,9 +13,6 @@
               },
               "active": {
                 "value": "{color.feedback.action.active.value}"
-              },
-              "disabled": {
-                "value": "{color.background.disabled.value}"
               }
             },
             "danger": {
@@ -27,22 +24,21 @@
               },
               "active": {
                 "value": "{color.feedback.danger.active.value}"
-              },
-              "disabled": {
-                "value": "{color.background.disabled.value}"
               }
+            },
+            "disabled": {
+              "value": "{color.background.disabled.value}"
             }
           },
           "content": {
             "action": {
-              "default": {
-                "value": "{color.content.contrast.value}"
-              }
+              "value": "{color.content.contrast.value}"
             },
             "danger": {
-              "default": {
-                "value": "{color.content.contrast.value}"
-              }
+              "value": "{color.content.contrast.value}"
+            },
+            "disabled": {
+              "value": "{color.content.contrast.value}"
             }
           },
           "border": {
