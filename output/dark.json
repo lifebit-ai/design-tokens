@@ -147,36 +147,7 @@
           },
           "border": "rgba(255, 255, 255, 0.1)"
         },
-<<<<<<< HEAD
         "secondary": {
-=======
-        "primary": {
-          "background": {
-            "action": {
-              "default": "#4e8fe2",
-              "hover": "#72ace8",
-              "active": "#98c6ef",
-              "disabled": "#54585e"
-            },
-            "danger": {
-              "default": "#fa5e5b",
-              "hover": "#ff8d8b",
-              "active": "#ffc0bf",
-              "disabled": "#54585e"
-            }
-          },
-          "content": {
-            "action": {
-              "default": "#0c0c0c"
-            },
-            "danger": {
-              "default": "#0c0c0c"
-            }
-          },
-          "border": "rgba(255, 255, 255, 0.1)"
-        },
-        "outline": {
->>>>>>> 1436e3ea721636c9edeb2a9b4ba1ed019dc4d9e4
           "background": {
             "action": {
               "default": "#0c0c0c",
@@ -196,7 +167,6 @@
             "disabled": "#54585e"
           },
           "border": "#6f777c"
-<<<<<<< HEAD
         },
         "tertiary": {
           "background": {
@@ -218,8 +188,6 @@
             "disabled": "#54585e"
           },
           "border": "none"
-=======
->>>>>>> 1436e3ea721636c9edeb2a9b4ba1ed019dc4d9e4
         }
       }
     },

@@ -69,7 +69,7 @@
     },
     "border": {
       "default": "#7b92a7",
-      "subtle": "rgba(0, 0, 0, 0.1)",
+      "subtle": "#ffffff",
       "divider": "#dfe6f4",
       "hover": "#b9c8e7",
       "focus": "#4e8fe2",
@@ -107,19 +107,19 @@
         "default": "#ff0d0d",
         "hover": "#fa5e5b",
         "active": "#d40000",
-        "subtle": "#fcf0f0"
+        "subtle": "#ffffff"
       },
       "warning": {
-        "default": "#dca100",
-        "subtle": "#fcf6e3"
+        "default": "#f0ad4e",
+        "subtle": "#ffffff"
       },
       "success": {
         "default": "#31c052",
-        "subtle": "#ebf5ed"
+        "subtle": "#ffffff"
       },
       "info": {
         "default": "#ff0d0d",
-        "subtle": "#eaf5fc"
+        "subtle": "#ffffff"
       }
     }
   },
@@ -145,7 +145,7 @@
             "danger": "#ffffff",
             "disabled": "#ffffff"
           },
-          "border": "rgba(0, 0, 0, 0.1)"
+          "border": "#ffffff"
         },
         "secondary": {
           "background": {
