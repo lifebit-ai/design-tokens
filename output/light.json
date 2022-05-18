@@ -157,6 +157,31 @@
           },
           "border": "none"
         },
+        "primary": {
+          "background": {
+            "action": {
+              "default": "#2c72db",
+              "hover": "#0954ad",
+              "active": "#04447f",
+              "disabled": "#b4b9bf"
+            },
+            "danger": {
+              "default": "#c32420",
+              "hover": "#a01511",
+              "active": "#7a0c08",
+              "disabled": "#b4b9bf"
+            }
+          },
+          "content": {
+            "action": {
+              "default": "#ffffff"
+            },
+            "danger": {
+              "default": "#ffffff"
+            }
+          },
+          "border": "rgba(0, 0, 0, 0.1)"
+        },
         "outline": {
           "background": {
             "action": {
@@ -187,31 +212,6 @@
             }
           },
           "border": "#8e969d"
-        },
-        "primary": {
-          "background": {
-            "action": {
-              "default": "#2c72db",
-              "hover": "#0954ad",
-              "active": "#04447f",
-              "disabled": "#b4b9bf"
-            },
-            "danger": {
-              "default": "#c32420",
-              "hover": "#a01511",
-              "active": "#7a0c08",
-              "disabled": "#b4b9bf"
-            }
-          },
-          "content": {
-            "action": {
-              "default": "#ffffff"
-            },
-            "danger": {
-              "default": "#ffffff"
-            }
-          },
-          "border": "rgba(0, 0, 0, 0.1)"
         }
       }
     },
