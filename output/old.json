@@ -110,7 +110,7 @@
         "subtle": "#fcf0f0"
       },
       "warning": {
-        "default": "#dca100",
+        "default": "#f0ad4e",
         "subtle": "#fcf6e3"
       },
       "success": {
