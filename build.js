@@ -67,7 +67,7 @@ StyleDictionary.extend({
   source: [
     // Kind of the opposite of above, this will find any files
     // that have the file extension .dark.json5
-    `tokens/color/old/*.old.json`
+    `tokens/color/old/*.old.json`, `tokens/size/old/*.old.json`, `tokens/shadow/old/*.old.json`
   ],
   platforms: {
     css: {

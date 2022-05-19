@@ -1,0 +1,16 @@
+{
+  "component": {
+    "button": {
+      "size": {
+        "border": {
+          "weight": {
+            "value": "{size.border.weight.005.value}"
+          },
+          "radius": {
+            "value": "{size.border.radius.02.value}"
+          }
+        }
+      }
+    }
+  }
+}

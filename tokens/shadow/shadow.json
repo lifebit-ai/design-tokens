@@ -1,5 +1,8 @@
 {
   "shadow": {
+    "00": {
+      "value": "none"
+    },
     "01": {
       "value": "0px 2px 2px rgba(0,0,0,0.08)"
     },
