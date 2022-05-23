@@ -1,0 +1,44 @@
+{
+  "component": {
+    "switch": {
+      "size": {
+        "track": {
+          "width": {
+            "default": {
+              "value": "40px"
+            },
+            "small": {
+              "value": "28px"
+            }
+          },
+          "height": {
+            "default": {
+              "value": "20px"
+            },
+            "small": {
+              "value": "16px"
+            }
+          }
+        },
+        "thumb": {
+          "width": {
+            "default": {
+              "value": "12px"
+            },
+            "small": {
+              "value": "8px"
+            }
+          },
+          "height": {
+            "default": {
+              "value": "12px"
+            },
+            "small": {
+              "value": "18px"
+            }
+          }
+        }
+      }
+    }
+  }
+}
