@@ -11,7 +11,7 @@
               "hover": {
                 "value": "{color.background.highlight.value}"
               },
-              "active": {
+              "pressed": {
                 "value": "{color.background.highlight.value}"
               }
             },
@@ -22,7 +22,7 @@
               "hover": {
                 "value": "{color.background.highlight.value}"
               },
-              "active": {
+              "pressed": {
                 "value": "{color.background.highlight.value}"
               }
             },

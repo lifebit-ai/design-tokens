@@ -1,0 +1,30 @@
+{
+  "component": {
+    "tab": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "none"
+          },
+          "hover": {
+            "value": "none"
+          },
+          "pressed": {
+            "value": "{color.background.highlight.value}"
+          }
+        },
+        "content": {
+          "value": "{color.content.main.value}"
+        },
+        "border": {
+          "default": {
+            "value": "{color.border.subtle.value}"
+          },
+          "active": {
+            "value": "{color.feedback.action.default.value}"
+          }
+        }
+      }
+    }
+  }
+}

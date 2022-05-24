@@ -8,7 +8,7 @@
         "hover": {
           "value": "#11a4fe"
         },
-        "active": {
+        "pressed": {
           "value": "#096dd9"
         },
         "subtle": {
@@ -22,7 +22,7 @@
         "hover": {
           "value": "#FA5E5B"
         },
-        "active": {
+        "pressed": {
           "value": "#D40000"
         },
         "subtle": {

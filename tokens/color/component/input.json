@@ -31,8 +31,8 @@
           "hover": {
             "value": "{color.border.hover.value}"
           },
-          "active": {
-            "value": "{color.feedback.action.active.value}"
+          "pressed": {
+            "value": "{color.feedback.action.pressed.value}"
           },
           "focus": {
             "value": "{color.border.focus.value}"

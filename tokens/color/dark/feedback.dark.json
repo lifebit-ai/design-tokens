@@ -8,7 +8,7 @@
         "hover": {
           "value": "{color.base.blue.40.value}"
         },
-        "active": {
+        "pressed": {
           "value": "{color.base.blue.30.value}"
         },
         "subtle": {
@@ -22,7 +22,7 @@
         "hover": {
           "value": "{color.base.red.30.value}"
         },
-        "active": {
+        "pressed": {
           "value": "{color.base.red.20.value}"
         },
         "subtle": {

@@ -11,8 +11,8 @@
               "hover": {
                 "value": "{color.feedback.action.hover.value}"
               },
-              "active": {
-                "value": "{color.feedback.action.active.value}"
+              "pressed": {
+                "value": "{color.feedback.action.pressed.value}"
               }
             },
             "danger": {
@@ -22,8 +22,8 @@
               "hover": {
                 "value": "{color.feedback.danger.hover.value}"
               },
-              "active": {
-                "value": "{color.feedback.danger.active.value}"
+              "pressed": {
+                "value": "{color.feedback.danger.pressed.value}"
               }
             },
             "disabled": {
