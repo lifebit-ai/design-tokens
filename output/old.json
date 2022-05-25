@@ -145,7 +145,7 @@
             "danger": "#ffffff",
             "disabled": "#ffffff"
           },
-          "border": "#ffffff"
+          "border": "rgba(0, 0, 0, 0)"
         },
         "secondary": {
           "background": {
@@ -193,7 +193,7 @@
       "size": {
         "border": {
           "weight": "1px",
-          "radius": "160"
+          "radius": "160px"
         }
       }
     },
