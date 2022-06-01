@@ -18,6 +18,9 @@
       },
       "disabled": {
         "value": "{color.base.neutral.70.value}"
+      },
+      "input": {
+        "value": "{color.base.neutral.50.value}"
       }
     }
   }

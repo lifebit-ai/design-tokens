@@ -18,6 +18,9 @@
       },
       "disabled": {
         "value": "#C2CEDE"
+      },
+      "input": {
+        "value": "#b9c8e7"
       }
     }
   }
