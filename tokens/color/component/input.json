@@ -9,7 +9,7 @@
           "disabled": {
             "value": "{color.background.highlight.value}"
           },
-          "selected": {
+          "active": {
             "default": {
               "value": "{color.feedback.action.default.value}"
             },
@@ -26,7 +26,7 @@
         },
         "border": {
           "default": {
-            "value": "{color.border.default.value}"
+            "value": "{color.border.input.value}"
           },
           "hover": {
             "value": "{color.border.hover.value}"
@@ -37,10 +37,13 @@
           "focus": {
             "value": "{color.border.focus.value}"
           },
+          "error": {
+            "value": "{color.feedback.danger.default.value}"
+          },
           "disabled": {
             "value": "{color.border.disabled.value}"
           },
-          "selected": {
+          "active": {
             "default": {
               "value": "{color.feedback.action.default.value}"
             },

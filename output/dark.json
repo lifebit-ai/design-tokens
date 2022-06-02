@@ -203,7 +203,7 @@
         "background": {
           "default": "#0c0c0c",
           "disabled": "#34383b",
-          "selected": {
+          "active": {
             "default": "#4e8fe2",
             "hover": "#72ace8",
             "disabled": "#54585e"
@@ -211,12 +211,13 @@
         },
         "content": "#ffffff",
         "border": {
-          "default": "#6f777c",
+          "default": "#8e969d",
           "hover": "#8e969d",
           "pressed": "#98c6ef",
           "focus": "#98c6ef",
+          "error": "#fa5e5b",
           "disabled": "#54585e",
-          "selected": {
+          "active": {
             "default": "#4e8fe2",
             "hover": "#72ace8"
           }
