@@ -1,0 +1,10 @@
+{
+  "transition": {
+    "quickly": {
+      "value": "0.05s ease"
+    },
+    "slowly": {
+      "value": "0.2s ease"
+    }
+  }
+}
