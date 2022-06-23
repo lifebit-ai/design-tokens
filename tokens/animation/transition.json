@@ -1,9 +1,12 @@
 {
   "transition": {
-    "quickly": {
+    "005": {
       "value": "0.05s ease"
     },
-    "slowly": {
+    "01": {
+      "value": "0.1s ease"
+    },
+    "02": {
       "value": "0.2s ease"
     }
   }
