@@ -1,4 +1,9 @@
 {
+  "transition": {
+    "005": "0.05s ease",
+    "01": "0.1s ease",
+    "02": "0.2s ease"
+  },
   "color": {
     "base": {
       "neutral": {
@@ -238,6 +243,21 @@
         }
       }
     },
+    "modal": {
+      "size": {
+        "width": {
+          "small": "375px",
+          "medium": "600px",
+          "large": "900px"
+        },
+        "border": {
+          "radius": "8px"
+        }
+      },
+      "border": {
+        "radius": "4px"
+      }
+    },
     "switch": {
       "size": {
         "track": {
@@ -422,6 +442,7 @@
   "size": {
     "10": "56px",
     "11": "64px",
+    "12": "72px",
     "border": {
       "weight": {
         "005": "0px",
@@ -430,7 +451,7 @@
       },
       "radius": {
         "01": "2px",
-        "02": "160px",
+        "02": "4px",
         "03": "8px",
         "round": "160px"
       }
@@ -490,5 +511,19 @@
       "06": "96px",
       "07": "160px"
     }
+  },
+  "z-index": {
+    "black-hole": "-999999",
+    "default": "1",
+    "mask": "100",
+    "masked": "200",
+    "sticky": "300",
+    "header": "400",
+    "toast": "500",
+    "dropdown": "600",
+    "overlay": "700",
+    "spinner": "800",
+    "modal": "900",
+    "popover": "950"
   }
 }
