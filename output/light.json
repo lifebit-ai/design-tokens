@@ -255,6 +255,11 @@
         }
       }
     },
+    "pagination": {
+      "size": {
+        "gap": "2px"
+      }
+    },
     "switch": {
       "size": {
         "track": {

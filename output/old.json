@@ -258,6 +258,11 @@
         "radius": "4px"
       }
     },
+    "pagination": {
+      "size": {
+        "gap": "8px"
+      }
+    },
     "switch": {
       "size": {
         "track": {
