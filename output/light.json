@@ -229,6 +229,38 @@
         }
       }
     },
+    "pagination": {
+      "color": {
+        "background": {
+          "default": "none",
+          "hover": "#e4e7eb",
+          "active": "#e4e7eb",
+          "disabled": "none",
+          "simple": "#ffffff"
+        },
+        "content": {
+          "default": "#0c0c0c",
+          "hover": "#0c0c0c",
+          "active": "#0c0c0c",
+          "selected": "#2c72db",
+          "disabled": "#b4b9bf"
+        },
+        "border": {
+          "default": "none",
+          "hover": "none",
+          "active": "none",
+          "selected": "#2c72db",
+          "disabled": "none",
+          "simple": "#b4b9bf"
+        }
+      },
+      "size": {
+        "gap": "2px",
+        "border": {
+          "active": "2px"
+        }
+      }
+    },
     "tab": {
       "color": {
         "background": {
@@ -253,11 +285,6 @@
         "border": {
           "radius": "8px"
         }
-      }
-    },
-    "pagination": {
-      "size": {
-        "gap": "2px"
       }
     },
     "switch": {

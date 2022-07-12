@@ -229,6 +229,38 @@
         }
       }
     },
+    "pagination": {
+      "color": {
+        "background": {
+          "default": "#ffffff",
+          "hover": "#ffffff",
+          "active": "#ffffff",
+          "disabled": "#ffffff",
+          "simple": "#ffffff"
+        },
+        "content": {
+          "default": "rgba(0, 0, 0, 0.65)",
+          "hover": "#1890ff",
+          "active": "1890ff",
+          "selected": "#ffffff",
+          "disabled": "rgba(0, 0, 0, 0.25)"
+        },
+        "border": {
+          "default": "#d9d9d9",
+          "hover": "#1890ff",
+          "active": "#1890ff",
+          "selected": "#1890ff",
+          "disabled": "rgba(0, 0, 0, 0.25)",
+          "simple": "#7b92a7"
+        }
+      },
+      "size": {
+        "gap": "8px",
+        "border": {
+          "active": "1px"
+        }
+      }
+    },
     "tab": {
       "color": {
         "background": {
@@ -256,11 +288,6 @@
       },
       "border": {
         "radius": "4px"
-      }
-    },
-    "pagination": {
-      "size": {
-        "gap": "8px"
       }
     },
     "switch": {

@@ -1,0 +1,62 @@
+{
+  "component": {
+    "pagination": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "none"
+          },
+          "hover": {
+            "value": "{component.button.color.secondary.background.action.hover.value}"
+          },
+          "active": {
+            "value": "{component.button.color.secondary.background.action.pressed.value}"
+          },
+          "disabled": {
+            "value": "none"
+          },
+          "simple": {
+            "value": "{component.button.color.secondary.background.action.default.value}"
+          }
+        },
+        "content": {
+          "default": {
+            "value": "{color.content.main.value}"
+          },
+          "hover": {
+            "value": "{color.content.main.value}"
+          },
+          "active": {
+            "value": "{color.content.main.value}"
+          },
+          "selected": {
+            "value": "{color.feedback.action.default.value}"
+          },
+          "disabled": {
+            "value": "{color.content.disabled.value}"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "none"
+          },
+          "hover": {
+            "value": "none"
+          },
+          "active": {
+            "value": "none"
+          },
+          "selected": {
+            "value": "{color.feedback.action.default.value}"
+          },
+          "disabled": {
+            "value": "none"
+          },
+          "simple": {
+            "value": "{color.border.default.value}"
+          }
+        }
+      }
+    }
+  }
+}

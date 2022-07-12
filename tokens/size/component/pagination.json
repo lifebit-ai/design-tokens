@@ -4,6 +4,11 @@
       "size": {
         "gap": {
           "value": "{size.space.01.value}"
+        },
+        "border": {
+          "active": {
+            "value": "{size.border.weight.01.value}"
+          }
         }
       }
     }
