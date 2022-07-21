@@ -280,6 +280,39 @@
         }
       }
     },
+    "table": {
+      "color": {
+        "background": {
+          "default": "#34383b",
+          "hover": "#34383b",
+          "selected": "#012f52"
+        },
+        "border": {
+          "default": "rgba(255, 255, 255, 0.1)",
+          "header": "#4e8fe2"
+        }
+      },
+      "size": {
+        "cell": {
+          "min-width": "130px",
+          "min-height": "28px",
+          "padding": {
+            "horizontal": {
+              "default": "8px",
+              "compact": "8px"
+            },
+            "vertical": {
+              "default": "4px",
+              "compact": "2px"
+            }
+          },
+          "border": {
+            "default": "1px",
+            "none": "0"
+          }
+        }
+      }
+    },
     "modal": {
       "size": {
         "width": {
@@ -452,6 +485,29 @@
       "02": "1.35",
       "03": "1.5",
       "04": "1.75"
+    },
+    "table": {
+      "family": "Open Sans",
+      "fontSize": {
+        "default": "14px",
+        "compact": "13px"
+      },
+      "lineHeight": {
+        "default": "1.2",
+        "compact": "1.2"
+      },
+      "letterSpacing": {
+        "default": "0px",
+        "compact": "0px"
+      },
+      "fontWeight": {
+        "semibold": "600",
+        "regular": "400"
+      },
+      "textTransform": {
+        "default": "none",
+        "compact": "none"
+      }
     },
     "transform": {
       "none": "none",

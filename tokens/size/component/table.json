@@ -1,0 +1,42 @@
+{
+  "component": {
+    "table": {
+      "size": {
+        "cell": {
+          "min-width": {
+            "value": "130px"
+          },
+          "min-height": {
+            "value": "28px"
+          },
+          "padding": {
+            "horizontal": {
+              "default": {
+                "value": "{size.space.03.value}"
+              },
+              "compact": {
+                "value": "{size.space.03.value}"
+              }
+            },
+            "vertical": {
+              "default": {
+                "value": "{size.space.02.value}"
+              },
+              "compact": {
+                "value": "{size.space.01.value}"
+              }
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{size.border.weight.005.value}"
+            },
+            "none": {
+              "value": "0"
+            }
+          }
+        }
+      }
+    }
+  }
+}

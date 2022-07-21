@@ -1,0 +1,27 @@
+{
+  "component": {
+    "table": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{color.background.highlight.value}"
+          },
+          "hover": {
+            "value": "{color.background.highlight.value}"
+          },
+          "selected": {
+            "value": "{color.feedback.action.subtle.value}"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.border.subtle.value}"
+          },
+          "header": {
+            "value": "{color.feedback.action.default.value}"
+          }
+        }
+      }
+    }
+  }
+}
