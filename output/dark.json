@@ -229,6 +229,11 @@
         }
       }
     },
+    "loading": {
+      "color": {
+        "spinner": "#4e8fe2"
+      }
+    },
     "pagination": {
       "color": {
         "background": {
