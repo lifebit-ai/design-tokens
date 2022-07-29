@@ -6,6 +6,7 @@
   },
   "color": {
     "base": {
+      "transparent": "rgba(0, 0, 0, 0)",
       "neutral": {
         "10": "#f3f5f6",
         "20": "#e4e7eb",
@@ -177,23 +178,23 @@
         "tertiary": {
           "background": {
             "action": {
-              "default": "none",
+              "default": "rgba(0, 0, 0, 0)",
               "hover": "#34383b",
               "pressed": "#34383b"
             },
             "danger": {
-              "default": "none",
+              "default": "rgba(0, 0, 0, 0)",
               "hover": "#34383b",
               "pressed": "#34383b"
             },
-            "disabled": "none"
+            "disabled": "rgba(0, 0, 0, 0)"
           },
           "content": {
             "action": "#4e8fe2",
             "danger": "#fa5e5b",
             "disabled": "#54585e"
           },
-          "border": "none"
+          "border": "rgba(0, 0, 0, 0)"
         }
       },
       "size": {
@@ -237,10 +238,10 @@
     "pagination": {
       "color": {
         "background": {
-          "default": "none",
+          "default": "rgba(0, 0, 0, 0)",
           "hover": "#34383b",
           "active": "#34383b",
-          "disabled": "none",
+          "disabled": "rgba(0, 0, 0, 0)",
           "simple": "#0c0c0c"
         },
         "content": {
@@ -251,11 +252,11 @@
           "disabled": "#54585e"
         },
         "border": {
-          "default": "none",
-          "hover": "none",
-          "active": "none",
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "rgba(0, 0, 0, 0)",
+          "active": "rgba(0, 0, 0, 0)",
           "selected": "#4e8fe2",
-          "disabled": "none",
+          "disabled": "rgba(0, 0, 0, 0)",
           "simple": "#6f777c"
         }
       },
@@ -269,8 +270,8 @@
     "tab": {
       "color": {
         "background": {
-          "default": "none",
-          "hover": "none",
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "rgba(0, 0, 0, 0)",
           "pressed": "#34383b"
         },
         "content": "#ffffff",

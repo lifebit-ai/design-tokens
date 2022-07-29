@@ -6,6 +6,7 @@
   },
   "color": {
     "base": {
+      "transparent": "rgba(0, 0, 0, 0)",
       "neutral": {
         "10": "#f3f5f6",
         "20": "#e4e7eb",
@@ -177,23 +178,23 @@
         "tertiary": {
           "background": {
             "action": {
-              "default": "none",
+              "default": "rgba(0, 0, 0, 0)",
               "hover": "#e4e7eb",
               "pressed": "#e4e7eb"
             },
             "danger": {
-              "default": "none",
+              "default": "rgba(0, 0, 0, 0)",
               "hover": "#e4e7eb",
               "pressed": "#e4e7eb"
             },
-            "disabled": "none"
+            "disabled": "rgba(0, 0, 0, 0)"
           },
           "content": {
             "action": "#0198f5",
             "danger": "#ff0d0d",
             "disabled": "#c2cede"
           },
-          "border": "none"
+          "border": "rgba(0, 0, 0, 0)"
         }
       },
       "size": {
@@ -269,8 +270,8 @@
     "tab": {
       "color": {
         "background": {
-          "default": "none",
-          "hover": "none",
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "rgba(0, 0, 0, 0)",
           "pressed": "#e4e7eb"
         },
         "content": "#4a637b",

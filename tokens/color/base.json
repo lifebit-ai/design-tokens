@@ -1,6 +1,9 @@
 {
   "color": {
     "base": {
+      "transparent": {
+        "value": "transparent"
+      },
       "neutral": {
         "10": {
           "value": "#f3f5f6"

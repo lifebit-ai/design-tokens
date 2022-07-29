@@ -6,6 +6,7 @@
   },
   "color": {
     "base": {
+      "transparent": "rgba(0, 0, 0, 0)",
       "neutral": {
         "10": "#f3f5f6",
         "20": "#e4e7eb",
@@ -177,23 +178,23 @@
         "tertiary": {
           "background": {
             "action": {
-              "default": "none",
+              "default": "rgba(0, 0, 0, 0)",
               "hover": "#e4e7eb",
               "pressed": "#e4e7eb"
             },
             "danger": {
-              "default": "none",
+              "default": "rgba(0, 0, 0, 0)",
               "hover": "#e4e7eb",
               "pressed": "#e4e7eb"
             },
-            "disabled": "none"
+            "disabled": "rgba(0, 0, 0, 0)"
           },
           "content": {
             "action": "#2c72db",
             "danger": "#c32420",
             "disabled": "#b4b9bf"
           },
-          "border": "none"
+          "border": "rgba(0, 0, 0, 0)"
         }
       },
       "size": {
@@ -237,10 +238,10 @@
     "pagination": {
       "color": {
         "background": {
-          "default": "none",
+          "default": "rgba(0, 0, 0, 0)",
           "hover": "#e4e7eb",
           "active": "#e4e7eb",
-          "disabled": "none",
+          "disabled": "rgba(0, 0, 0, 0)",
           "simple": "#ffffff"
         },
         "content": {
@@ -251,11 +252,11 @@
           "disabled": "#b4b9bf"
         },
         "border": {
-          "default": "none",
-          "hover": "none",
-          "active": "none",
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "rgba(0, 0, 0, 0)",
+          "active": "rgba(0, 0, 0, 0)",
           "selected": "#2c72db",
-          "disabled": "none",
+          "disabled": "rgba(0, 0, 0, 0)",
           "simple": "#b4b9bf"
         }
       },
@@ -269,8 +270,8 @@
     "tab": {
       "color": {
         "background": {
-          "default": "none",
-          "hover": "none",
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "rgba(0, 0, 0, 0)",
           "pressed": "#e4e7eb"
         },
         "content": "#0c0c0c",

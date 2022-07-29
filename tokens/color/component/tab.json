@@ -4,10 +4,10 @@
       "color": {
         "background": {
           "default": {
-            "value": "none"
+            "value": "{color.base.transparent}"
           },
           "hover": {
-            "value": "none"
+            "value": "{color.base.transparent}"
           },
           "pressed": {
             "value": "{color.background.highlight.value}"
