@@ -9,7 +9,7 @@
                 "value": "{color.base.transparent}"
               },
               "hover": {
-                "value": "{color.background.highlight.value}"
+                "value": "{color.background.main.value}"
               },
               "pressed": {
                 "value": "{color.background.highlight.value}"
@@ -20,7 +20,7 @@
                 "value": "{color.base.transparent}"
               },
               "hover": {
-                "value": "{color.background.highlight.value}"
+                "value": "{color.background.main.value}"
               },
               "pressed": {
                 "value": "{color.background.highlight.value}"
