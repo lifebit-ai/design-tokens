@@ -9,6 +9,19 @@
           "radius": {
             "value": "{size.border.radius.02.value}"
           }
+        },
+        "padding": {
+          "horizontal": {
+            "large": {
+              "value": "{size.space.04}"
+            },
+            "medium": {
+              "value": "{size.space.04}"
+            },
+            "inline": {
+              "value": "0"
+            }
+          }
         }
       }
     }

@@ -201,6 +201,13 @@
         "border": {
           "weight": "1px",
           "radius": "160px"
+        },
+        "padding": {
+          "horizontal": {
+            "large": "12px",
+            "medium": "12px",
+            "inline": "0"
+          }
         }
       }
     },
