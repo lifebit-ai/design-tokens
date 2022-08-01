@@ -2,7 +2,11 @@
   "transition": {
     "005": "0.05s ease",
     "01": "0.1s ease",
-    "02": "0.2s ease"
+    "02": "0.2s ease",
+    "component": {
+      "overlay": "0.2s linear",
+      "switch": "0.1s linear"
+    }
   },
   "color": {
     "base": {
@@ -158,12 +162,12 @@
           "background": {
             "action": {
               "default": "#0c0c0c",
-              "hover": "#34383b",
+              "hover": "#000000",
               "pressed": "#34383b"
             },
             "danger": {
               "default": "#0c0c0c",
-              "hover": "#34383b",
+              "hover": "#000000",
               "pressed": "#34383b"
             },
             "disabled": "#0c0c0c"
@@ -179,12 +183,12 @@
           "background": {
             "action": {
               "default": "rgba(0, 0, 0, 0)",
-              "hover": "#34383b",
+              "hover": "#000000",
               "pressed": "#34383b"
             },
             "danger": {
               "default": "rgba(0, 0, 0, 0)",
-              "hover": "#34383b",
+              "hover": "#000000",
               "pressed": "#34383b"
             },
             "disabled": "rgba(0, 0, 0, 0)"
@@ -246,7 +250,7 @@
       "color": {
         "background": {
           "default": "rgba(0, 0, 0, 0)",
-          "hover": "#34383b",
+          "hover": "#000000",
           "active": "#34383b",
           "disabled": "rgba(0, 0, 0, 0)",
           "simple": "#0c0c0c"
