@@ -17,6 +17,11 @@
           "radius": {
             "value": "{size.border.radius.03.value}"
           }
+        },
+        "position": {
+          "top": {
+            "value": "5%"
+          }
         }
       }
     }
