@@ -375,7 +375,7 @@
   },
   "font": {
     "body": {
-      "family": "Open Sans",
+      "family": "-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
       "fontSize": {
         "large": "22px",
         "normal": "18px",
@@ -403,7 +403,7 @@
       }
     },
     "code": {
-      "family": "Courier Prime",
+      "family": "ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;",
       "fontSize": {
         "large": "16px",
         "normal": "14px"
@@ -426,11 +426,11 @@
       }
     },
     "family": {
-      "main": "Open Sans",
-      "code": "Courier Prime"
+      "main": "-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "code": "ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;"
     },
     "heading": {
-      "family": "Open Sans",
+      "family": "-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
       "fontSize": {
         "display": "40px",
         "xlarge": "32px",
@@ -473,7 +473,7 @@
       }
     },
     "label": {
-      "family": "Open Sans",
+      "family": "-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
       "fontSize": {
         "large": "16px",
         "default": "14px"
@@ -510,7 +510,7 @@
       "04": "1.75"
     },
     "table": {
-      "family": "Open Sans",
+      "family": "-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
       "fontSize": {
         "default": "14px",
         "compact": "13px"
@@ -541,6 +541,7 @@
     "weight": {
       "light": "300",
       "regular": "400",
+      "medium": "500",
       "semibold": "600",
       "bold": "700",
       "extrabold": "800"
