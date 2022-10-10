@@ -295,19 +295,22 @@
     "table": {
       "color": {
         "background": {
-          "default": "#e4e7eb",
+          "default": "#ffffff",
           "hover": "#e4e7eb",
-          "selected": "#dff3ff"
+          "selected": "#dff3ff",
+          "header": "#ffffff",
+          "zebra": "#f6f8fc"
         },
         "border": {
           "default": "#ffffff",
-          "header": "#0198f5"
+          "selected": "#0198f5"
         }
       },
       "size": {
         "cell": {
           "min-width": "130px",
           "min-height": "28px",
+          "icon": "16px",
           "padding": {
             "horizontal": {
               "default": "8px",
@@ -319,8 +322,13 @@
             }
           },
           "border": {
-            "default": "0px",
-            "none": "0"
+            "weight": {
+              "default": "0px",
+              "none": "0"
+            },
+            "radius": {
+              "header": "8px"
+            }
           }
         }
       }
@@ -558,6 +566,8 @@
         "01": "2px",
         "02": "4px",
         "03": "8px",
+        "04": "12px",
+        "05": "16px",
         "round": "160px"
       }
     },

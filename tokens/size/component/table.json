@@ -9,6 +9,9 @@
           "min-height": {
             "value": "28px"
           },
+          "icon": {
+            "value": "{size.icon.small.value}"
+          },
           "padding": {
             "horizontal": {
               "default": {
@@ -28,11 +31,18 @@
             }
           },
           "border": {
-            "default": {
-              "value": "{size.border.weight.005.value}"
+            "weight": {
+              "default": {
+                "value": "{size.border.weight.005.value}"
+              },
+              "none": {
+                "value": "0"
+              }
             },
-            "none": {
-              "value": "0"
+            "radius": {
+              "header": {
+                "value": "{size.border.radius.03.value}"
+              }
             }
           }
         }
