@@ -13,6 +13,12 @@
         },
         "subtle": {
           "value": "{color.base.blue.90.value}"
+        },
+        "subtle-hover": {
+          "value": "{color.base.blue.80.value}"
+        },
+        "subtle-active": {
+          "value": "{color.base.blue.70.value}"
         }
       },
       "danger": {
@@ -27,6 +33,12 @@
         },
         "subtle": {
           "value": "{color.base.red.90.value}"
+        },
+        "subtle-hover": {
+          "value": "{color.base.red.80.value}"
+        },
+        "subtle-active": {
+          "value": "{color.base.red.70.value}"
         }
       },
       "warning": {

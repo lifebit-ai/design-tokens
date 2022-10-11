@@ -6,24 +6,24 @@
           "background": {
             "action": {
               "default": {
-                "value": "{color.background.surface.value}"
+                "value": "{color.feedback.action.subtle.value}"
               },
               "hover": {
-                "value": "{color.background.main.value}"
+                "value": "{color.feedback.action.subtle-hover.value}"
               },
               "pressed": {
-                "value": "{color.background.highlight.value}"
+                "value": "{color.feedback.action.subtle-active.value}"
               }
             },
             "danger": {
               "default": {
-                "value": "{color.background.surface.value}"
+                "value": "{color.feedback.danger.subtle.value}"
               },
               "hover": {
-                "value": "{color.background.main.value}"
+                "value": "{color.feedback.danger.subtle-hover.value}"
               },
               "pressed": {
-                "value": "{color.background.highlight.value}"
+                "value": "{color.feedback.danger.subtle-active.value}"
               }
             },
             "disabled": {
@@ -42,7 +42,7 @@
             }
           },
           "border": {
-            "value": "{color.border.default.value}"
+            "value": "{color.base.transparent.value}"
           }
         }
       }

@@ -9,10 +9,10 @@
                 "value": "{color.base.transparent.value}"
               },
               "hover": {
-                "value": "{color.background.main.value}"
+                "value": "{color.feedback.action.subtle-hover.value}"
               },
               "pressed": {
-                "value": "{color.background.highlight.value}"
+                "value": "{color.feedback.action.subtle-active.value}"
               }
             },
             "danger": {
@@ -20,10 +20,10 @@
                 "value": "{color.base.transparent.value}"
               },
               "hover": {
-                "value": "{color.background.main.value}"
+                "value": "{color.feedback.danger.subtle-hover.value}"
               },
               "pressed": {
-                "value": "{color.background.highlight.value}"
+                "value": "{color.feedback.danger.subtle-active.value}"
               }
             },
             "disabled": {

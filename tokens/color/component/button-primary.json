@@ -42,7 +42,7 @@
             }
           },
           "border": {
-            "value": "{color.border.subtle.value}"
+            "value": "{color.base.transparent.value}"
           }
         }
       }

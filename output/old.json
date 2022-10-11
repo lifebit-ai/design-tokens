@@ -112,13 +112,17 @@
         "default": "#0198f5",
         "hover": "#11a4fe",
         "pressed": "#096dd9",
-        "subtle": "#dff3ff"
+        "subtle": "#dff3ff",
+        "subtle-hover": "#c0dff6",
+        "subtle-active": "#98c6ef"
       },
       "danger": {
         "default": "#ff0d0d",
         "hover": "#fa5e5b",
         "pressed": "#d40000",
-        "subtle": "#ffffff"
+        "subtle": "#ffffff",
+        "subtle-hover": "#ffc0bf",
+        "subtle-active": "#ff8d8b"
       },
       "warning": {
         "default": "#f0ad4e",
@@ -161,14 +165,14 @@
         "secondary": {
           "background": {
             "action": {
-              "default": "#ffffff",
-              "hover": "#f6f8fc",
-              "pressed": "#e4e7eb"
+              "default": "#dff3ff",
+              "hover": "#c0dff6",
+              "pressed": "#98c6ef"
             },
             "danger": {
               "default": "#ffffff",
-              "hover": "#f6f8fc",
-              "pressed": "#e4e7eb"
+              "hover": "#ffc0bf",
+              "pressed": "#ff8d8b"
             },
             "disabled": "#ffffff"
           },
@@ -177,19 +181,19 @@
             "danger": "#ff0d0d",
             "disabled": "#c2cede"
           },
-          "border": "#7b92a7"
+          "border": "rgba(0, 0, 0, 0)"
         },
         "tertiary": {
           "background": {
             "action": {
               "default": "rgba(0, 0, 0, 0)",
-              "hover": "#f6f8fc",
-              "pressed": "#e4e7eb"
+              "hover": "#c0dff6",
+              "pressed": "#98c6ef"
             },
             "danger": {
               "default": "rgba(0, 0, 0, 0)",
-              "hover": "#f6f8fc",
-              "pressed": "#e4e7eb"
+              "hover": "#ffc0bf",
+              "pressed": "#ff8d8b"
             },
             "disabled": "rgba(0, 0, 0, 0)"
           },
@@ -253,7 +257,7 @@
           "hover": "#ffffff",
           "active": "#ffffff",
           "disabled": "#ffffff",
-          "simple": "#ffffff"
+          "simple": "#dff3ff"
         },
         "content": {
           "default": "rgba(0, 0, 0, 0.65)",

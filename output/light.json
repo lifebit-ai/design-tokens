@@ -112,13 +112,17 @@
         "default": "#2c72db",
         "hover": "#0954ad",
         "pressed": "#04447f",
-        "subtle": "#eaf5fc"
+        "subtle": "#eaf5fc",
+        "subtle-hover": "#c0dff6",
+        "subtle-active": "#98c6ef"
       },
       "danger": {
         "default": "#c32420",
         "hover": "#a01511",
         "pressed": "#7a0c08",
-        "subtle": "#fcf0f0"
+        "subtle": "#fcf0f0",
+        "subtle-hover": "#ffc0bf",
+        "subtle-active": "#ff8d8b"
       },
       "warning": {
         "default": "#dca100",
@@ -156,19 +160,19 @@
             "danger": "#ffffff",
             "disabled": "#ffffff"
           },
-          "border": "rgba(0, 0, 0, 0.1)"
+          "border": "rgba(0, 0, 0, 0)"
         },
         "secondary": {
           "background": {
             "action": {
-              "default": "#ffffff",
-              "hover": "#f3f5f6",
-              "pressed": "#e4e7eb"
+              "default": "#eaf5fc",
+              "hover": "#c0dff6",
+              "pressed": "#98c6ef"
             },
             "danger": {
-              "default": "#ffffff",
-              "hover": "#f3f5f6",
-              "pressed": "#e4e7eb"
+              "default": "#fcf0f0",
+              "hover": "#ffc0bf",
+              "pressed": "#ff8d8b"
             },
             "disabled": "#ffffff"
           },
@@ -177,19 +181,19 @@
             "danger": "#c32420",
             "disabled": "#b4b9bf"
           },
-          "border": "#b4b9bf"
+          "border": "rgba(0, 0, 0, 0)"
         },
         "tertiary": {
           "background": {
             "action": {
               "default": "rgba(0, 0, 0, 0)",
-              "hover": "#f3f5f6",
-              "pressed": "#e4e7eb"
+              "hover": "#c0dff6",
+              "pressed": "#98c6ef"
             },
             "danger": {
               "default": "rgba(0, 0, 0, 0)",
-              "hover": "#f3f5f6",
-              "pressed": "#e4e7eb"
+              "hover": "#ffc0bf",
+              "pressed": "#ff8d8b"
             },
             "disabled": "rgba(0, 0, 0, 0)"
           },
@@ -204,7 +208,7 @@
       "size": {
         "border": {
           "weight": "1px",
-          "radius": "4px"
+          "radius": "8px"
         },
         "padding": {
           "horizontal": {
@@ -250,10 +254,10 @@
       "color": {
         "background": {
           "default": "rgba(0, 0, 0, 0)",
-          "hover": "#f3f5f6",
-          "active": "#e4e7eb",
+          "hover": "#c0dff6",
+          "active": "#98c6ef",
           "disabled": "rgba(0, 0, 0, 0)",
-          "simple": "#ffffff"
+          "simple": "#eaf5fc"
         },
         "content": {
           "default": "#0c0c0c",
