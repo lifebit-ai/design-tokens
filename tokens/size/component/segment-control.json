@@ -2,30 +2,26 @@
   "component": {
     "segment-control": {
       "size": {
-        "button": {
-          "height": {
-            "value": "{size.space.01.value}"
-          },
-          "padding": {
-            "horizontal": {
-              "value": "{size.space.03.value}"
-            }
-          },
-          "border": {
-            "radius": {
-              "value": "{size.border.radius.02.value}"
-            }
-          }
+        "height": {
+          "value": "{size.space.01.value}"
         },
-        "container": {
-          "padding": {
-            "value": "{size.space.02.value}"
-          },
-          "gap": {
+        "gap": {
+          "value": "{size.space.03.value}"
+        },
+        "padding": {
+          "button": {
             "value": "{size.space.03.value}"
           },
-          "border": {
-            "radius": {
+          "container": {
+            "value": "{size.space.02.value}"
+          }
+        },
+        "border": {
+          "radius": {
+            "button": {
+              "value": "{size.border.radius.02.value}"
+            },
+            "container": {
               "value": "{size.border.radius.03.value}"
             }
           }

@@ -294,20 +294,16 @@
         }
       },
       "size": {
-        "button": {
-          "height": "2px",
-          "padding": {
-            "horizontal": "8px"
-          },
-          "border": {
-            "radius": "4px"
-          }
+        "height": "2px",
+        "gap": "8px",
+        "padding": {
+          "button": "8px",
+          "container": "4px"
         },
-        "container": {
-          "padding": "4px",
-          "gap": "8px",
-          "border": {
-            "radius": "8px"
+        "border": {
+          "radius": {
+            "button": "4px",
+            "container": "8px"
           }
         }
       }
