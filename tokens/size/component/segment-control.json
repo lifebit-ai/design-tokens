@@ -1,0 +1,36 @@
+{
+  "component": {
+    "segment-control": {
+      "size": {
+        "button": {
+          "height": {
+            "value": "{size.space.01.value}"
+          },
+          "padding": {
+            "horizontal": {
+              "value": "{size.space.03.value}"
+            }
+          },
+          "border": {
+            "radius": {
+              "value": "{size.border.radius.02.value}"
+            }
+          }
+        },
+        "container": {
+          "padding": {
+            "value": "{size.space.02.value}"
+          },
+          "gap": {
+            "value": "{size.space.03.value}"
+          },
+          "border": {
+            "radius": {
+              "value": "{size.border.radius.03.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

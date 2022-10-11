@@ -13,10 +13,10 @@
         "padding": {
           "horizontal": {
             "large": {
-              "value": "{size.space.04}"
+              "value": "{size.space.04.value}"
             },
             "medium": {
-              "value": "{size.space.04}"
+              "value": "{size.space.04.value}"
             },
             "inline": {
               "value": "0"

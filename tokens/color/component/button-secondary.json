@@ -38,7 +38,7 @@
               "value": "{color.feedback.danger.default.value}"
             },
             "disabled": {
-              "value": "{color.content.disabled}"
+              "value": "{color.content.disabled.value}"
             }
           },
           "border": {

@@ -4,7 +4,7 @@
       "color": {
         "background": {
           "default": {
-            "value": "{color.base.transparent}"
+            "value": "{color.base.transparent.value}"
           },
           "hover": {
             "value": "{component.button.color.secondary.background.action.hover.value}"
@@ -13,7 +13,7 @@
             "value": "{component.button.color.secondary.background.action.pressed.value}"
           },
           "disabled": {
-            "value": "{color.base.transparent}"
+            "value": "{color.base.transparent.value}"
           },
           "simple": {
             "value": "{component.button.color.secondary.background.action.default.value}"
@@ -38,19 +38,19 @@
         },
         "border": {
           "default": {
-            "value": "{color.base.transparent}"
+            "value": "{color.base.transparent.value}"
           },
           "hover": {
-            "value": "{color.base.transparent}"
+            "value": "{color.base.transparent.value}"
           },
           "active": {
-            "value": "{color.base.transparent}"
+            "value": "{color.base.transparent.value}"
           },
           "selected": {
             "value": "{color.feedback.action.default.value}"
           },
           "disabled": {
-            "value": "{color.base.transparent}"
+            "value": "{color.base.transparent.value}"
           },
           "simple": {
             "value": "{color.border.default.value}"

@@ -6,7 +6,7 @@
           "background": {
             "action": {
               "default": {
-                "value": "{color.base.transparent}"
+                "value": "{color.base.transparent.value}"
               },
               "hover": {
                 "value": "{color.background.main.value}"
@@ -17,7 +17,7 @@
             },
             "danger": {
               "default": {
-                "value": "{color.base.transparent}"
+                "value": "{color.base.transparent.value}"
               },
               "hover": {
                 "value": "{color.background.main.value}"
@@ -27,7 +27,7 @@
               }
             },
             "disabled": {
-              "value": "{color.base.transparent}"
+              "value": "{color.base.transparent.value}"
             }
           },
           "content": {
@@ -42,7 +42,7 @@
             }
           },
           "border": {
-            "value": "{color.base.transparent}"
+            "value": "{color.base.transparent.value}"
           }
         }
       }
