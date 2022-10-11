@@ -317,12 +317,26 @@
         "background": {
           "default": "rgba(0, 0, 0, 0)",
           "hover": "rgba(0, 0, 0, 0)",
-          "pressed": "#e4e7eb"
+          "active": "#e4e7eb"
         },
         "content": "#4a637b",
         "border": {
           "default": "#ffffff",
-          "active": "#0198f5"
+          "selected": "#0198f5"
+        }
+      },
+      "size": {
+        "height": {
+          "default": "48px",
+          "small": "40px"
+        },
+        "gap": {
+          "default": "32px",
+          "small": "16px"
+        },
+        "border": {
+          "default": "0px",
+          "selected": "2px"
         }
       }
     },

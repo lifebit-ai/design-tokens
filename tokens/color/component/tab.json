@@ -9,7 +9,7 @@
           "hover": {
             "value": "{color.base.transparent.value}"
           },
-          "pressed": {
+          "active": {
             "value": "{color.background.highlight.value}"
           }
         },
@@ -20,7 +20,7 @@
           "default": {
             "value": "{color.border.subtle.value}"
           },
-          "active": {
+          "selected": {
             "value": "{color.feedback.action.default.value}"
           }
         }

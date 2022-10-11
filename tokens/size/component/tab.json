@@ -1,0 +1,32 @@
+{
+  "component": {
+    "tab": {
+      "size": {
+        "height": {
+          "default": {
+            "value": "{size.09.value}"
+          },
+          "small": {
+            "value": "{size.08.value}"
+          }
+        },
+        "gap": {
+          "default": {
+            "value": "{size.space.07.value}"
+          },
+          "small": {
+            "value": "{size.space.05.value}"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{size.border.weight.005.value}"
+          },
+          "selected": {
+            "value": "{size.border.weight.01.value}"
+          }
+        }
+      }
+    }
+  }
+}
