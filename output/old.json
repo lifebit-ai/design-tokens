@@ -278,6 +278,40 @@
         }
       }
     },
+    "segment-control": {
+      "color": {
+        "background": {
+          "default": "#f6f8fc",
+          "hover": "#e4e7eb",
+          "active": "#b4b9bf",
+          "selected": "#ffffff"
+        },
+        "border": {
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "rgba(0, 0, 0, 0)",
+          "active": "rgba(0, 0, 0, 0)",
+          "selected": "#7b92a7"
+        }
+      },
+      "size": {
+        "button": {
+          "height": "2px",
+          "padding": {
+            "horizontal": "8px"
+          },
+          "border": {
+            "radius": "4px"
+          }
+        },
+        "container": {
+          "padding": "4px",
+          "gap": "8px",
+          "border": {
+            "radius": "8px"
+          }
+        }
+      }
+    },
     "tab": {
       "color": {
         "background": {
