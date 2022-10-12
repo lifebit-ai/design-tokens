@@ -1,5 +1,8 @@
 {
   "shadow": {
+    "focus": {
+      "value": "0px 0px 0px 1px #FFFFFF, 0px 0px 0px 4px rgba(78, 143, 226, 0.8)"
+    },
     "00": {
       "value": "none"
     },

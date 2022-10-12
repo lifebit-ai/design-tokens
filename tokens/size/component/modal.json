@@ -15,7 +15,7 @@
         },
         "border": {
           "radius": {
-            "value": "{size.border.radius.03.value}"
+            "value": "{size.border.radius.04.value}"
           }
         },
         "position": {
