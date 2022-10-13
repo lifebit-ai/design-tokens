@@ -496,11 +496,11 @@
         "xsmall": "1.35"
       },
       "letterSpacing": {
-        "display": "-1px",
-        "xlarge": "-1px",
-        "large": "-1px",
-        "medium": "-1px",
-        "small": "-1px",
+        "display": "0px",
+        "xlarge": "0px",
+        "large": "0px",
+        "medium": "0px",
+        "small": "0px",
         "xsmall": "-0.5px"
       },
       "fontWeight": {
