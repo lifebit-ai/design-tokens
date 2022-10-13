@@ -21,11 +21,11 @@
         "xsmall": { "value": "{font.lineheight.02.value}" }
       },
       "letterSpacing": {
-        "display": { "value": "{size.letterspacing.neg02.value}" },
-        "xlarge": { "value": "{size.letterspacing.neg02.value}" },
-        "large": { "value": "{size.letterspacing.neg02.value}" },
-        "medium": { "value": "{size.letterspacing.neg02.value}" },
-        "small": { "value": "{size.letterspacing.neg02.value}" },
+        "display": { "value": "{size.letterspacing.default.value}" },
+        "xlarge": { "value": "{size.letterspacing.default.value}" },
+        "large": { "value": "{size.letterspacing.default.value}" },
+        "medium": { "value": "{size.letterspacing.default.value}" },
+        "small": { "value": "{size.letterspacing.default.value}" },
         "xsmall": { "value": "{size.letterspacing.neg01.value}" }
       },
       "fontWeight": {
