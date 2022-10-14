@@ -22,7 +22,18 @@
           }
         },
         "content": {
-          "value": "{color.content.main.value}"
+          "main": {
+            "value": "{color.content.main.value}"
+          },
+          "placeholder": {
+            "value": "{color.content.subtle.value}"
+          },
+          "success": {
+            "value": "{color.feedback.success.default.value}"
+          },
+          "error": {
+            "value": "{color.feedback.danger.default.value}"
+          }
         },
         "border": {
           "default": {

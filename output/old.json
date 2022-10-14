@@ -230,7 +230,12 @@
             "disabled": "#b4b9bf"
           }
         },
-        "content": "#4a637b",
+        "content": {
+          "main": "#4a637b",
+          "placeholder": "#7b92a7",
+          "success": "#31c052",
+          "error": "#ff0d0d"
+        },
         "border": {
           "default": "#b9c8e7",
           "hover": "#b9c8e7",
@@ -241,6 +246,48 @@
           "active": {
             "default": "#0198f5",
             "hover": "#11a4fe"
+          }
+        }
+      },
+      "size": {
+        "height": {
+          "default": "40px",
+          "compact": "32px"
+        },
+        "padding": {
+          "horizontal": "8px",
+          "vertical": "8px"
+        },
+        "border": {
+          "weight": "0px",
+          "radius": "4px"
+        }
+      }
+    },
+    "label": {
+      "color": {
+        "content": {
+          "main": "#4a637b",
+          "hint": "#c2cede",
+          "success": "#31c052",
+          "error": "#ff0d0d"
+        }
+      },
+      "size": {
+        "padding": {
+          "horizontal": {
+            "xsmall": "4px",
+            "small": "8px"
+          },
+          "vertical": {
+            "default": {
+              "xsmall": "4px",
+              "small": "8px"
+            },
+            "compact": {
+              "xsmall": "2px",
+              "small": "4px"
+            }
           }
         }
       }

@@ -1,0 +1,36 @@
+{
+  "component": {
+    "label": {
+      "size": {
+        "padding": {
+          "horizontal": {
+            "xsmall": {
+              "value": "{size.space.02.value}"
+            },
+            "small": {
+              "value": "{size.space.03.value}"
+            }
+          },
+          "vertical": {
+            "default": {
+              "xsmall": {
+                "value": "{size.space.02.value}"
+              },
+              "small": {
+                "value": "{size.space.03.value}"
+              }
+            },
+            "compact": {
+              "xsmall": {
+                "value": "{size.space.01.value}"
+              },
+              "small": {
+                "value": "{size.space.02.value}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

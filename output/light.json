@@ -230,7 +230,12 @@
             "disabled": "#b4b9bf"
           }
         },
-        "content": "#0c0c0c",
+        "content": {
+          "main": "#0c0c0c",
+          "placeholder": "#8e969d",
+          "success": "#008820",
+          "error": "#c32420"
+        },
         "border": {
           "default": "#8e969d",
           "hover": "#8e969d",
@@ -241,6 +246,48 @@
           "active": {
             "default": "#2c72db",
             "hover": "#0954ad"
+          }
+        }
+      },
+      "size": {
+        "height": {
+          "default": "40px",
+          "compact": "32px"
+        },
+        "padding": {
+          "horizontal": "8px",
+          "vertical": "8px"
+        },
+        "border": {
+          "weight": "1px",
+          "radius": "4px"
+        }
+      }
+    },
+    "label": {
+      "color": {
+        "content": {
+          "main": "#0c0c0c",
+          "hint": "#6f777c",
+          "success": "#008820",
+          "error": "#c32420"
+        }
+      },
+      "size": {
+        "padding": {
+          "horizontal": {
+            "xsmall": "4px",
+            "small": "8px"
+          },
+          "vertical": {
+            "default": {
+              "xsmall": "4px",
+              "small": "8px"
+            },
+            "compact": {
+              "xsmall": "2px",
+              "small": "4px"
+            }
           }
         }
       }
