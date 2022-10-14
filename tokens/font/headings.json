@@ -26,7 +26,7 @@
         "large": { "value": "{size.letterspacing.default.value}" },
         "medium": { "value": "{size.letterspacing.default.value}" },
         "small": { "value": "{size.letterspacing.default.value}" },
-        "xsmall": { "value": "{size.letterspacing.neg01.value}" }
+        "xsmall": { "value": "{size.letterspacing.pos01.value}" }
       },
       "fontWeight": {
         "display": { "value": "{font.weight.bold.value}" },
@@ -34,7 +34,7 @@
         "large": { "value": "{font.weight.semibold.value}" },
         "medium": { "value": "{font.weight.semibold.value}" },
         "small": { "value": "{font.weight.semibold.value}" },
-        "xsmall": { "value": "{font.weight.semibold.value}" }
+        "xsmall": { "value": "{font.weight.bold.value}" }
       },
       "textTransform": {
         "display": { "value": "{font.transform.none.value}" },

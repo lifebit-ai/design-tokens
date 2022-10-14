@@ -548,7 +548,7 @@
         "large": "0px",
         "medium": "0px",
         "small": "0px",
-        "xsmall": "-0.5px"
+        "xsmall": "0.5px"
       },
       "fontWeight": {
         "display": "700",
@@ -556,7 +556,7 @@
         "large": "600",
         "medium": "600",
         "small": "600",
-        "xsmall": "600"
+        "xsmall": "700"
       },
       "textTransform": {
         "display": "none",
