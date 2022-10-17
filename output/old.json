@@ -219,6 +219,51 @@
         }
       }
     },
+    "dropdown": {
+      "color": {
+        "background": {
+          "container": "#f6f8fc",
+          "list-item": {
+            "default": "#ffffff",
+            "hover": "#f6f8fc",
+            "active": "#e4e7eb",
+            "disabled": "#ffffff"
+          }
+        },
+        "content": {
+          "list-item": {
+            "default": "#4a637b",
+            "disabled": "#c2cede"
+          }
+        },
+        "border": {
+          "container": "#ffffff",
+          "header": "#ffffff"
+        }
+      },
+      "shadow": {
+        "container": "0px 0.3px 0.8px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.24)"
+      },
+      "size": {
+        "border": {
+          "weight": {
+            "container": "0px"
+          },
+          "radius": {
+            "container": "8px",
+            "list-item": "4px"
+          }
+        },
+        "padding": {
+          "container": "8px"
+        },
+        "height": {
+          "list-item": {
+            "compact": "32px"
+          }
+        }
+      }
+    },
     "input": {
       "color": {
         "background": {
