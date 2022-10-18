@@ -2,6 +2,9 @@
   "component": {
     "dropdown": {
       "size": {
+        "gap": {
+          "value": "{size.02.value}"
+        },
         "border": {
           "weight": {
             "container": {
@@ -20,13 +23,26 @@
         "padding": {
           "container": {
             "value": "{size.space.03.value}"
+          },
+          "list-item": {
+            "horizontal": {
+              "value": "{size.space.03.value}"
+            }
           }
         },
         "height": {
           "list-item": {
+            "default": {
+              "value": "{size.08.value}"
+            },
             "compact": {
               "value": "{size.07.value}"
             }
+          }
+        },
+        "width": {
+          "container": {
+            "value": "112px"
           }
         }
       }

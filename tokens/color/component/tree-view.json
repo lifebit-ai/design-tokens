@@ -1,0 +1,27 @@
+{
+  "component": {
+    "tree-view": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{color.background.surface.value}"
+          },
+          "hover": {
+            "value": "{color.background.main.value}"
+          },
+          "selected": {
+            "value": "{color.background.main.value}"
+          },
+          "indicator": {
+            "value": "{color.feedback.action.default.value}"
+          }
+        },
+        "content": {
+          "main": {
+            "value": "{color.content.main.value}"
+          }
+        }
+      }
+    }
+  }
+}

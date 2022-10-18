@@ -165,14 +165,14 @@
         "secondary": {
           "background": {
             "action": {
-              "default": "#dff3ff",
-              "hover": "#c0dff6",
-              "pressed": "#98c6ef"
+              "default": "#ffffff",
+              "hover": "#f6f8fc",
+              "pressed": "#e4e7eb"
             },
             "danger": {
               "default": "#ffffff",
-              "hover": "#ffc0bf",
-              "pressed": "#ff8d8b"
+              "hover": "#f6f8fc",
+              "pressed": "#e4e7eb"
             },
             "disabled": "#ffffff"
           },
@@ -245,6 +245,7 @@
         "container": "0px 0.3px 0.8px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.24)"
       },
       "size": {
+        "gap": "4px",
         "border": {
           "weight": {
             "container": "0px"
@@ -255,12 +256,19 @@
           }
         },
         "padding": {
-          "container": "8px"
+          "container": "8px",
+          "list-item": {
+            "horizontal": "8px"
+          }
         },
         "height": {
           "list-item": {
+            "default": "40px",
             "compact": "32px"
           }
+        },
+        "width": {
+          "container": "112px"
         }
       }
     },
@@ -349,7 +357,7 @@
           "hover": "#ffffff",
           "active": "#ffffff",
           "disabled": "#ffffff",
-          "simple": "#dff3ff"
+          "simple": "#ffffff"
         },
         "content": {
           "default": "rgba(0, 0, 0, 0.65)",
@@ -469,6 +477,42 @@
             "radius": {
               "header": "8px"
             }
+          }
+        }
+      }
+    },
+    "tree-view": {
+      "color": {
+        "background": {
+          "default": "#ffffff",
+          "hover": "#f6f8fc",
+          "selected": "#f6f8fc",
+          "indicator": "#0198f5"
+        },
+        "content": {
+          "main": "#4a637b"
+        }
+      },
+      "size": {
+        "padding": {
+          "horizontal": "8px"
+        },
+        "space": {
+          "gap": "4px"
+        },
+        "height": {
+          "node": {
+            "default": "32px"
+          },
+          "indicator": "24px"
+        },
+        "width": {
+          "indicator": "4px"
+        },
+        "border": {
+          "radius": {
+            "node": "8px",
+            "indicator": "2px"
           }
         }
       }
