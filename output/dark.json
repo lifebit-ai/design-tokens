@@ -139,6 +139,28 @@
     }
   },
   "component": {
+    "button-inline": {
+      "color": {
+        "primary": {
+          "action": {
+            "default": "#4e8fe2",
+            "hover": "#72ace8",
+            "pressed": "#98c6ef"
+          },
+          "danger": {
+            "default": "#fa5e5b",
+            "hover": "#ff8d8b",
+            "pressed": "#ffc0bf"
+          },
+          "disabled": "#54585e"
+        }
+      },
+      "size": {
+        "space": {
+          "horizontal": "size.space.02.value"
+        }
+      }
+    },
     "button": {
       "color": {
         "primary": {
@@ -213,8 +235,8 @@
         "padding": {
           "horizontal": {
             "large": "12px",
-            "medium": "12px",
-            "inline": "0"
+            "medium": "8px",
+            "inline": "size.space.02.value"
           }
         }
       }
@@ -514,6 +536,14 @@
             "node": "8px",
             "indicator": "2px"
           }
+        }
+      }
+    },
+    "filter-chips": {
+      "size": {
+        "height": {
+          "normal": "32px",
+          "condensed": "32px"
         }
       }
     },

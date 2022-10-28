@@ -1,0 +1,35 @@
+{
+  "component": {
+    "button-inline": {
+      "color": {
+        "primary": {
+          "action": {
+            "default": {
+              "value": "{color.feedback.action.default.value}"
+            },
+            "hover": {
+              "value": "{color.feedback.action.hover.value}"
+            },
+            "pressed": {
+              "value": "{color.feedback.action.pressed.value}"
+            }
+          },
+          "danger": {
+            "default": {
+              "value": "{color.feedback.danger.default.value}"
+            },
+            "hover": {
+              "value": "{color.feedback.danger.hover.value}"
+            },
+            "pressed": {
+              "value": "{color.feedback.danger.pressed.value}"
+            }
+          },
+          "disabled": {
+            "value": "{color.background.disabled.value}"
+          }
+        }
+      }
+    }
+  }
+}

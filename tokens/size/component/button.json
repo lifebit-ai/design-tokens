@@ -16,10 +16,10 @@
               "value": "{size.space.04.value}"
             },
             "medium": {
-              "value": "{size.space.04.value}"
+              "value": "{size.space.03.value}"
             },
             "inline": {
-              "value": "0"
+              "value": "size.space.02.value"
             }
           }
         }
