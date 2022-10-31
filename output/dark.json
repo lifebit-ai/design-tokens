@@ -196,7 +196,7 @@
               "hover": "#7a0c08",
               "pressed": "#a01511"
             },
-            "disabled": "#0c0c0c"
+            "disabled": "#000000"
           },
           "content": {
             "action": "#4e8fe2",

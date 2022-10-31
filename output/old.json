@@ -203,7 +203,7 @@
             "danger": "#ff0d0d",
             "disabled": "#c2cede"
           },
-          "border": "rgba(0, 0, 0, 0)"
+          "border": "#c2cede"
         },
         "tertiary": {
           "background": {

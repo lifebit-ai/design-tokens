@@ -27,7 +27,7 @@
               }
             },
             "disabled": {
-              "value": "{color.background.surface.value}"
+              "value": "{color.background.main.value}"
             }
           },
           "content": {
