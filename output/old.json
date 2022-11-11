@@ -334,7 +334,7 @@
           "vertical": "8px"
         },
         "border": {
-          "weight": "0px",
+          "weight": "1px",
           "radius": "4px"
         }
       }
