@@ -515,11 +515,13 @@
       },
       "size": {
         "position": "24px",
+        "min-width": "290px",
         "max-width": "568px",
         "padding": {
           "horizontal": "16px",
           "vertical": "16px"
         },
+        "space": "32px",
         "border": {
           "radius": "12px"
         }
