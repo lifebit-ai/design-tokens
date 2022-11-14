@@ -5,6 +5,9 @@
         "position": {
           "value": "{size.06.value}"
         },
+        "min-width": {
+          "value": "290px"
+        },
         "max-width": {
           "value": "568px"
         },
@@ -15,6 +18,9 @@
           "vertical": {
             "value": "{size.space.05.value}"
           }
+        },
+        "space": {
+          "value": "{size.space.07.value}"
         },
         "border": {
           "radius": {
