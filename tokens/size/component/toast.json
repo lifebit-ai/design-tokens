@@ -1,0 +1,24 @@
+{
+  "component": {
+    "toast": {
+      "size": {
+        "height": {
+          "value": "{size.10.value}"
+        },
+        "position": {
+          "value": "{size.06.value}"
+        },
+        "padding": {
+          "horizontal": {
+            "value": "{size.space.05.value}"
+          }
+        },
+        "border": {
+          "radius": {
+            "value": "{size.border.radius.04.value}"
+          }
+        }
+      }
+    }
+  }
+}

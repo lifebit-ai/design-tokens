@@ -503,6 +503,27 @@
         }
       }
     },
+    "toast": {
+      "color": {
+        "background": "#000000",
+        "content": "#ffffff",
+        "action": "#ffffff",
+        "loading-indicator": "#b9c8e7"
+      },
+      "shadow": {
+        "container": "0px 0.5px 1.9px rgba(0, 0, 0, 0.12), 0px 4px 16px rgba(0, 0, 0, 0.24)"
+      },
+      "size": {
+        "height": "56px",
+        "position": "24px",
+        "padding": {
+          "horizontal": "16px"
+        },
+        "border": {
+          "radius": "12px"
+        }
+      }
+    },
     "tree-view": {
       "color": {
         "background": {
