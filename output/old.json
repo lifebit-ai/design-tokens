@@ -517,7 +517,8 @@
         "height": "56px",
         "position": "24px",
         "padding": {
-          "horizontal": "16px"
+          "horizontal": "16px",
+          "vertical": "16px"
         },
         "border": {
           "radius": "12px"
@@ -828,6 +829,24 @@
       "medium": "16px",
       "large": "18px"
     },
+    "breakpoint": {
+      "sm": "600px",
+      "md": "905px",
+      "lg": "1240px",
+      "xl": "1440px"
+    },
+    "gutter": {
+      "sm": "16px",
+      "md": "24px",
+      "lg": "24px",
+      "xl": "24px"
+    },
+    "margin": {
+      "sm": "16px",
+      "md": "32px",
+      "lg": "32px",
+      "xl": "32px"
+    },
     "icon": {
       "small": "16px",
       "medium": "24px"
@@ -863,6 +882,12 @@
       "06": "96px",
       "07": "160px"
     }
+  },
+  "columns": {
+    "sm": "8",
+    "md": "12",
+    "lg": "12",
+    "xl": "12"
   },
   "z-index": {
     "black-hole": "-999999",
