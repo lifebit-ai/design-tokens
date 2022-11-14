@@ -514,8 +514,8 @@
         "container": "0px 0.5px 1.9px rgba(0, 0, 0, 0.12), 0px 4px 16px rgba(0, 0, 0, 0.24)"
       },
       "size": {
-        "height": "56px",
         "position": "24px",
+        "max-width": "568px",
         "padding": {
           "horizontal": "16px",
           "vertical": "16px"
@@ -835,17 +835,24 @@
       "lg": "1240px",
       "xl": "1440px"
     },
-    "gutter": {
-      "sm": "16px",
-      "md": "24px",
-      "lg": "24px",
-      "xl": "24px"
+    "body": {
+      "sm": "100px",
+      "md": "840px",
+      "lg": "1240px",
+      "xl": "1440px",
+      "fluid": "100px"
     },
     "margin": {
       "sm": "16px",
       "md": "32px",
       "lg": "32px",
-      "xl": "32px"
+      "xl": "40px"
+    },
+    "gutter": {
+      "sm": "16px",
+      "md": "24px",
+      "lg": "24px",
+      "xl": "24px"
     },
     "icon": {
       "small": "16px",

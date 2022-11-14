@@ -2,11 +2,11 @@
   "component": {
     "toast": {
       "size": {
-        "height": {
-          "value": "{size.10.value}"
-        },
         "position": {
           "value": "{size.06.value}"
+        },
+        "max-width": {
+          "value": "568px"
         },
         "padding": {
           "horizontal": {

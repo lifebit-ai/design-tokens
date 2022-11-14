@@ -14,18 +14,21 @@
         "value": "1440"
       }
     },
-    "gutter": {
+    "body": {
       "sm": {
-        "value": "16"
+        "value": "100%"
       },
       "md": {
-        "value": "24"
+        "value": "840"
       },
       "lg": {
-        "value": "24"
+        "value": "1240"
       },
       "xl": {
-        "value": "24"
+        "value": "1440"
+      },
+      "fluid": {
+        "value": "100%"
       }
     },
     "margin": {
@@ -39,7 +42,21 @@
         "value": "32"
       },
       "xl": {
-        "value": "32"
+        "value": "40"
+      }
+    },
+    "gutter": {
+      "sm": {
+        "value": "16"
+      },
+      "md": {
+        "value": "24"
+      },
+      "lg": {
+        "value": "24"
+      },
+      "xl": {
+        "value": "24"
       }
     }
   },
