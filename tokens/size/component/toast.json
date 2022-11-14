@@ -11,6 +11,9 @@
         "padding": {
           "horizontal": {
             "value": "{size.space.05.value}"
+          },
+          "vertical": {
+            "value": "{size.space.05.value}"
           }
         },
         "border": {
