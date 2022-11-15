@@ -2,6 +2,9 @@
   "component": {
     "switch": {
       "size": {
+        "space": {
+          "value": "{size.space.05.value}"
+        },
         "track": {
           "width": {
             "default": {
