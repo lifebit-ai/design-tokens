@@ -421,7 +421,19 @@
     },
     "loading": {
       "color": {
-        "spinner": "#4e8fe2"
+        "spinner": "#4e8fe2",
+        "content": "#ffffff"
+      },
+      "size": {
+        "space": {
+          "spinner": "4px"
+        },
+        "width": {
+          "spinner": "24px"
+        },
+        "height": {
+          "spinner": "24px"
+        }
       }
     },
     "pagination": {
