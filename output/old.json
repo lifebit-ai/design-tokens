@@ -434,6 +434,63 @@
         }
       }
     },
+    "switch": {
+      "color": {
+        "background": {
+          "thumb": {
+            "default": "#ffffff",
+            "hover": "#e4e7eb",
+            "disabled": "#e4e7eb",
+            "icon": "#0198f5"
+          },
+          "deselected": {
+            "default": "#b4b9bf",
+            "hover": "#b4b9bf",
+            "disabled": "#f6f8fc"
+          },
+          "selected": {
+            "default": "#0198f5",
+            "hover": "#11a4fe",
+            "disabled": "#b4b9bf"
+          }
+        },
+        "border": {
+          "deselected": {
+            "default": "#b4b9bf",
+            "hover": "#b9c8e7",
+            "disabled": "#c2cede"
+          },
+          "selected": {
+            "default": "#0198f5",
+            "hover": "#11a4fe",
+            "disabled": "#b4b9bf"
+          }
+        }
+      },
+      "size": {
+        "space": "16px",
+        "track": {
+          "width": {
+            "default": "40px",
+            "small": "28px"
+          },
+          "height": {
+            "default": "20px",
+            "small": "16px"
+          }
+        },
+        "thumb": {
+          "width": {
+            "default": "12px",
+            "small": "8px"
+          },
+          "height": {
+            "default": "12px",
+            "small": "18px"
+          }
+        }
+      }
+    },
     "tab": {
       "color": {
         "background": {
@@ -583,30 +640,6 @@
         },
         "position": {
           "top": "5%"
-        }
-      }
-    },
-    "switch": {
-      "size": {
-        "track": {
-          "width": {
-            "default": "40px",
-            "small": "28px"
-          },
-          "height": {
-            "default": "20px",
-            "small": "16px"
-          }
-        },
-        "thumb": {
-          "width": {
-            "default": "12px",
-            "small": "8px"
-          },
-          "height": {
-            "default": "12px",
-            "small": "18px"
-          }
         }
       }
     }
@@ -837,18 +870,18 @@
       "lg": "1240px",
       "xl": "1440px"
     },
-    "body": {
-      "sm": "100px",
-      "md": "840px",
-      "lg": "1240px",
-      "xl": "1440px",
-      "fluid": "100px"
-    },
     "margin": {
       "sm": "16px",
       "md": "32px",
       "lg": "32px",
       "xl": "40px"
+    },
+    "body": {
+      "sm": "100px",
+      "md": "840px",
+      "lg": "960px",
+      "xl": "1040px",
+      "fluid": "100px"
     },
     "gutter": {
       "sm": "16px",
