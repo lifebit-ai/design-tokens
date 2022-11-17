@@ -1,37 +1,23 @@
 {
   "component": {
-    "switch": {
+    "checkbox": {
       "color": {
+        "icon": {
+          "value": "{color.content.contrast.value}"
+        },
         "background": {
-          "thumb": {
+          "deselected": {
             "default": {
               "value": "{color.background.surface.value}"
             },
             "hover": {
-              "value": "{color.background.highlight.value}"
+              "value": "{color.background.surface.value}"
             },
             "active": {
               "value": "{color.background.highlight.value}"
             },
             "disabled": {
               "value": "{color.background.highlight.value}"
-            },
-            "icon": {
-              "value": "{color.feedback.action.default.value}"
-            }
-          },
-          "deselected": {
-            "default": {
-              "value": "{color.background.disabled.value}"
-            },
-            "hover": {
-              "value": "{color.background.disabled.value}"
-            },
-            "active": {
-              "value": "{color.background.disabled.value}"
-            },
-            "disabled": {
-              "value": "{color.background.main.value}"
             }
           },
           "selected": {
@@ -42,7 +28,7 @@
               "value": "{color.feedback.action.hover.value}"
             },
             "active": {
-              "value": "{color.feedback.action.hover.value}"
+              "value": "{color.feedback.action.active.value}"
             },
             "disabled": {
               "value": "{color.background.disabled.value}"
@@ -52,7 +38,7 @@
         "border": {
           "deselected": {
             "default": {
-              "value": "{color.background.disabled.value}"
+              "value": "{color.border.input.value}"
             },
             "hover": {
               "value": "{color.border.hover.value}"
@@ -72,7 +58,7 @@
               "value": "{color.feedback.action.hover.value}"
             },
             "active": {
-              "value": "{color.feedback.action.hover.value}"
+              "value": "{color.feedback.action.active.value}"
             },
             "disabled": {
               "value": "{color.background.disabled.value}"

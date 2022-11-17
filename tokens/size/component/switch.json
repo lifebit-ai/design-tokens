@@ -21,6 +21,14 @@
             "small": {
               "value": "16px"
             }
+          },
+          "border": {
+            "width": {
+              "value": "{size.border.weight.005.value}"
+            },
+            "radius": {
+              "value": "{size.border.radius.round.value}"
+            }
           }
         },
         "thumb": {
@@ -38,6 +46,11 @@
             },
             "small": {
               "value": "18px"
+            }
+          },
+          "border": {
+            "radius": {
+              "value": "{size.border.radius.round.value}"
             }
           }
         }

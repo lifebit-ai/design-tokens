@@ -1,0 +1,33 @@
+{
+  "component": {
+    "checkbox": {
+      "size": {
+        "space": {
+          "value": "{size.space.05.value}"
+        },
+        "width": {
+          "default": {
+            "value": "{size.05.value}"
+          }
+        },
+        "height": {
+          "default": {
+            "value": "{size.05.value}"
+          }
+        },
+        "border": {
+          "radius": {
+            "default": {
+              "value": "{size.border.radius.01.value}"
+            }
+          },
+          "width": {
+            "default": {
+              "value": "{size.border.weight.005.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}
