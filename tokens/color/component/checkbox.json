@@ -28,7 +28,7 @@
               "value": "{color.feedback.action.hover.value}"
             },
             "active": {
-              "value": "{color.feedback.action.active.value}"
+              "value": "{color.feedback.action.pressed.value}"
             },
             "disabled": {
               "value": "{color.background.disabled.value}"
@@ -58,7 +58,7 @@
               "value": "{color.feedback.action.hover.value}"
             },
             "active": {
-              "value": "{color.feedback.action.active.value}"
+              "value": "{color.feedback.action.pressed.value}"
             },
             "disabled": {
               "value": "{color.background.disabled.value}"

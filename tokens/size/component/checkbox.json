@@ -3,7 +3,9 @@
     "checkbox": {
       "size": {
         "space": {
-          "value": "{size.space.05.value}"
+          "label": {
+            "value": "{size.space.05.value}"
+          }
         },
         "width": {
           "default": {

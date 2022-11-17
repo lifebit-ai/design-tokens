@@ -241,6 +241,58 @@
         }
       }
     },
+    "checkbox": {
+      "color": {
+        "icon": "#ffffff",
+        "background": {
+          "deselected": {
+            "default": "#ffffff",
+            "hover": "#ffffff",
+            "active": "#e4e7eb",
+            "disabled": "#e4e7eb"
+          },
+          "selected": {
+            "default": "#0198f5",
+            "hover": "#11a4fe",
+            "active": "#096dd9",
+            "disabled": "#b4b9bf"
+          }
+        },
+        "border": {
+          "deselected": {
+            "default": "#b9c8e7",
+            "hover": "#b9c8e7",
+            "active": "#b9c8e7",
+            "disabled": "#c2cede"
+          },
+          "selected": {
+            "default": "#0198f5",
+            "hover": "#11a4fe",
+            "active": "#096dd9",
+            "disabled": "#b4b9bf"
+          }
+        }
+      },
+      "size": {
+        "space": {
+          "label": "16px"
+        },
+        "width": {
+          "default": "16px"
+        },
+        "height": {
+          "default": "16px"
+        },
+        "border": {
+          "radius": {
+            "default": "2px"
+          },
+          "width": {
+            "default": "0px"
+          }
+        }
+      }
+    },
     "dropdown": {
       "color": {
         "background": {
@@ -404,6 +456,55 @@
         }
       }
     },
+    "radio": {
+      "color": {
+        "icon": "#ffffff",
+        "background": {
+          "deselected": {
+            "default": "#ffffff",
+            "hover": "#ffffff",
+            "active": "#e4e7eb",
+            "disabled": "#e4e7eb"
+          },
+          "selected": {
+            "default": "#0198f5",
+            "hover": "#11a4fe",
+            "active": "#096dd9",
+            "disabled": "#b4b9bf"
+          }
+        },
+        "border": {
+          "deselected": {
+            "default": "#b9c8e7",
+            "hover": "#b9c8e7",
+            "active": "#b9c8e7",
+            "disabled": "#c2cede"
+          },
+          "selected": {
+            "default": "#0198f5",
+            "hover": "#11a4fe",
+            "active": "#096dd9",
+            "disabled": "#b4b9bf"
+          }
+        }
+      },
+      "size": {
+        "space": {
+          "label": "16px"
+        },
+        "width": {
+          "default": "16px"
+        },
+        "height": {
+          "default": "16px"
+        },
+        "border": {
+          "width": {
+            "default": "0px"
+          }
+        }
+      }
+    },
     "segment-control": {
       "color": {
         "background": {
@@ -440,17 +541,20 @@
           "thumb": {
             "default": "#ffffff",
             "hover": "#e4e7eb",
+            "active": "#e4e7eb",
             "disabled": "#e4e7eb",
             "icon": "#0198f5"
           },
           "deselected": {
             "default": "#b4b9bf",
             "hover": "#b4b9bf",
+            "active": "#b4b9bf",
             "disabled": "#f6f8fc"
           },
           "selected": {
             "default": "#0198f5",
             "hover": "#11a4fe",
+            "active": "#11a4fe",
             "disabled": "#b4b9bf"
           }
         },
@@ -458,17 +562,21 @@
           "deselected": {
             "default": "#b4b9bf",
             "hover": "#b9c8e7",
+            "active": "#b9c8e7",
             "disabled": "#c2cede"
           },
           "selected": {
             "default": "#0198f5",
             "hover": "#11a4fe",
+            "active": "#11a4fe",
             "disabled": "#b4b9bf"
           }
         }
       },
       "size": {
-        "space": "16px",
+        "space": {
+          "label": "16px"
+        },
         "track": {
           "width": {
             "default": "40px",
@@ -477,6 +585,10 @@
           "height": {
             "default": "20px",
             "small": "16px"
+          },
+          "border": {
+            "width": "0px",
+            "radius": "160px"
           }
         },
         "thumb": {
@@ -487,6 +599,9 @@
           "height": {
             "default": "12px",
             "small": "18px"
+          },
+          "border": {
+            "radius": "160px"
           }
         }
       }
@@ -581,6 +696,25 @@
         "space": "32px",
         "border": {
           "radius": "12px"
+        }
+      }
+    },
+    "tooltip": {
+      "color": {
+        "background": "#000000",
+        "content": "#ffffff"
+      },
+      "shadow": "0px 0.5px 1.9px rgba(0, 0, 0, 0.12), 0px 4px 16px rgba(0, 0, 0, 0.24)",
+      "size": {
+        "space": {
+          "container": "8px",
+          "trigger": "4px"
+        },
+        "border": {
+          "radius": {
+            "container": "4px",
+            "pointer": "1px"
+          }
         }
       }
     },

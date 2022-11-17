@@ -1,0 +1,9 @@
+{
+  "component": {
+    "tooltip": {
+      "shadow": {
+        "value": "{shadow.03.value}"
+      }
+    }
+  }
+}
