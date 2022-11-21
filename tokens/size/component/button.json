@@ -19,7 +19,7 @@
               "value": "{size.space.03.value}"
             },
             "inline": {
-              "value": "size.space.02.value"
+              "value": "{size.space.02.value}"
             }
           }
         }

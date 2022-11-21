@@ -4,7 +4,7 @@
       "size": {
         "space": {
           "horizontal": {
-            "value": "size.space.02.value"
+            "value": "{size.space.02.value}"
           }
         }
       }

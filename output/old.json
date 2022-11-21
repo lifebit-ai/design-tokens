@@ -126,19 +126,80 @@
       },
       "warning": {
         "default": "#f0ad4e",
-        "subtle": "#ffffff"
+        "outline": "#ffffff",
+        "container": "#ffffff"
       },
       "success": {
         "default": "#31c052",
-        "subtle": "#ffffff"
+        "outline": "#ffffff",
+        "container": "#ffffff"
       },
       "info": {
         "default": "#ff0d0d",
-        "subtle": "#ffffff"
+        "outline": "#ffffff",
+        "container": "#ffffff"
+      },
+      "error": {
+        "default": "#ff0d0d",
+        "outline": "#ffffff",
+        "container": "#ffffff"
       }
     }
   },
   "component": {
+    "alert": {
+      "color": {
+        "content": "#4a637b",
+        "info": {
+          "icon": "#ff0d0d",
+          "outline": "#ffffff",
+          "container": "#ffffff"
+        },
+        "success": {
+          "icon": "#31c052",
+          "outline": "#ffffff",
+          "container": "#ffffff"
+        },
+        "warning": {
+          "icon": "#f0ad4e",
+          "outline": "#ffffff",
+          "container": "#ffffff"
+        },
+        "error": {
+          "icon": "#ff0d0d",
+          "outline": "#ffffff",
+          "container": "#ffffff"
+        }
+      },
+      "dismiss": {
+        "content": "#4a637b",
+        "background": {
+          "default": "hsla(0, 0%, 0%, 0)",
+          "hover": "hsla(0, 0%, 0%, 0.08)",
+          "pressed ": "hsla(0, 0%, 0%, 0.16)"
+        }
+      },
+      "shadow": "0px 2px 24px rgba(0,0,0,0.10)",
+      "size": {
+        "space": {
+          "container": "12px",
+          "icon": "8px",
+          "title": "4px",
+          "action": "12px",
+          "dismiss": "12px"
+        }
+      },
+      "border": {
+        "radius": {
+          "container": "4px",
+          "dismiss": "2px"
+        },
+        "width": {
+          "container": "0px"
+        }
+      },
+      "icon": "24px"
+    },
     "button-inline": {
       "color": {
         "primary": {
@@ -157,7 +218,7 @@
       },
       "size": {
         "space": {
-          "horizontal": "size.space.02.value"
+          "horizontal": "4px"
         }
       }
     },
@@ -236,7 +297,7 @@
           "horizontal": {
             "large": "12px",
             "medium": "8px",
-            "inline": "size.space.02.value"
+            "inline": "4px"
           }
         }
       }

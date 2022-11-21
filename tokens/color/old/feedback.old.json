@@ -33,7 +33,10 @@
         "default": {
           "value": "#F0AD4E"
         },
-        "subtle": {
+        "outline": {
+          "value": "#ffffff"
+        },
+        "container": {
           "value": "#ffffff"
         }
       },
@@ -41,7 +44,10 @@
         "default": {
           "value": "#31C052"
         },
-        "subtle": {
+        "outline": {
+          "value": "#ffffff"
+        },
+        "container": {
           "value": "#ffffff"
         }
       },
@@ -49,7 +55,21 @@
         "default": {
           "value": "#FF0D0D"
         },
-        "subtle": {
+        "outline": {
+          "value": "#ffffff"
+        },
+        "container": {
+          "value": "#ffffff"
+        }
+      },
+      "error": {
+        "default": {
+          "value": "#FF0D0D"
+        },
+        "outline": {
+          "value": "#ffffff"
+        },
+        "container": {
           "value": "#ffffff"
         }
       }

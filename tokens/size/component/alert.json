@@ -1,0 +1,43 @@
+{
+  "component": {
+    "alert": {
+      "size": {
+        "space": {
+          "container": {
+            "value": "{size.space.04.value}"
+          },
+          "icon": {
+            "value": "{size.space.03.value}"
+          },
+          "title": {
+            "value": "{size.space.02.value}"
+          },
+          "action": {
+            "value": "{size.space.04.value}"
+          },
+          "dismiss": {
+            "value": "{size.space.04.value}"
+          }
+        }
+      },
+      "border": {
+        "radius": {
+          "container": {
+            "value": "{size.border.radius.02.value}"
+          },
+          "dismiss": {
+            "value": "{size.border.radius.01.value}"
+          }
+        },
+        "width": {
+          "container": {
+            "value": "{size.border.weight.005.value}"
+          }
+        }
+      },
+      "icon": {
+        "value": "{size.icon.medium.value}"
+      }
+    }
+  }
+}
