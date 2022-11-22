@@ -1,0 +1,38 @@
+{
+  "component": {
+    "popover": {
+      "size": {
+        "container": {
+          "value": "272px"
+        },
+        "button": {
+          "value": "{size.icon.small.value}"
+        },
+        "space": {
+          "container": {
+            "value": "{size.space.03.value}"
+          },
+          "title": {
+            "value": "{size.space.02.value}"
+          },
+          "from-trigger": {
+            "value": "{size.space.01.value}"
+          }
+        },
+        "border": {
+          "radius": {
+            "container": {
+              "value": "{size.border.radius.03.value}"
+            },
+            "pointer": {
+              "value": "1px"
+            },
+            "button": {
+              "value": "{size.border.radius.02.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

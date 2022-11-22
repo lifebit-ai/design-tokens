@@ -1,0 +1,33 @@
+{
+  "component": {
+    "popover": {
+      "color": {
+        "background": {
+          "container": {
+            "value": "{color.background.surface.value}"
+          }
+        },
+        "content": {
+          "value": "{color.content.main.value}"
+        },
+        "icon": {
+          "value": "{color.content.main.value}"
+        },
+        "button": {
+          "default": {
+            "value": "{color.base.transparent.value}"
+          },
+          "hover": {
+            "value": "{color.background.main.value}"
+          },
+          "pressed": {
+            "value": "{color.background.highlight.value}"
+          },
+          "selected": {
+            "value": "{color.background.main.value}"
+          }
+        }
+      }
+    }
+  }
+}

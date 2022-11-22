@@ -529,6 +529,37 @@
         }
       }
     },
+    "popover": {
+      "color": {
+        "background": {
+          "container": "#ffffff"
+        },
+        "content": "#4a637b",
+        "icon": "#4a637b",
+        "button": {
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "#f6f8fc",
+          "pressed": "#e4e7eb",
+          "selected": "#f6f8fc"
+        }
+      },
+      "size": {
+        "container": "272px",
+        "button": "16px",
+        "space": {
+          "container": "8px",
+          "title": "4px",
+          "from-trigger": "2px"
+        },
+        "border": {
+          "radius": {
+            "container": "8px",
+            "pointer": "1px",
+            "button": "4px"
+          }
+        }
+      }
+    },
     "radio": {
       "color": {
         "icon": "#ffffff",
