@@ -1,0 +1,25 @@
+{
+  "component": {
+    "breadcrumbs": {
+      "size": {
+        "space": {
+          "container": {
+            "horizontal": {
+              "value": "{size.space.02.value}"
+            },
+            "vertical": {
+              "value": "{size.space.01.value}"
+            }
+          }
+        },
+        "border": {
+          "radius": {
+            "container": {
+              "value": "{size.border.radius.02.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}
