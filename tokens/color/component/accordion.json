@@ -1,0 +1,38 @@
+{
+  "component": {
+    "accordion": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{color.background.surface.value}"
+          },
+          "hovered": {
+            "value": "{color.background.main.value}"
+          },
+          "pressed": {
+            "value": "{color.background.highlight.value}"
+          }
+        },
+        "content": {
+          "icon": {
+            "value": "{color.content.secondary.value}"
+          },
+          "label": {
+            "value": "{color.content.main.value}"
+          },
+          "text": {
+            "value": "{color.content.main.value}"
+          }
+        },
+        "border": {
+          "container": {
+            "value": "{color.border.disabled.value}"
+          },
+          "divider": {
+            "value": "{color.border.disabled.value}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -148,6 +148,46 @@
     }
   },
   "component": {
+    "accordion": {
+      "color": {
+        "background": {
+          "default": "#0c0c0c",
+          "hovered": "#000000",
+          "pressed": "#34383b"
+        },
+        "content": {
+          "icon": "#b4b9bf",
+          "label": "#ffffff",
+          "text": "#ffffff"
+        },
+        "border": {
+          "container": "#54585e",
+          "divider": "#54585e"
+        }
+      },
+      "size": {
+        "space": {
+          "panel": "4px",
+          "icon": "4px",
+          "block": {
+            "horizontal": "8px",
+            "vertical": "12px",
+            "between-panels": "12px"
+          }
+        },
+        "border": {
+          "radius": {
+            "panel": "4px",
+            "block": "8px"
+          },
+          "width": {
+            "divider": "1px",
+            "block": "1px"
+          }
+        },
+        "icon": "16px"
+      }
+    },
     "alert": {
       "color": {
         "content": "#ffffff",
@@ -188,18 +228,48 @@
           "title": "4px",
           "action": "12px",
           "dismiss": "12px"
-        }
-      },
-      "border": {
-        "radius": {
-          "container": "4px",
-          "dismiss": "2px"
         },
-        "width": {
-          "container": "1px"
-        }
+        "border": {
+          "radius": {
+            "container": "8px",
+            "dismiss": "2px"
+          },
+          "width": {
+            "container": "1px"
+          }
+        },
+        "icon": "24px"
+      }
+    },
+    "breadcrumbs": {
+      "color": {
+        "content": {
+          "default": "#b4b9bf",
+          "hovered": "#b4b9bf",
+          "pressed": "#b4b9bf",
+          "selected": "#ffffff"
+        },
+        "background": {
+          "default": "rgba(0, 0, 0, 0)",
+          "hovered": "#000000",
+          "pressed": "#34383b",
+          "selected": "#000000"
+        },
+        "divider": "#b4b9bf"
       },
-      "icon": "24px"
+      "size": {
+        "space": {
+          "container": {
+            "horizontal": "4px",
+            "vertical": "2px"
+          }
+        },
+        "border": {
+          "radius": {
+            "container": "4px"
+          }
+        }
+      }
     },
     "button-inline": {
       "color": {
@@ -539,7 +609,7 @@
         "icon": "#ffffff",
         "button": {
           "default": "rgba(0, 0, 0, 0)",
-          "hover": "#000000",
+          "hovered": "#000000",
           "pressed": "#34383b",
           "selected": "#000000"
         }

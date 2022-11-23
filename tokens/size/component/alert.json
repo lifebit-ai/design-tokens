@@ -18,25 +18,25 @@
           "dismiss": {
             "value": "{size.space.04.value}"
           }
-        }
-      },
-      "border": {
-        "radius": {
-          "container": {
-            "value": "{size.border.radius.02.value}"
+        },
+        "border": {
+          "radius": {
+            "container": {
+              "value": "{size.border.radius.03.value}"
+            },
+            "dismiss": {
+              "value": "{size.border.radius.01.value}"
+            }
           },
-          "dismiss": {
-            "value": "{size.border.radius.01.value}"
+          "width": {
+            "container": {
+              "value": "{size.border.weight.005.value}"
+            }
           }
         },
-        "width": {
-          "container": {
-            "value": "{size.border.weight.005.value}"
-          }
+        "icon": {
+          "value": "{size.icon.medium.value}"
         }
-      },
-      "icon": {
-        "value": "{size.icon.medium.value}"
       }
     }
   }
