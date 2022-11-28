@@ -1,0 +1,14 @@
+{
+  "component": {
+    "page-header": {
+      "color": {
+        "title": {
+          "value": "{color.content.main.value}"
+        },
+        "popover": {
+          "value": "{color.content.secondary.value}"
+        }
+      }
+    }
+  }
+}

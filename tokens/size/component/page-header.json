@@ -1,0 +1,16 @@
+{
+  "component": {
+    "page-header": {
+      "size": {
+        "space": {
+          "title": {
+            "value": "{size.space.03.value}"
+          },
+          "action": {
+            "value": "{size.space.05.value}"
+          }
+        }
+      }
+    }
+  }
+}

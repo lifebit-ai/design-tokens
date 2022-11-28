@@ -5,7 +5,8 @@
     "02": "0.2s ease",
     "component": {
       "overlay": "0.2s linear",
-      "switch": "0.1s linear"
+      "switch": "0.1s linear",
+      "accordion": "0.3s ease-out"
     }
   },
   "color": {
@@ -564,6 +565,18 @@
         },
         "height": {
           "spinner": "24px"
+        }
+      }
+    },
+    "page-header": {
+      "color": {
+        "title": "#0c0c0c",
+        "popover": "#6f777c"
+      },
+      "size": {
+        "space": {
+          "title": "8px",
+          "action": "16px"
         }
       }
     },
