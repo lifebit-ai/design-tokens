@@ -1,0 +1,9 @@
+{
+  "component": {
+    "popover": {
+      "shadow": {
+        "value": "{shadow.03.value}"
+      }
+    }
+  }
+}
