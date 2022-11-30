@@ -17,6 +17,9 @@
           },
           "from-trigger": {
             "value": "{size.space.01.value}"
+          },
+          "media": {
+            "value": "{size.space.04.value}"
           }
         },
         "border": {
