@@ -3,7 +3,15 @@
     "popover": {
       "size": {
         "container": {
-          "value": "272px"
+          "small": {
+            "value": "272px"
+          },
+          "medium": {
+            "value": "412px"
+          },
+          "large": {
+            "value": "600px"
+          }
         },
         "button": {
           "value": "{size.icon.small.value}"
