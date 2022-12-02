@@ -1,0 +1,108 @@
+{
+  "component": {
+    "date-time-picker": {
+      "size": {
+        "height": {
+          "header": {
+            "value": "{size.09.value}"
+          },
+          "row": {
+            "week": {
+              "value": "{size.09.value}"
+            }
+          },
+          "button": {
+            "day": {
+              "value": "36px"
+            },
+            "time": {
+              "value": "36px"
+            },
+            "icon": {
+              "value": "{size.icon.medium.value}"
+            }
+          }
+        },
+        "width": {
+          "button": {
+            "year-month": {
+              "value": "{size.11.value}"
+            },
+            "day": {
+              "value": "36px"
+            },
+            "time": {
+              "value": "{size.09.value}"
+            },
+            "icon": {
+              "value": "{size.icon.medium.value}"
+            }
+          }
+        },
+        "space": {
+          "picker": {
+            "date": {
+              "value": "{size.space.04.value}"
+            },
+            "time": {
+              "value": "{size.space.03.value}"
+            }
+          },
+          "header": {
+            "container": {
+              "value": "{size.space.02.value}"
+            },
+            "button": {
+              "value": "{size.space.02.value}"
+            },
+            "date": {
+              "value": "{size.space.03.value}"
+            }
+          },
+          "container": {
+            "container": {
+              "value": "{size.space.02.value}"
+            }
+          },
+          "cell": {
+            "container": {
+              "value": "{size.space.03.value}"
+            }
+          }
+        },
+        "border": {
+          "radius": {
+            "picker": {
+              "value": "{size.border.radius.03.value}"
+            },
+            "button": {
+              "value": "{size.border.radius.04.value}"
+            }
+          },
+          "width": {
+            "picker": {
+              "value": "{size.border.weight.005.value}"
+            },
+            "header": {
+              "value": "{size.border.weight.005.value}"
+            },
+            "column": {
+              "value": "{size.border.weight.005.value}"
+            },
+            "row": {
+              "value": "{size.border.weight.005.value}"
+            },
+            "button": {
+              "value": "{size.border.weight.005.value}"
+            }
+          }
+        },
+        "position": {
+          "from-trigger": {
+            "value": "{size.border.weight.02.value}"
+          }
+        }
+      }
+    }
+  }
+}
