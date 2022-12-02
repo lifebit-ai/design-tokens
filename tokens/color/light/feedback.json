@@ -39,6 +39,12 @@
         },
         "subtle-active": {
           "value": "{color.base.red.30.value}"
+        },
+        "outline": {
+          "value": "{color.base.red.30.value}"
+        },
+        "container": {
+          "value": "{color.base.red.10.value}"
         }
       },
       "warning": {
@@ -72,17 +78,6 @@
         },
         "container": {
           "value": "{color.base.blue.10.value}"
-        }
-      },
-      "error": {
-        "default": {
-          "value": "{color.base.red.60.value}"
-        },
-        "outline": {
-          "value": "{color.base.red.30.value}"
-        },
-        "container": {
-          "value": "{color.base.red.10.value}"
         }
       }
     }

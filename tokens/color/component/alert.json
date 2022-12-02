@@ -38,15 +38,15 @@
             "value": "{color.feedback.warning.container.value}"
           }
         },
-        "error": {
+        "danger": {
           "icon": {
-            "value": "{color.feedback.error.default.value}"
+            "value": "{color.feedback.danger.default.value}"
           },
           "outline": {
-            "value": "{color.feedback.error.outline.value}"
+            "value": "{color.feedback.danger.outline.value}"
           },
           "container": {
-            "value": "{color.feedback.error.container.value}"
+            "value": "{color.feedback.danger.container.value}"
           }
         }
       },

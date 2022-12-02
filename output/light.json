@@ -123,7 +123,9 @@
         "pressed": "#7a0c08",
         "subtle": "#fcf0f0",
         "subtle-hover": "#ffc0bf",
-        "subtle-active": "#ff8d8b"
+        "subtle-active": "#ff8d8b",
+        "outline": "#ff8d8b",
+        "container": "#fcf0f0"
       },
       "warning": {
         "default": "#dca100",
@@ -139,11 +141,6 @@
         "default": "#2c72db",
         "outline": "#98c6ef",
         "container": "#eaf5fc"
-      },
-      "error": {
-        "default": "#c32420",
-        "outline": "#ff8d8b",
-        "container": "#fcf0f0"
       }
     }
   },
@@ -206,7 +203,7 @@
           "outline": "#fecd48",
           "container": "#fcf6e3"
         },
-        "error": {
+        "danger": {
           "icon": "#c32420",
           "outline": "#ff8d8b",
           "container": "#fcf0f0"

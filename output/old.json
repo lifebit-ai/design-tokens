@@ -123,7 +123,9 @@
         "pressed": "#d40000",
         "subtle": "#ffffff",
         "subtle-hover": "#ffc0bf",
-        "subtle-active": "#ff8d8b"
+        "subtle-active": "#ff8d8b",
+        "outline": "#ff8d8b",
+        "container": "#fcf0f0"
       },
       "warning": {
         "default": "#f0ad4e",
@@ -206,10 +208,10 @@
           "outline": "#ffffff",
           "container": "#ffffff"
         },
-        "error": {
+        "danger": {
           "icon": "#ff0d0d",
-          "outline": "#ffffff",
-          "container": "#ffffff"
+          "outline": "#ff8d8b",
+          "container": "#fcf0f0"
         }
       },
       "dismiss": {
