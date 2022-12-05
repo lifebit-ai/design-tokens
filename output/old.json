@@ -124,8 +124,8 @@
         "subtle": "#ffffff",
         "subtle-hover": "#ffc0bf",
         "subtle-active": "#ff8d8b",
-        "outline": "#ff8d8b",
-        "container": "#fcf0f0"
+        "outline": "#ffffff",
+        "container": "#ffffff"
       },
       "warning": {
         "default": "#f0ad4e",
@@ -138,11 +138,6 @@
         "container": "#ffffff"
       },
       "info": {
-        "default": "#ff0d0d",
-        "outline": "#ffffff",
-        "container": "#ffffff"
-      },
-      "error": {
         "default": "#ff0d0d",
         "outline": "#ffffff",
         "container": "#ffffff"
@@ -210,8 +205,8 @@
         },
         "danger": {
           "icon": "#ff0d0d",
-          "outline": "#ff8d8b",
-          "container": "#fcf0f0"
+          "outline": "#ffffff",
+          "container": "#ffffff"
         }
       },
       "dismiss": {

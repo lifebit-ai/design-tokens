@@ -27,6 +27,12 @@
         },
         "subtle": {
           "value": "#ffffff"
+        },
+        "outline": {
+          "value": "#ffffff"
+        },
+        "container": {
+          "value": "#ffffff"
         }
       },
       "warning": {
@@ -52,17 +58,6 @@
         }
       },
       "info": {
-        "default": {
-          "value": "#FF0D0D"
-        },
-        "outline": {
-          "value": "#ffffff"
-        },
-        "container": {
-          "value": "#ffffff"
-        }
-      },
-      "error": {
         "default": {
           "value": "#FF0D0D"
         },
