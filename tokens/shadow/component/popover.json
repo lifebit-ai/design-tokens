@@ -3,6 +3,11 @@
     "popover": {
       "shadow": {
         "value": "{shadow.03.value}"
+      },
+      "pointer": {
+        "shadow": {
+          "value": "0px -3px 2px rgba(0, 0, 0, 0.12)"
+        }
       }
     }
   }
