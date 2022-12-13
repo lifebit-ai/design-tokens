@@ -10,14 +10,17 @@
       "highlight": {
         "value": "{color.base.neutral.20.value}"
       },
-      "overlay": {
-        "value": "rgba(0, 0, 0, 0.3)"
-      },
       "contrast": {
         "value": "{color.base.neutral.black.value}"
       },
       "disabled": {
         "value": "{color.base.neutral.40.value}"
+      },
+      "overlay": {
+        "value": "rgba(0, 0, 0, 0.3)"
+      },
+      "overlay-dark": {
+        "value": "rgba(0, 0, 0, 0.6)"
       }
     }
   }
