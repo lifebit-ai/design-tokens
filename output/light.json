@@ -404,7 +404,8 @@
       },
       "size": {
         "space": {
-          "label": "16px"
+          "label": "8px",
+          "group": "8px"
         },
         "width": {
           "default": "16px"
@@ -473,19 +474,22 @@
         },
         "space": {
           "picker": {
-            "date": "12px",
-            "time": "8px"
+            "date": "12px"
           },
           "header": {
             "container": "4px",
             "button": "4px",
             "date": "8px"
           },
-          "container": {
+          "column": {
             "container": "4px"
           },
           "cell": {
             "container": "8px"
+          },
+          "action-bar": {
+            "horizontal": "8px",
+            "vertical": "12px"
           }
         },
         "border": {
@@ -498,6 +502,7 @@
             "header": "1px",
             "column": "1px",
             "row": "1px",
+            "action-bar": "1px",
             "button": "1px"
           }
         },
@@ -711,6 +716,23 @@
         }
       }
     },
+    "page-container": {
+      "color": {
+        "background": "#ffffff",
+        "border": "rgba(0, 0, 0, 0.1)"
+      },
+      "shadow": "0px 2px 2px rgba(0,0,0,0.08)",
+      "size": {
+        "space": {
+          "horizontal": "24px",
+          "vertical": "24px"
+        },
+        "border": {
+          "width": "1px",
+          "radius": "16px"
+        }
+      }
+    },
     "page-header": {
       "color": {
         "title": "#0c0c0c",
@@ -719,7 +741,8 @@
       "size": {
         "space": {
           "title": "8px",
-          "action": "16px"
+          "action": "16px",
+          "below": "24px"
         }
       }
     },
@@ -829,7 +852,8 @@
       },
       "size": {
         "space": {
-          "label": "16px"
+          "label": "8px",
+          "group": "8px"
         },
         "width": {
           "default": "16px"
@@ -1165,7 +1189,7 @@
       },
       "fontWeight": {
         "large": "400",
-        "normal": "700"
+        "normal": "400"
       },
       "textTransform": {
         "large": "none",
