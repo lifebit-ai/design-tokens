@@ -18,7 +18,7 @@
       },
       "fontWeight": {
         "large": { "value": "{font.weight.regular.value}" },
-        "normal": { "value": "{font.weight.bold.value}" }
+        "normal": { "value": "{font.weight.regular.value}" }
       },
       "textTransform": {
         "large": { "value": "{font.transform.none.value}" },
