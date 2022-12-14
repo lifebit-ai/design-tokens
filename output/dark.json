@@ -74,9 +74,10 @@
       "main": "#000000",
       "surface": "#0c0c0c",
       "highlight": "#34383b",
-      "overlay": "rgba(0, 0, 0, 0.3)",
       "contrast": "#ffffff",
-      "disabled": "#54585e"
+      "disabled": "#54585e",
+      "overlay": "rgba(0, 0, 0, 0.3)",
+      "overlay-dark": "rgba(0, 0, 0, 0.6)"
     },
     "border": {
       "default": "#6f777c",
@@ -966,8 +967,9 @@
           },
           "height": {
             "default": "12px",
-            "small": "18px"
+            "small": "8px"
           },
+          "icon": "16px",
           "border": {
             "radius": "160px"
           }
