@@ -47,8 +47,11 @@
               "value": "12px"
             },
             "small": {
-              "value": "18px"
+              "value": "8px"
             }
+          },
+          "icon": {
+            "value": "{size.icon.small.value}"
           },
           "border": {
             "radius": {
