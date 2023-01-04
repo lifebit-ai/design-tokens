@@ -265,7 +265,8 @@
           "container": {
             "horizontal": "4px",
             "vertical": "2px"
-          }
+          },
+          "between-items": "4px"
         },
         "border": {
           "radius": {
