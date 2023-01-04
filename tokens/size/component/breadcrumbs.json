@@ -10,6 +10,9 @@
             "vertical": {
               "value": "{size.space.01.value}"
             }
+          },
+          "between-items": {
+            "value": "{size.space.02.value}"
           }
         },
         "border": {
