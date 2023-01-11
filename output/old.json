@@ -542,7 +542,8 @@
         "gap": "4px",
         "border": {
           "weight": {
-            "container": "0px"
+            "container": "0px",
+            "header": "0px"
           },
           "radius": {
             "container": "8px",
@@ -551,6 +552,7 @@
         },
         "padding": {
           "container": "8px",
+          "header": "4px",
           "list-item": {
             "horizontal": "8px"
           }

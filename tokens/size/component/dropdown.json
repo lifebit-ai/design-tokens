@@ -9,6 +9,9 @@
           "weight": {
             "container": {
               "value": "{size.border.weight.005.value}"
+            },
+            "header": {
+              "value": "{size.border.weight.005.value}"
             }
           },
           "radius": {
@@ -23,6 +26,9 @@
         "padding": {
           "container": {
             "value": "{size.space.03.value}"
+          },
+          "header": {
+            "value": "{size.space.02.value}"
           },
           "list-item": {
             "horizontal": {
