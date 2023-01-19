@@ -521,7 +521,7 @@
     "dropdown": {
       "color": {
         "background": {
-          "container": "#000000",
+          "container": "#0c0c0c",
           "list-item": {
             "default": "#0c0c0c",
             "hover": "#000000",

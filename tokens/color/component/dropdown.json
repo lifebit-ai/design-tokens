@@ -4,7 +4,7 @@
       "color": {
         "background": {
           "container": {
-            "value": "{color.background.main.value}"
+            "value": "{color.background.surface.value}"
           },
           "list-item": {
             "default": {
