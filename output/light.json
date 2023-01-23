@@ -359,6 +359,9 @@
         }
       },
       "size": {
+        "space": {
+          "icon": "4px"
+        },
         "border": {
           "weight": "1px",
           "radius": "8px"

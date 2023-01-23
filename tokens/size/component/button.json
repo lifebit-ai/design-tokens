@@ -2,6 +2,11 @@
   "component": {
     "button": {
       "size": {
+        "space": {
+          "icon": {
+            "value": "{size.space.02.value}"
+          }
+        },
         "border": {
           "weight": {
             "value": "{size.border.weight.005.value}"
