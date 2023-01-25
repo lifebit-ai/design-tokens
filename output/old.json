@@ -436,6 +436,7 @@
           "pressed": "#4a637b",
           "selected": "#ffffff",
           "current": "#4a637b",
+          "disabled": "#c2cede",
           "icon": "#c2cede"
         },
         "background": {
@@ -444,6 +445,7 @@
           "pressed": "#e4e7eb",
           "selected": "#0198f5",
           "current": "#ffffff",
+          "disabled": "#ffffff",
           "picker": "#ffffff"
         },
         "border": {
@@ -452,6 +454,7 @@
           "pressed": "rgba(0, 0, 0, 0)",
           "selected": "rgba(0, 0, 0, 0)",
           "current": "#7b92a7",
+          "disabled": "rgba(0, 0, 0, 0)",
           "picker": "#ffffff"
         },
         "divider": "#ffffff"

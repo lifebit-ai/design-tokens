@@ -18,6 +18,9 @@
           "current": {
             "value": "{color.content.main.value}"
           },
+          "disabled": {
+            "value": "{color.content.disabled.value}"
+          },
           "icon": {
             "value": "{color.content.secondary.value}"
           }
@@ -36,6 +39,9 @@
             "value": "{color.feedback.action.default.value}"
           },
           "current": {
+            "value": "{color.background.surface.value}"
+          },
+          "disabled": {
             "value": "{color.background.surface.value}"
           },
           "picker": {
@@ -57,6 +63,9 @@
           },
           "current": {
             "value": "{color.border.default.value}"
+          },
+          "disabled": {
+            "value": "{color.base.transparent.value}"
           },
           "picker": {
             "value": "{color.border.subtle.value}"
