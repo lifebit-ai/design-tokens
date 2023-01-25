@@ -2,10 +2,10 @@
   "color": {
     "background": {
       "main": {
-        "value": "{color.base.neutral.black.value}"
+        "value": "#141414"
       },
       "surface": {
-        "value": "{color.base.neutral.90.value}"
+        "value": "#1F1F1F"
       },
       "highlight": {
         "value": "{color.base.neutral.80.value}"
