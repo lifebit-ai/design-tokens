@@ -1100,6 +1100,7 @@
         "background": {
           "default": "#ffffff",
           "hover": "#f3f5f6",
+          "pressed": "#e4e7eb",
           "selected": "#f3f5f6",
           "indicator": "#2c72db"
         },

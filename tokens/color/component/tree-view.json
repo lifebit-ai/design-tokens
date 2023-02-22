@@ -9,6 +9,9 @@
           "hover": {
             "value": "{color.background.main.value}"
           },
+          "pressed": {
+            "value": "{color.background.highlight.value}"
+          },
           "selected": {
             "value": "{color.background.main.value}"
           },
