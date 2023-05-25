@@ -19,6 +19,9 @@
             "disabled": {
               "value": "{color.background.disabled.value}"
             }
+          },
+          "autofill": {
+            "value": "{color.feedback.action.subtle.value}"
           }
         },
         "content": {
@@ -61,6 +64,9 @@
             "hover": {
               "value": "{color.feedback.action.hover.value}"
             }
+          },
+          "autofill": {
+            "value": "{color.border.input.value}"
           }
         }
       }

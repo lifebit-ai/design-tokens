@@ -583,7 +583,8 @@
             "default": "#2c72db",
             "hover": "#0954ad",
             "disabled": "#b4b9bf"
-          }
+          },
+          "autofill": "#eaf5fc"
         },
         "content": {
           "main": "#0c0c0c",
@@ -601,7 +602,8 @@
           "active": {
             "default": "#2c72db",
             "hover": "#0954ad"
-          }
+          },
+          "autofill": "#8e969d"
         }
       },
       "size": {
