@@ -27,7 +27,7 @@
       },
       "blue": {
         "10": "#eaf5fc",
-        "20": "#c0dff6",
+        "20": "#cce9ff",
         "30": "#98c6ef",
         "40": "#72ace8",
         "50": "#4e8fe2",
@@ -125,28 +125,23 @@
         "subtle": "#540704",
         "subtle-hover": "#7a0c08",
         "subtle-active": "#a01511",
-        "outline": "#ff8d8b",
-        "container": "#fcf0f0"
+        "outline": "#a01511",
+        "background": "#540704"
       },
       "warning": {
         "default": "#fecd48",
         "outline": "#956f00",
-        "container": "#4f3b00"
+        "background": "#4f3b00"
       },
       "success": {
         "default": "#61d27b",
         "outline": "#006b1a",
-        "container": "#4f3b00"
+        "background": "#4f3b00"
       },
       "info": {
         "default": "#4e8fe2",
         "outline": "#0954ad",
-        "container": "#012f52"
-      },
-      "error": {
-        "default": "#fa5e5b",
-        "subtle": "#a01511",
-        "outline": "#540704"
+        "background": "#012f52"
       }
     }
   },
@@ -211,8 +206,8 @@
         },
         "danger": {
           "icon": "#fa5e5b",
-          "outline": "#ff8d8b",
-          "container": "#fcf0f0"
+          "outline": "#a01511",
+          "container": "#540704"
         }
       },
       "dismiss": {
@@ -728,7 +723,7 @@
             "nav-item": "1px"
           },
           "radius": {
-            "nav-item": "160px"
+            "nav-item": "360px"
           }
         }
       }
@@ -968,7 +963,7 @@
           },
           "border": {
             "width": "1px",
-            "radius": "160px"
+            "radius": "360px"
           }
         },
         "thumb": {
@@ -982,7 +977,7 @@
           },
           "icon": "16px",
           "border": {
-            "radius": "160px"
+            "radius": "360px"
           }
         }
       }
@@ -1147,6 +1142,19 @@
         }
       }
     },
+    "main-nav-new": {
+      "size": {
+        "workspace-avatar": "36px",
+        "nav-item-container": "44px",
+        "nav-item": "32px",
+        "account-avatar": "32px",
+        "space": {
+          "padding": {
+            "vertical": "16px"
+          }
+        }
+      }
+    },
     "modal": {
       "size": {
         "width": {
@@ -1167,29 +1175,34 @@
     "body": {
       "family": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Open Sans', system-ui, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
       "fontSize": {
-        "large": "22px",
-        "normal": "18px",
-        "small": "14px"
+        "large": "18px",
+        "normal": "16px",
+        "small": "14px",
+        "xsmall": "12px"
       },
       "lineHeight": {
         "large": "1.5",
         "normal": "1.5",
-        "small": "1.75"
+        "small": "1.75",
+        "xsmall": "1.75"
       },
       "letterSpacing": {
         "large": "0px",
         "normal": "0px",
-        "small": "0px"
+        "small": "0px",
+        "xsmall": "0px"
       },
       "fontWeight": {
         "large": "400",
         "normal": "400",
-        "small": "400"
+        "small": "400",
+        "xsmall": "400"
       },
       "textTransform": {
         "large": "none",
         "normal": "none",
-        "small": "none"
+        "small": "none",
+        "xsmall": "none"
       }
     },
     "code": {
@@ -1360,10 +1373,11 @@
         "03": "8px",
         "04": "12px",
         "05": "16px",
-        "round": "160px"
+        "round": "360px"
       }
     },
     "font": {
+      "3-xsmall": "12px",
       "2-xsmall": "14px",
       "xsmall": "16px",
       "small": "18px",

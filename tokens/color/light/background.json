@@ -11,7 +11,7 @@
         "value": "{color.base.neutral.20.value}"
       },
       "contrast": {
-        "value": "{color.base.neutral.black.value}"
+        "value": "{color.base.neutral.90.value}"
       },
       "disabled": {
         "value": "{color.base.neutral.40.value}"

@@ -13,7 +13,7 @@
             "value": "{color.feedback.info.outline.value}"
           },
           "container": {
-            "value": "{color.feedback.info.container.value}"
+            "value": "{color.feedback.info.background.value}"
           }
         },
         "success": {
@@ -24,7 +24,7 @@
             "value": "{color.feedback.success.outline.value}"
           },
           "container": {
-            "value": "{color.feedback.success.container.value}"
+            "value": "{color.feedback.success.background.value}"
           }
         },
         "warning": {
@@ -35,7 +35,7 @@
             "value": "{color.feedback.warning.outline.value}"
           },
           "container": {
-            "value": "{color.feedback.warning.container.value}"
+            "value": "{color.feedback.warning.background.value}"
           }
         },
         "danger": {
@@ -46,7 +46,7 @@
             "value": "{color.feedback.danger.outline.value}"
           },
           "container": {
-            "value": "{color.feedback.danger.container.value}"
+            "value": "{color.feedback.danger.background.value}"
           }
         }
       },

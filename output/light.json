@@ -27,7 +27,7 @@
       },
       "blue": {
         "10": "#eaf5fc",
-        "20": "#c0dff6",
+        "20": "#cce9ff",
         "30": "#98c6ef",
         "40": "#72ace8",
         "50": "#4e8fe2",
@@ -74,7 +74,7 @@
       "main": "#f3f5f6",
       "surface": "#ffffff",
       "highlight": "#e4e7eb",
-      "contrast": "#000000",
+      "contrast": "#0c0c0c",
       "disabled": "#b4b9bf",
       "overlay": "rgba(0, 0, 0, 0.3)",
       "overlay-dark": "rgba(0, 0, 0, 0.6)"
@@ -115,7 +115,7 @@
         "hover": "#0954ad",
         "pressed": "#04447f",
         "subtle": "#eaf5fc",
-        "subtle-hover": "#c0dff6",
+        "subtle-hover": "#cce9ff",
         "subtle-active": "#98c6ef"
       },
       "danger": {
@@ -126,22 +126,22 @@
         "subtle-hover": "#ffc0bf",
         "subtle-active": "#ff8d8b",
         "outline": "#ff8d8b",
-        "container": "#fcf0f0"
+        "background": "#fcf0f0"
       },
       "warning": {
         "default": "#dca100",
         "outline": "#fecd48",
-        "container": "#fcf6e3"
+        "background": "#fcf6e3"
       },
       "success": {
         "default": "#008820",
         "outline": "#61d27b",
-        "container": "#ebf5ed"
+        "background": "#ebf5ed"
       },
       "info": {
         "default": "#2c72db",
         "outline": "#98c6ef",
-        "container": "#eaf5fc"
+        "background": "#eaf5fc"
       }
     }
   },
@@ -319,7 +319,7 @@
           "background": {
             "action": {
               "default": "#eaf5fc",
-              "hover": "#c0dff6",
+              "hover": "#cce9ff",
               "pressed": "#98c6ef"
             },
             "danger": {
@@ -340,7 +340,7 @@
           "background": {
             "action": {
               "default": "rgba(0, 0, 0, 0)",
-              "hover": "#c0dff6",
+              "hover": "#cce9ff",
               "pressed": "#98c6ef"
             },
             "danger": {
@@ -723,7 +723,7 @@
             "nav-item": "1px"
           },
           "radius": {
-            "nav-item": "160px"
+            "nav-item": "360px"
           }
         }
       }
@@ -762,7 +762,7 @@
       "color": {
         "background": {
           "default": "rgba(0, 0, 0, 0)",
-          "hover": "#c0dff6",
+          "hover": "#cce9ff",
           "active": "#98c6ef",
           "disabled": "rgba(0, 0, 0, 0)",
           "simple": "#eaf5fc"
@@ -963,7 +963,7 @@
           },
           "border": {
             "width": "1px",
-            "radius": "160px"
+            "radius": "360px"
           }
         },
         "thumb": {
@@ -977,7 +977,7 @@
           },
           "icon": "16px",
           "border": {
-            "radius": "160px"
+            "radius": "360px"
           }
         }
       }
@@ -1053,7 +1053,7 @@
     },
     "toast": {
       "color": {
-        "background": "#000000",
+        "background": "#0c0c0c",
         "content": "#ffffff",
         "action": "#ffffff",
         "loading-indicator": "#8e969d"
@@ -1077,7 +1077,7 @@
     },
     "tooltip": {
       "color": {
-        "background": "#000000",
+        "background": "#0c0c0c",
         "content": "#ffffff"
       },
       "shadow": "0px 0.5px 1.9px rgba(0, 0, 0, 0.12), 0px 4px 16px rgba(0, 0, 0, 0.24)",
@@ -1142,6 +1142,19 @@
         }
       }
     },
+    "main-nav-new": {
+      "size": {
+        "workspace-avatar": "36px",
+        "nav-item-container": "44px",
+        "nav-item": "32px",
+        "account-avatar": "32px",
+        "space": {
+          "padding": {
+            "vertical": "16px"
+          }
+        }
+      }
+    },
     "modal": {
       "size": {
         "width": {
@@ -1162,29 +1175,34 @@
     "body": {
       "family": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Open Sans', system-ui, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
       "fontSize": {
-        "large": "22px",
-        "normal": "18px",
-        "small": "14px"
+        "large": "18px",
+        "normal": "16px",
+        "small": "14px",
+        "xsmall": "12px"
       },
       "lineHeight": {
         "large": "1.5",
         "normal": "1.5",
-        "small": "1.75"
+        "small": "1.75",
+        "xsmall": "1.75"
       },
       "letterSpacing": {
         "large": "0px",
         "normal": "0px",
-        "small": "0px"
+        "small": "0px",
+        "xsmall": "0px"
       },
       "fontWeight": {
         "large": "400",
         "normal": "400",
-        "small": "400"
+        "small": "400",
+        "xsmall": "400"
       },
       "textTransform": {
         "large": "none",
         "normal": "none",
-        "small": "none"
+        "small": "none",
+        "xsmall": "none"
       }
     },
     "code": {
@@ -1355,10 +1373,11 @@
         "03": "8px",
         "04": "12px",
         "05": "16px",
-        "round": "160px"
+        "round": "360px"
       }
     },
     "font": {
+      "3-xsmall": "12px",
       "2-xsmall": "14px",
       "xsmall": "16px",
       "small": "18px",

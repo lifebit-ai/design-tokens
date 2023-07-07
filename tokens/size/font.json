@@ -1,6 +1,9 @@
 {
   "size": {
     "font": {
+      "3-xsmall": {
+        "value": "12"
+      },
       "2-xsmall": {
         "value": "14"
       },
