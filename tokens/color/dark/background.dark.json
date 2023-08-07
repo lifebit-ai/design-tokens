@@ -10,6 +10,12 @@
       "highlight": {
         "value": "{color.base.neutral.80.value}"
       },
+      "hover": {
+        "value": "#303336"
+      },
+      "active": {
+        "value": "#3C4043"
+      },
       "overlay": {
         "value": "rgba(0, 0, 0, 0.3)"
       },

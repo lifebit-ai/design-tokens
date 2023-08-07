@@ -74,6 +74,8 @@
       "main": "#f3f5f6",
       "surface": "#ffffff",
       "highlight": "#e4e7eb",
+      "hover": "#e3e5e8",
+      "active": "#d4d7dc",
       "contrast": "#0c0c0c",
       "disabled": "#b4b9bf",
       "overlay": "rgba(0, 0, 0, 0.3)",
@@ -1026,23 +1028,17 @@
       },
       "size": {
         "cell": {
-          "min-width": "130px",
-          "min-height": "28px",
+          "min-height": "40px",
           "icon": "16px",
+          "gap": "4px",
           "padding": {
-            "horizontal": {
-              "default": "8px",
-              "compact": "8px"
-            },
-            "vertical": {
-              "default": "4px",
-              "compact": "2px"
-            }
+            "horizontal": "8px",
+            "vertical": "4px",
+            "first-last": "12px"
           },
           "border": {
             "weight": {
-              "default": "1px",
-              "none": "0"
+              "default": "1px"
             },
             "radius": {
               "header": "8px"
@@ -1279,7 +1275,8 @@
       "family": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Open Sans', system-ui, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
       "fontSize": {
         "large": "16px",
-        "default": "14px"
+        "default": "14px",
+        "small": "12px"
       },
       "lineHeight": {
         "large": "1.35",
@@ -1292,11 +1289,13 @@
       "fontWeight": {
         "large": {
           "regular": "400",
+          "medium": "500",
           "semibold": "600",
           "bold": "700"
         },
         "default": {
           "regular": "400",
+          "medium": "500",
           "semibold": "600",
           "bold": "700"
         }
@@ -1311,29 +1310,6 @@
       "02": "1.35",
       "03": "1.5",
       "04": "1.75"
-    },
-    "table": {
-      "family": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Open Sans', system-ui, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-      "fontSize": {
-        "default": "14px",
-        "compact": "13px"
-      },
-      "lineHeight": {
-        "default": "1.2",
-        "compact": "1.2"
-      },
-      "letterSpacing": {
-        "default": "0px",
-        "compact": "0px"
-      },
-      "fontWeight": {
-        "semibold": "600",
-        "regular": "400"
-      },
-      "textTransform": {
-        "default": "none",
-        "compact": "none"
-      }
     },
     "transform": {
       "none": "none",
@@ -1370,6 +1346,7 @@
       "radius": {
         "01": "2px",
         "02": "4px",
+        "025": "6px",
         "03": "8px",
         "04": "12px",
         "05": "16px",
@@ -1440,6 +1417,7 @@
       "11": "64px",
       "01": "2px",
       "02": "4px",
+      "025": "6px",
       "03": "8px",
       "04": "12px",
       "05": "16px",

@@ -6,7 +6,8 @@
       },
       "fontSize": {
         "large": { "value": "{size.font.xsmall.value}" },
-        "default": { "value": "{size.font.2-xsmall.value}" }
+        "default": { "value": "{size.font.2-xsmall.value}" },
+        "small": { "value": "{size.font.3-xsmall.value}" }
       },
       "lineHeight": {
         "large": { "value": "{font.lineheight.02.value}" },
@@ -19,11 +20,13 @@
       "fontWeight": {
         "large": {
           "regular": { "value": "{font.weight.regular.value}" },
+          "medium": { "value": "{font.weight.medium.value}" },
           "semibold": { "value": "{font.weight.semibold.value}" },
           "bold": { "value": "{font.weight.bold.value}" }
         },
         "default": {
           "regular": { "value": "{font.weight.regular.value}" },
+          "medium": { "value": "{font.weight.medium.value}" },
           "semibold": { "value": "{font.weight.semibold.value}" },
           "bold": { "value": "{font.weight.bold.value}" }
         }

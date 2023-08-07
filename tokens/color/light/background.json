@@ -10,6 +10,12 @@
       "highlight": {
         "value": "{color.base.neutral.20.value}"
       },
+      "hover": {
+        "value": "#E3E5E8"
+      },
+      "active": {
+        "value": "#D4D7DC"
+      },
       "contrast": {
         "value": "{color.base.neutral.90.value}"
       },
