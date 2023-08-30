@@ -6,25 +6,25 @@
       },
       "neutral": {
         "10": {
-          "value": "#f3f5f6"
+          "value": "#F9FAFB"
         },
         "20": {
-          "value": "#e4e7eb"
+          "value": "#F3F5F6"
         },
         "30": {
-          "value": "#d4d7dc"
+          "value": "#D4D7DC"
         },
         "40": {
-          "value": "#b4b9bf"
+          "value": "#B4B9BF"
         },
         "50": {
-          "value": "#8e969d"
+          "value": "#8E969D"
         },
         "60": {
-          "value": "#6f777c"
+          "value": "#6F777C"
         },
         "70": {
-          "value": "#54585e"
+          "value": "#54585E"
         },
         "80": {
           "value": "#34383b"

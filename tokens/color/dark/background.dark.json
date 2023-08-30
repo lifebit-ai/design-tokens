@@ -2,13 +2,13 @@
   "color": {
     "background": {
       "main": {
-        "value": "#141414"
+        "value": "#0E0F0F"
       },
       "surface": {
-        "value": "#1F1F1F"
+        "value": "#191A1C"
       },
       "highlight": {
-        "value": "{color.base.neutral.80.value}"
+        "value": "#141515"
       },
       "hover": {
         "value": "#303336"
