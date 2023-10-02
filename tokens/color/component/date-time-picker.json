@@ -36,7 +36,7 @@
             "value": "{color.background.highlight.value}"
           },
           "selected": {
-            "value": "{color.feedback.action.default.value}"
+            "value": "{color.feedback.action.subtle-hover.value}"
           },
           "current": {
             "value": "{color.background.surface.value}"

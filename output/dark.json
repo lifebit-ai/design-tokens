@@ -445,7 +445,7 @@
           "default": "#191a1c",
           "hovered": "#0e0f0f",
           "pressed": "#141515",
-          "selected": "#4e8fe2",
+          "selected": "#04447f",
           "current": "#191a1c",
           "disabled": "#191a1c",
           "picker": "#191a1c"
@@ -500,7 +500,8 @@
           "action-bar": {
             "horizontal": "8px",
             "vertical": "12px"
-          }
+          },
+          "gap": "4px"
         },
         "border": {
           "radius": {

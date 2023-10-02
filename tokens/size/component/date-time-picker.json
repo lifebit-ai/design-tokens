@@ -73,6 +73,9 @@
             "vertical": {
               "value": "{size.space.04.value}"
             }
+          },
+          "gap": {
+            "value": "{size.space.02.value}"
           }
         },
         "border": {
