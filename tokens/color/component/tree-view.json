@@ -13,13 +13,10 @@
             "value": "{color.background.highlight.value}"
           },
           "selected": {
-            "value": "{color.background.main.value}"
+            "value": "{color.feedback.action.subtle-hover.value}"
           },
           "indicator": {
             "value": "{color.feedback.action.default.value}"
-          },
-          "selected": {
-            "value": "{color.feedback.action.subtle-hover.value}"
           }
         },
         "content": {
