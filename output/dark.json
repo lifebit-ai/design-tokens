@@ -1107,9 +1107,9 @@
           "main": "#ffffff"
         },
         "thread-line": {
-          "primary": "#6f777c",
-          "secondary": "#54585e",
-          "tertiary": "rgba(255, 255, 255, 0.1)"
+          "level-1": "#6f777c",
+          "level-2": "#54585e",
+          "level-3": "#54585e"
         }
       },
       "size": {

@@ -1111,9 +1111,9 @@
           "main": "#4a637b"
         },
         "thread-line": {
-          "primary": "#7b92a7",
-          "secondary": "#c2cede",
-          "tertiary": "#ffffff"
+          "level-1": "#7b92a7",
+          "level-2": "#c2cede",
+          "level-3": "#c2cede"
         }
       },
       "size": {
