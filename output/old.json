@@ -1104,11 +1104,16 @@
           "default": "#ffffff",
           "hover": "#f6f8fc",
           "pressed": "#f3f5f6",
-          "selected": "#f6f8fc",
+          "selected": "#cce9ff",
           "indicator": "#0198f5"
         },
         "content": {
           "main": "#4a637b"
+        },
+        "thread-line": {
+          "primary": "#7b92a7",
+          "secondary": "#c2cede",
+          "tertiary": "#ffffff"
         }
       },
       "size": {

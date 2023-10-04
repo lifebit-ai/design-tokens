@@ -17,11 +17,25 @@
           },
           "indicator": {
             "value": "{color.feedback.action.default.value}"
+          },
+          "selected": {
+            "value": "{color.feedback.action.subtle-hover.value}"
           }
         },
         "content": {
           "main": {
             "value": "{color.content.main.value}"
+          }
+        },
+        "thread-line": {
+          "level-1": {
+            "value": "{color.border.default.value}"
+          },
+          "level-2": {
+            "value": "{color.border.disabled.value}"
+          },
+          "level-3": {
+            "value": "{color.border.disabled.value}"
           }
         }
       }
