@@ -1038,7 +1038,7 @@
           "gap": "4px",
           "padding": {
             "horizontal": "8px",
-            "vertical": "4px",
+            "vertical": "8px",
             "first-last": "12px"
           },
           "border": {
