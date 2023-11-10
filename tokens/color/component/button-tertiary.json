@@ -9,10 +9,10 @@
                 "value": "{color.base.transparent.value}"
               },
               "hover": {
-                "value": "{color.feedback.action.subtle-hover.value}"
+                "value": "{color.background.hover.value}"
               },
               "pressed": {
-                "value": "{color.feedback.action.subtle-active.value}"
+                "value": "{color.background.active.value}"
               }
             },
             "danger": {
@@ -32,7 +32,7 @@
           },
           "content": {
             "action": {
-              "value": "{color.feedback.action.default.value}"
+              "value": "{color.content.secondary.value}"
             },
             "danger": {
               "value": "{color.feedback.danger.default.value}"

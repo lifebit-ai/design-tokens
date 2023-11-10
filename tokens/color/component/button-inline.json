@@ -5,13 +5,13 @@
         "primary": {
           "action": {
             "default": {
-              "value": "{color.feedback.action.default.value}"
+              "value": "{color.content.secondary.value}"
             },
             "hover": {
-              "value": "{color.feedback.action.hover.value}"
+              "value": "{color.content.main.value}"
             },
             "pressed": {
-              "value": "{color.feedback.action.pressed.value}"
+              "value": "{color.content.main.value}"
             }
           },
           "danger": {

@@ -276,9 +276,9 @@
       "color": {
         "primary": {
           "action": {
-            "default": "#2c72db",
-            "hover": "#0954ad",
-            "pressed": "#04447f"
+            "default": "#6f777c",
+            "hover": "#0c0c0c",
+            "pressed": "#0c0c0c"
           },
           "danger": {
             "default": "#c32420",
@@ -342,8 +342,8 @@
           "background": {
             "action": {
               "default": "rgba(0, 0, 0, 0)",
-              "hover": "#cce9ff",
-              "pressed": "#98c6ef"
+              "hover": "#e3e5e8",
+              "pressed": "#d4d7dc"
             },
             "danger": {
               "default": "rgba(0, 0, 0, 0)",
@@ -353,7 +353,7 @@
             "disabled": "rgba(0, 0, 0, 0)"
           },
           "content": {
-            "action": "#2c72db",
+            "action": "#6f777c",
             "danger": "#c32420",
             "disabled": "#b4b9bf"
           },
@@ -362,17 +362,17 @@
       },
       "size": {
         "space": {
-          "icon": "4px"
+          "icon": "8px"
         },
         "border": {
           "weight": "1px",
-          "radius": "8px"
+          "radius": "6px"
         },
         "padding": {
           "horizontal": {
-            "large": "12px",
-            "medium": "8px",
-            "inline": "4px"
+            "large": "16px",
+            "medium": "16px",
+            "inline": "0px"
           }
         }
       }
