@@ -6,7 +6,7 @@
           "value": "{color.content.main.value}"
         },
         "info": {
-          "icon": {
+          "content": {
             "value": "{color.feedback.info.default.value}"
           },
           "outline": {
@@ -17,7 +17,7 @@
           }
         },
         "success": {
-          "icon": {
+          "content": {
             "value": "{color.feedback.success.default.value}"
           },
           "outline": {
@@ -28,7 +28,7 @@
           }
         },
         "warning": {
-          "icon": {
+          "content": {
             "value": "{color.feedback.warning.default.value}"
           },
           "outline": {
@@ -39,7 +39,7 @@
           }
         },
         "danger": {
-          "icon": {
+          "content": {
             "value": "{color.feedback.danger.default.value}"
           },
           "outline": {

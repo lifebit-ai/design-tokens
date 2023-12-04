@@ -71,13 +71,13 @@
       },
       "info": {
         "default": {
-          "value": "{color.base.blue.60.value}"
+          "value": "#6639BA"
         },
         "outline": {
-          "value": "{color.base.blue.30.value}"
+          "value": "#A475F9"
         },
         "background": {
-          "value": "{color.base.blue.10.value}"
+          "value": "#F1EAFA"
         }
       }
     }

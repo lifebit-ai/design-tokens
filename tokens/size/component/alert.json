@@ -4,10 +4,18 @@
       "size": {
         "space": {
           "container": {
-            "value": "{size.space.04.value}"
+            "vertical": {
+              "value": "{size.space.03.value}"
+            },
+            "horizontal": {
+              "value": "{size.space.04.value}"
+            }
           },
           "icon": {
             "value": "{size.space.03.value}"
+          },
+          "icon-wrapper": {
+            "value": "{size.space.02.value}"
           },
           "title": {
             "value": "{size.space.02.value}"
@@ -35,7 +43,7 @@
           }
         },
         "icon": {
-          "value": "{size.icon.medium.value}"
+          "value": "{size.icon.small.value}"
         }
       }
     }
