@@ -1,0 +1,43 @@
+{
+  "component": {
+    "tree-view": {
+      "size": {
+        "padding": {
+          "horizontal": {
+            "value": "{size.space.03.value}"
+          }
+        },
+        "space": {
+          "gap": {
+            "value": "{size.space.02.value}"
+          }
+        },
+        "height": {
+          "node": {
+            "default": {
+              "value": "{size.07.value}"
+            }
+          },
+          "indicator": {
+            "value": "{size.06.value}"
+          }
+        },
+        "width": {
+          "indicator": {
+            "value": "{size.02.value}"
+          }
+        },
+        "border": {
+          "radius": {
+            "node": {
+              "value": "{size.border.radius.03.value}"
+            },
+            "indicator": {
+              "value": "{size.border.radius.01.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "component": {
+    "main-nav": {
+      "color": {
+        "container": {
+          "value": "{color.background.surface.value}"
+        },
+        "hav-item": {
+          "background": {
+            "default": {
+              "value": "{color.base.transparent.value}"
+            },
+            "hovered": {
+              "value": "{color.background.main.value}"
+            },
+            "pressed": {
+              "value": "{color.background.highlight.value}"
+            },
+            "selected": {
+              "value": "{color.feedback.action.subtle.value}"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{color.base.transparent.value}"
+            },
+            "hovered": {
+              "value": "{color.base.transparent.value}"
+            },
+            "pressed": {
+              "value": "{color.base.transparent.value}"
+            },
+            "selected": {
+              "value": "{color.feedback.action.default.value}"
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{color.content.secondary.value}"
+            },
+            "hovered": {
+              "value": "{color.content.secondary.value}"
+            },
+            "pressed": {
+              "value": "{color.content.secondary.value}"
+            },
+            "selected": {
+              "value": "{color.feedback.action.default.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

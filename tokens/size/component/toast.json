@@ -1,0 +1,33 @@
+{
+  "component": {
+    "toast": {
+      "size": {
+        "position": {
+          "value": "{size.06.value}"
+        },
+        "min-width": {
+          "value": "290px"
+        },
+        "max-width": {
+          "value": "568px"
+        },
+        "padding": {
+          "horizontal": {
+            "value": "{size.space.05.value}"
+          },
+          "vertical": {
+            "value": "{size.space.05.value}"
+          }
+        },
+        "space": {
+          "value": "{size.space.07.value}"
+        },
+        "border": {
+          "radius": {
+            "value": "{size.border.radius.04.value}"
+          }
+        }
+      }
+    }
+  }
+}

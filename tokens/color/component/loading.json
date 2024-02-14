@@ -1,0 +1,14 @@
+{
+  "component": {
+    "loading": {
+      "color": {
+        "spinner": {
+          "value": "{color.feedback.action.default.value}"
+        },
+        "content": {
+          "value": "{color.content.main.value}"
+        }
+      }
+    }
+  }
+}

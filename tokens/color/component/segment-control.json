@@ -1,0 +1,36 @@
+{
+  "component": {
+    "segment-control": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{color.background.main.value}"
+          },
+          "hover": {
+            "value": "{color.background.highlight.value}"
+          },
+          "active": {
+            "value": "{color.background.disabled.value}"
+          },
+          "selected": {
+            "value": "{color.background.surface.value}"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.base.transparent.value}"
+          },
+          "hover": {
+            "value": "{color.base.transparent.value}"
+          },
+          "active": {
+            "value": "{color.base.transparent.value}"
+          },
+          "selected": {
+            "value": "{color.border.default.value}"
+          }
+        }
+      }
+    }
+  }
+}

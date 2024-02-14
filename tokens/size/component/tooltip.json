@@ -1,0 +1,26 @@
+{
+  "component": {
+    "tooltip": {
+      "size": {
+        "space": {
+          "container": {
+            "value": "{size.space.03.value}"
+          },
+          "trigger": {
+            "value": "{size.space.02.value}"
+          }
+        },
+        "border": {
+          "radius": {
+            "container": {
+              "value": "{size.border.radius.02.value}"
+            },
+            "pointer": {
+              "value": "1px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "color": {
+    "background": {
+      "main": {
+        "value": "#f6f8fc"
+      },
+      "surface": {
+        "value": "{color.base.neutral.white.value}"
+      },
+      "highlight": {
+        "value": "{color.base.neutral.20.value}"
+      },
+      "hover": {
+        "value": "#E3E5E8"
+      },
+      "active": {
+        "value": "#D4D7DC"
+      },
+      "overlay": {
+        "value": "rgba(0, 0, 0, 0.3)"
+      },
+      "contrast": {
+        "value": "{color.base.neutral.black.value}"
+      },
+      "disabled": {
+        "value": "{color.base.neutral.40.value}"
+      }
+    }
+  }
+}

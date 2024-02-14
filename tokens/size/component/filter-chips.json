@@ -1,0 +1,16 @@
+{
+  "component": {
+    "filter-chips": {
+      "size": {
+        "height": {
+          "normal": {
+            "value": "{size.07.value}"
+          },
+          "condensed": {
+            "value": "{size.07.value}"
+          }
+        }
+      }
+    }
+  }
+}

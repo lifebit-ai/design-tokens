@@ -1,0 +1,22 @@
+{
+  "component": {
+    "label": {
+      "color": {
+        "content": {
+          "main": {
+            "value": "{color.content.main.value}"
+          },
+          "hint": {
+            "value": "{color.content.secondary.value}"
+          },
+          "success": {
+            "value": "{color.feedback.success.default.value}"
+          },
+          "error": {
+            "value": "{color.feedback.danger.default.value}"
+          }
+        }
+      }
+    }
+  }
+}

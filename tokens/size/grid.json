@@ -1,0 +1,78 @@
+{
+  "size": {
+    "breakpoint": {
+      "sm": {
+        "value": "600"
+      },
+      "md": {
+        "value": "905"
+      },
+      "lg": {
+        "value": "1240"
+      },
+      "xl": {
+        "value": "1440"
+      }
+    },
+    "margin": {
+      "sm": {
+        "value": "16"
+      },
+      "md": {
+        "value": "32"
+      },
+      "lg": {
+        "value": "32"
+      },
+      "xl": {
+        "value": "40"
+      }
+    },
+    "body": {
+      "sm": {
+        "value": "100%"
+      },
+      "md": {
+        "value": "840"
+      },
+      "lg": {
+        "value": "960"
+      },
+      "xl": {
+        "value": "1040"
+      },
+      "fluid": {
+        "value": "100%"
+      }
+    },
+
+    "gutter": {
+      "sm": {
+        "value": "16"
+      },
+      "md": {
+        "value": "24"
+      },
+      "lg": {
+        "value": "24"
+      },
+      "xl": {
+        "value": "24"
+      }
+    }
+  },
+  "columns": {
+    "sm": {
+      "value": "8"
+    },
+    "md": {
+      "value": "12"
+    },
+    "lg": {
+      "value": "12"
+    },
+    "xl": {
+      "value": "12"
+    }
+  }
+}
