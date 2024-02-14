@@ -1,0 +1,11 @@
+{
+  "component": {
+    "toast": {
+      "shadow": {
+        "container": {
+          "value": "{shadow.03.value}"
+        }
+      }
+    }
+  }
+}

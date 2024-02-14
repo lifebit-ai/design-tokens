@@ -1,0 +1,14 @@
+{
+  "component": {
+    "page-container": {
+      "color": {
+        "background": {
+          "value": "{color.background.surface.value}"
+        },
+        "border": {
+          "value": "{color.border.subtle.value}"
+        }
+      }
+    }
+  }
+}

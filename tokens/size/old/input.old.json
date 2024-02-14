@@ -1,0 +1,13 @@
+{
+  "component": {
+    "input": {
+      "size": {
+        "border": {
+          "weight": {
+            "value": "1px"
+          }
+        }
+      }
+    }
+  }
+}

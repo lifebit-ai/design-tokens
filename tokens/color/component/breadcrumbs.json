@@ -1,0 +1,39 @@
+{
+  "component": {
+    "breadcrumbs": {
+      "color": {
+        "content": {
+          "default": {
+            "value": "{color.content.secondary.value}"
+          },
+          "hovered": {
+            "value": "{color.content.secondary.value}"
+          },
+          "pressed": {
+            "value": "{color.content.secondary.value}"
+          },
+          "selected": {
+            "value": "{color.content.main.value}"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "{color.base.transparent.value}"
+          },
+          "hovered": {
+            "value": "{color.background.main.value}"
+          },
+          "pressed": {
+            "value": "{color.background.highlight.value}"
+          },
+          "selected": {
+            "value": "{color.background.main.value}"
+          }
+        },
+        "divider": {
+          "value": "{color.content.secondary.value}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "component": {
+    "radio": {
+      "size": {
+        "space": {
+          "label": {
+            "value": "{size.space.03.value}"
+          },
+          "group": {
+            "value": "{size.space.03.value}"
+          }
+        },
+        "width": {
+          "default": {
+            "value": "{size.05.value}"
+          }
+        },
+        "height": {
+          "default": {
+            "value": "{size.05.value}"
+          }
+        },
+        "border": {
+          "width": {
+            "default": {
+              "value": "{size.border.weight.005.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

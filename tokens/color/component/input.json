@@ -1,0 +1,75 @@
+{
+  "component": {
+    "input": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{color.background.surface.value}"
+          },
+          "disabled": {
+            "value": "{color.background.highlight.value}"
+          },
+          "active": {
+            "default": {
+              "value": "{color.feedback.action.default.value}"
+            },
+            "hover": {
+              "value": "{color.feedback.action.hover.value}"
+            },
+            "disabled": {
+              "value": "{color.background.disabled.value}"
+            }
+          },
+          "autofill": {
+            "value": "{color.feedback.action.subtle.value}"
+          }
+        },
+        "content": {
+          "main": {
+            "value": "{color.content.main.value}"
+          },
+          "placeholder": {
+            "value": "{color.content.subtle.value}"
+          },
+          "success": {
+            "value": "{color.feedback.success.default.value}"
+          },
+          "error": {
+            "value": "{color.feedback.danger.default.value}"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.border.input.value}"
+          },
+          "hover": {
+            "value": "{color.border.hover.value}"
+          },
+          "pressed": {
+            "value": "{color.feedback.action.pressed.value}"
+          },
+          "focus": {
+            "value": "{color.border.focus.value}"
+          },
+          "error": {
+            "value": "{color.feedback.danger.default.value}"
+          },
+          "disabled": {
+            "value": "{color.border.disabled.value}"
+          },
+          "active": {
+            "default": {
+              "value": "{color.feedback.action.default.value}"
+            },
+            "hover": {
+              "value": "{color.feedback.action.hover.value}"
+            }
+          },
+          "autofill": {
+            "value": "{color.border.input.value}"
+          }
+        }
+      }
+    }
+  }
+}

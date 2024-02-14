@@ -1,0 +1,23 @@
+{
+  "component": {
+    "loading": {
+      "size": {
+        "space": {
+          "spinner": {
+            "value": "{size.space.02.value}"
+          }
+        },
+        "width": {
+          "spinner": {
+            "value": "{size.06.value}"
+          }
+        },
+        "height": {
+          "spinner": {
+            "value": "{size.06.value}"
+          }
+        }
+      }
+    }
+  }
+}

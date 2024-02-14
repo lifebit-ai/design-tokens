@@ -1,0 +1,27 @@
+{
+  "component": {
+    "main-nav-new": {
+      "size": {
+        "workspace-avatar": {
+          "value": "36px"
+        },
+        "nav-item-container": {
+          "value": "44px"
+        },
+        "nav-item": {
+          "value": "32px"
+        },
+        "account-avatar": {
+          "value": "32px"
+        },
+        "space": {
+          "padding": {
+            "vertical": {
+              "value": "{size.space.05.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

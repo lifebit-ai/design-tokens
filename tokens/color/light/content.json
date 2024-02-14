@@ -1,0 +1,21 @@
+{
+  "color": {
+    "content": {
+      "main": {
+        "value": "{color.base.neutral.90.value}"
+      },
+      "secondary": {
+        "value": "{color.base.neutral.60.value}"
+      },
+      "subtle": {
+        "value": "{color.base.neutral.50.value}"
+      },
+      "disabled": {
+        "value": "{color.base.neutral.40.value}"
+      },
+      "contrast": {
+        "value": "{color.base.neutral.white.value}"
+      }
+    }
+  }
+}

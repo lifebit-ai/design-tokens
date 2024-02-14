@@ -1,0 +1,33 @@
+{
+  "component": {
+    "table": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{color.background.surface.value}"
+          },
+          "hover": {
+            "value": "{color.background.highlight.value}"
+          },
+          "selected": {
+            "value": "{color.feedback.action.subtle.value}"
+          },
+          "header": {
+            "value": "{color.background.surface.value}"
+          },
+          "zebra": {
+            "value": "{color.background.main.value}"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.border.subtle.value}"
+          },
+          "selected": {
+            "value": "{color.feedback.action.default.value}"
+          }
+        }
+      }
+    }
+  }
+}

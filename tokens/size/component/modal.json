@@ -1,0 +1,29 @@
+{
+  "component": {
+    "modal": {
+      "size": {
+        "width": {
+          "small": {
+            "value": "375px"
+          },
+          "medium": {
+            "value": "600px"
+          },
+          "large": {
+            "value": "900px"
+          }
+        },
+        "border": {
+          "radius": {
+            "value": "{size.border.radius.04.value}"
+          }
+        },
+        "position": {
+          "top": {
+            "value": "5%"
+          }
+        }
+      }
+    }
+  }
+}

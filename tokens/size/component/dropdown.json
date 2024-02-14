@@ -1,0 +1,57 @@
+{
+  "component": {
+    "dropdown": {
+      "size": {
+        "gap": {
+          "value": "{size.02.value}"
+        },
+        "border": {
+          "weight": {
+            "container": {
+              "value": "{size.border.weight.005.value}"
+            },
+            "header": {
+              "value": "{size.border.weight.005.value}"
+            }
+          },
+          "radius": {
+            "container": {
+              "value": "{size.border.radius.03.value}"
+            },
+            "list-item": {
+              "value": "{size.border.radius.02.value}"
+            }
+          }
+        },
+        "padding": {
+          "container": {
+            "value": "{size.space.03.value}"
+          },
+          "header": {
+            "value": "{size.space.02.value}"
+          },
+          "list-item": {
+            "horizontal": {
+              "value": "{size.space.03.value}"
+            }
+          }
+        },
+        "height": {
+          "list-item": {
+            "default": {
+              "value": "{size.08.value}"
+            },
+            "compact": {
+              "value": "{size.07.value}"
+            }
+          }
+        },
+        "width": {
+          "container": {
+            "value": "112px"
+          }
+        }
+      }
+    }
+  }
+}

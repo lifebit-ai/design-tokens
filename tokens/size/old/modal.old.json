@@ -1,0 +1,13 @@
+{
+  "component": {
+    "modal": {
+      "size": {
+        "border": {
+          "radius": {
+            "value": "4px"
+          }
+        }
+      }
+    }
+  }
+}

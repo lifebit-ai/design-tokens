@@ -1,0 +1,34 @@
+{
+  "component": {
+    "button": {
+      "size": {
+        "space": {
+          "icon": {
+            "value": "{size.space.03.value}"
+          }
+        },
+        "border": {
+          "weight": {
+            "value": "{size.border.weight.005.value}"
+          },
+          "radius": {
+            "value": "{size.border.radius.025.value}"
+          }
+        },
+        "padding": {
+          "horizontal": {
+            "large": {
+              "value": "{size.space.05.value}"
+            },
+            "medium": {
+              "value": "{size.space.05.value}"
+            },
+            "inline": {
+              "value": "0px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

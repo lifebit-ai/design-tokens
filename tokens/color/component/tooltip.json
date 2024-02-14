@@ -1,0 +1,14 @@
+{
+  "component": {
+    "tooltip": {
+      "color": {
+        "background": {
+          "value": "{color.background.contrast.value}"
+        },
+        "content": {
+          "value": "{color.content.contrast.value}"
+        }
+      }
+    }
+  }
+}

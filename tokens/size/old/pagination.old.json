@@ -1,0 +1,16 @@
+{
+  "component": {
+    "pagination": {
+      "size": {
+        "gap": {
+          "value": "8px"
+        },
+        "border": {
+          "active": {
+            "value": "1px"
+          }
+        }
+      }
+    }
+  }
+}

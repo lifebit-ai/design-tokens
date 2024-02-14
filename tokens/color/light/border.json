@@ -1,0 +1,27 @@
+{
+  "color": {
+    "border": {
+      "default": {
+        "value": "{color.base.neutral.40.value}"
+      },
+      "subtle": {
+        "value": "rgba(0, 0, 0, 0.1)"
+      },
+      "divider": {
+        "value": "{color.base.neutral.10.value}"
+      },
+      "hover": {
+        "value": "{color.base.neutral.50.value}"
+      },
+      "focus": {
+        "value": "{color.base.blue.50.value}"
+      },
+      "disabled": {
+        "value": "{color.base.neutral.30.value}"
+      },
+      "input": {
+        "value": "{color.base.neutral.50.value}"
+      }
+    }
+  }
+}
