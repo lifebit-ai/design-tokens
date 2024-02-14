@@ -1,9 +1,0 @@
-{
-  "component": {
-    "page-container": {
-      "shadow": {
-        "value": "{shadow.01.value}"
-      }
-    }
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "component": {
-    "date-time-picker": {
-      "shadow": {
-        "value": "{shadow.02.value}"
-      }
-    }
-  }
-}

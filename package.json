@@ -1,8 +1,0 @@
-{
-  "name": "lifebit-design-token",
-  "version": "0.1.0",
-  "scripts": {},
-  "dependencies": {
-    "style-dictionary": "^3.0.2"
-  }
-}
