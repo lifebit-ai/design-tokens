@@ -1,9 +1,0 @@
-{
-  "component": {
-    "alert": {
-      "shadow": {
-        "value": "{shadow.00.value}"
-      }
-    }
-  }
-}
