@@ -49,7 +49,7 @@
       },
       "warning": {
         "default": {
-          "value": "{color.base.yellow.50.value}"
+          "value": "{color.base.yellow.80.value}"
         },
         "outline": {
           "value": "{color.base.yellow.30.value}"

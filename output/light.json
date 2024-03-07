@@ -131,7 +131,7 @@
         "background": "#fcf0f0"
       },
       "warning": {
-        "default": "#dca100",
+        "default": "#725500",
         "outline": "#fecd48",
         "background": "#fcf6e3"
       },
@@ -202,7 +202,7 @@
           "container": "#ebf5ed"
         },
         "warning": {
-          "content": "#dca100",
+          "content": "#725500",
           "outline": "#fecd48",
           "container": "#fcf6e3"
         },
