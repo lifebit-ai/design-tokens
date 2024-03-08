@@ -128,26 +128,22 @@
         "subtle-hover": "#ffc0bf",
         "subtle-active": "#ff8d8b",
         "outline": "#ffffff",
-        "background": "#fcf0f0",
-        "container": "#ffffff"
+        "background": "#ffffff"
       },
       "warning": {
         "default": "#f0ad4e",
         "outline": "#ffffff",
-        "background": "#fcf6e3",
-        "container": "#ffffff"
+        "background": "#ffffff"
       },
       "success": {
         "default": "#31c052",
         "outline": "#ffffff",
-        "background": "#ebf5ed",
-        "container": "#ffffff"
+        "background": "#ffffff"
       },
       "info": {
         "default": "#ff0d0d",
         "outline": "#ffffff",
-        "background": "#f1eafa",
-        "container": "#ffffff"
+        "background": "#ffffff"
       }
     }
   },
@@ -198,22 +194,22 @@
         "info": {
           "content": "#ff0d0d",
           "outline": "#ffffff",
-          "container": "#f1eafa"
+          "container": "#ffffff"
         },
         "success": {
           "content": "#31c052",
           "outline": "#ffffff",
-          "container": "#ebf5ed"
+          "container": "#ffffff"
         },
         "warning": {
           "content": "#f0ad4e",
           "outline": "#ffffff",
-          "container": "#fcf6e3"
+          "container": "#ffffff"
         },
         "danger": {
           "content": "#ff0d0d",
           "outline": "#ffffff",
-          "container": "#fcf0f0"
+          "container": "#ffffff"
         }
       },
       "dismiss": {
