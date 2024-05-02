@@ -335,9 +335,15 @@
             },
             "disabled": "#ffffff"
           },
+          "neutral": {
+            "default": "#e3e5e8",
+            "hover": "#d4d7dc",
+            "pressed": "#b4b9bf"
+          },
           "content": {
             "action": "#0198f5",
             "danger": "#ff0d0d",
+            "neutral": "#4a637b",
             "disabled": "#c2cede"
           },
           "border": "#c2cede"

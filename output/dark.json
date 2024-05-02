@@ -335,9 +335,15 @@
             },
             "disabled": "#0e0f0f"
           },
+          "neutral": {
+            "default": "#303336",
+            "hover": "#3c4043",
+            "pressed": "#54585e"
+          },
           "content": {
             "action": "#4e8fe2",
             "danger": "#fa5e5b",
+            "neutral": "#ffffff",
             "disabled": "#54585e"
           },
           "border": "rgba(0, 0, 0, 0)"

@@ -30,12 +30,26 @@
               "value": "{color.background.main.value}"
             }
           },
+          "neutral": {
+            "default": {
+              "value": "{color.background.hover.value}"
+            },
+            "hover": {
+              "value": "{color.background.active.value}"
+            },
+            "pressed": {
+              "value": "{color.background.disabled.value}"
+            }
+          },
           "content": {
             "action": {
               "value": "{color.feedback.action.default.value}"
             },
             "danger": {
               "value": "{color.feedback.danger.default.value}"
+            },
+            "neutral": {
+              "value": "{color.content.main.value}"
             },
             "disabled": {
               "value": "{color.content.disabled.value}"
