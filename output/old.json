@@ -1195,8 +1195,8 @@
       "lineHeight": {
         "large": "1.5",
         "normal": "1.5",
-        "small": "1.75",
-        "xsmall": "1.75"
+        "small": "1.6",
+        "xsmall": "1.6"
       },
       "letterSpacing": {
         "large": "0px",
@@ -1325,7 +1325,7 @@
       "01": "1.2",
       "02": "1.35",
       "03": "1.5",
-      "04": "1.75"
+      "04": "1.6"
     },
     "transform": {
       "none": "none",
