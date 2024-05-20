@@ -346,7 +346,11 @@
             "neutral": "#0c0c0c",
             "disabled": "#b4b9bf"
           },
-          "border": "rgba(0, 0, 0, 0)"
+          "border": {
+            "feedback": "#98c6ef",
+            "danger": "#ff8d8b",
+            "disabled": "rgba(0, 0, 0, 0)"
+          }
         },
         "tertiary": {
           "background": {
@@ -896,16 +900,16 @@
     "segment-control": {
       "color": {
         "background": {
-          "default": "#f9fafb",
+          "default": "#ffffff",
           "hover": "#f3f5f6",
-          "active": "#b4b9bf",
-          "selected": "#ffffff"
+          "active": "#e3e5e8",
+          "selected": "#e3e5e8"
         },
         "border": {
           "default": "rgba(0, 0, 0, 0)",
           "hover": "rgba(0, 0, 0, 0)",
           "active": "rgba(0, 0, 0, 0)",
-          "selected": "#b4b9bf"
+          "selected": "rgba(0, 0, 0, 0)"
         }
       },
       "size": {

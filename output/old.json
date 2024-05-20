@@ -896,16 +896,16 @@
     "segment-control": {
       "color": {
         "background": {
-          "default": "#f6f8fc",
+          "default": "#ffffff",
           "hover": "#f3f5f6",
-          "active": "#b4b9bf",
-          "selected": "#ffffff"
+          "active": "#e3e5e8",
+          "selected": "#e3e5e8"
         },
         "border": {
           "default": "rgba(0, 0, 0, 0)",
           "hover": "rgba(0, 0, 0, 0)",
           "active": "rgba(0, 0, 0, 0)",
-          "selected": "#7b92a7"
+          "selected": "rgba(0, 0, 0, 0)"
         }
       },
       "size": {

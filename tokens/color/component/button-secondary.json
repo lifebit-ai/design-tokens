@@ -56,7 +56,15 @@
             }
           },
           "border": {
-            "value": "{color.base.transparent.value}"
+            "feedback": {
+              "value": "{color.feedback.action.subtle-active.value}"
+            },
+            "danger": {
+              "value": "{color.feedback.danger.subtle-active.value}"
+            },
+            "disabled": {
+              "value": "{color.base.transparent.value}"
+            }
           }
         }
       }

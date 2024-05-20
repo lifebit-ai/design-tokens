@@ -4,16 +4,16 @@
       "color": {
         "background": {
           "default": {
-            "value": "{color.background.main.value}"
+            "value": "{color.background.surface.value}"
           },
           "hover": {
             "value": "{color.background.highlight.value}"
           },
           "active": {
-            "value": "{color.background.disabled.value}"
+            "value": "{color.background.hover.value}"
           },
           "selected": {
-            "value": "{color.background.surface.value}"
+            "value": "{color.background.hover.value}"
           }
         },
         "border": {
@@ -27,7 +27,7 @@
             "value": "{color.base.transparent.value}"
           },
           "selected": {
-            "value": "{color.border.default.value}"
+            "value": "{color.base.transparent.value}"
           }
         }
       }
