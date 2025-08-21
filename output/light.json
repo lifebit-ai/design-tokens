@@ -316,7 +316,7 @@
           },
           "content": {
             "action": "#0c0c0c",
-            "danger": "#0c0c0c",
+            "danger": "#ffffff",
             "disabled": "#6f777c"
           },
           "border": {
